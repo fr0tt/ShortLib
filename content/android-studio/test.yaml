@@ -1,0 +1,880 @@
+name: Android Studio
+author: fr0tt
+description: 'Android Studio provides the fastest tools for building apps on every type of Android device. <br> World-class code editing, debugging, performance tooling, a flexible build system, and an instant build/deploy system all allow you to focus on building unique and high quality apps.'
+developer: Google Inc.
+website: 'https://developer.android.com/studio/'
+OS:
+  - win
+  - mac
+  - linux
+collection:
+  General:
+    - description: Save all
+      hotkeys:
+        win:
+          - Control
+          - S
+        mac:
+          - Command
+          - S
+    - description: Synchronize
+      hotkeys:
+        win:
+          - Control
+          - Alt
+          - 'Y'
+        mac:
+          - Command
+          - Option
+          - 'Y'
+    - description: Maximize/minimize editor
+      hotkeys:
+        win:
+          - Control
+          - Shift
+          - F12
+        mac:
+          - Control
+          - Command
+          - F12
+    - description: Add to favorites
+      hotkeys:
+        win:
+          - Alt
+          - Shift
+          - F
+        mac:
+          - Option
+          - Shift
+          - F
+    - description: Inspect current file with current profile
+      hotkeys:
+        win:
+          - Alt
+          - Shift
+          - I
+        mac:
+          - Option
+          - Shift
+          - I
+    - description: Quick switch scheme
+      hotkeys:
+        win:
+          - Control
+          - '` (Backquote)'
+        mac:
+          - Control
+          - '` (Backquote)'
+    - description: Open settings dialogue
+      hotkeys:
+        win:
+          - Control
+          - Alt
+          - S
+        mac:
+          - Command
+          - ', (Comma)'
+    - description: Open project structure dialog
+      hotkeys:
+        win:
+          - Control
+          - Alt
+          - Shift
+          - S
+        mac:
+          - Command
+          - ; (Semicolon)
+    - description: Switch between tabs and tool window
+      hotkeys:
+        win:
+          - Control
+          - Tab
+        mac:
+          - Control
+          - Tab
+  Navigating and Searching Within Studio:
+    - description: Search everything (including code and menus)
+      hotkeys:
+        win:
+          - Press Shift Twice
+        mac:
+          - Press Shift Twice
+    - description: Find
+      hotkeys:
+        win:
+          - Control
+          - F
+        mac:
+          - Command
+          - F
+    - description: Find next
+      hotkeys:
+        win:
+          - F3
+        mac:
+          - Command
+          - G
+    - description: Find previous
+      hotkeys:
+        win:
+          - Shift
+          - F3
+        mac:
+          - Command
+          - Shift
+          - G
+    - description: Replace
+      hotkeys:
+        win:
+          - Control
+          - R
+        mac:
+          - Command
+          - R
+    - description: Find action
+      hotkeys:
+        win:
+          - Control
+          - Shift
+          - A
+        mac:
+          - Command
+          - Shift
+          - A
+    - description: Search by symbol name
+      hotkeys:
+        win:
+          - Control
+          - Alt
+          - Shift
+          - 'N'
+        mac:
+          - Command
+          - Option
+          - O
+    - description: Find class
+      hotkeys:
+        win:
+          - Control
+          - 'N'
+        mac:
+          - Command
+          - O
+    - description: Find file (instead of class)
+      hotkeys:
+        win:
+          - Control
+          - Shift
+          - 'N'
+        mac:
+          - Command
+          - Shift
+          - O
+    - description: Find in path
+      hotkeys:
+        win:
+          - Control
+          - Shift
+          - F
+        mac:
+          - Command
+          - Shift
+          - F
+    - description: Open file structure pop-up
+      hotkeys:
+        win:
+          - Control
+          - F12
+        mac:
+          - Command
+          - F12
+    - description: Navigate between open editor tabs
+      hotkeys:
+        win:
+          - Alt
+          - Right/Left Arrow
+        mac:
+          - Control
+          - Right/Left Arrow
+    - description: Jump to source
+      hotkeys:
+        win:
+          - F4 / Control
+          - Enter
+        mac:
+          - F4 / Command
+          - Down Arrow
+    - description: Open current editor tab in new window
+      hotkeys:
+        win:
+          - Shift
+          - F4
+        mac:
+          - Shift
+          - F4
+    - description: Recently opened files pop-up
+      hotkeys:
+        win:
+          - Control
+          - E
+        mac:
+          - Command
+          - E
+    - description: Recently edited files pop-up
+      hotkeys:
+        win:
+          - Control
+          - Shift
+          - E
+        mac:
+          - Command
+          - Shift
+          - E
+    - description: Go to last edit location
+      hotkeys:
+        win:
+          - Control
+          - Shift
+          - Backspace
+        mac:
+          - Command
+          - Shift
+          - Backspace
+    - description: Close active editor tab
+      hotkeys:
+        win:
+          - Control
+          - F4
+        mac:
+          - Command
+          - W
+    - description: Return to editor window from a tool window
+      hotkeys:
+        win:
+          - Esc
+        mac:
+          - Esc
+    - description: Hide active or last active tool window
+      hotkeys:
+        win:
+          - Shift
+          - Esc
+        mac:
+          - Shift
+          - Esc
+    - description: Go to line
+      hotkeys:
+        win:
+          - Control
+          - G
+        mac:
+          - Command
+          - L
+    - description: Open type hierarchy
+      hotkeys:
+        win:
+          - Control
+          - H
+        mac:
+          - Control
+          - H
+    - description: Open method hierarchy
+      hotkeys:
+        win:
+          - Control
+          - Shift
+          - H
+        mac:
+          - Command
+          - Shift
+          - H
+    - description: Open call hierarchy
+      hotkeys:
+        win:
+          - Control
+          - Alt
+          - H
+        mac:
+          - Control
+          - Option
+          - H
+  Writing Code:
+    - description: 'Generate code (getters, setters, constructors, hashCode/equals, toString, new file, new class)'
+      hotkeys:
+        win:
+          - Alt
+          - Insert
+        mac:
+          - Command
+          - 'N'
+    - description: Override methods
+      hotkeys:
+        win:
+          - Control
+          - O
+        mac:
+          - Control
+          - O
+    - description: Implement methods
+      hotkeys:
+        win:
+          - Control
+          - I
+        mac:
+          - Control
+          - I
+    - description: Surround with (if...else / try...catch / etc.)
+      hotkeys:
+        win:
+          - Control
+          - Alt
+          - T
+        mac:
+          - Command
+          - Option
+          - T
+    - description: Delete line at caret
+      hotkeys:
+        win:
+          - Control
+          - 'Y'
+        mac:
+          - Command
+          - Backspace
+    - description: Collapse/expand current code block
+      hotkeys:
+        win:
+          - Control
+          - Minus/Plus
+        mac:
+          - Command
+          - Minus/Plus
+    - description: Collapse/expand all code blocks
+      hotkeys:
+        win:
+          - Control
+          - Shift
+          - Minus/Plus
+        mac:
+          - Command
+          - Shift
+          - Minus/Plus
+    - description: Duplicate current line or selection
+      hotkeys:
+        win:
+          - Control
+          - D
+        mac:
+          - Command
+          - D
+    - description: Basic code completion
+      hotkeys:
+        win:
+          - Control
+          - Space
+        mac:
+          - Control
+          - Space
+    - description: Smart code completion (filters the list of methods and variables by expected type)
+      hotkeys:
+        win:
+          - Control
+          - Shift
+          - Space
+        mac:
+          - Control
+          - Shift
+          - Space
+    - description: Complete statement
+      hotkeys:
+        win:
+          - Control
+          - Shift
+          - Enter
+        mac:
+          - Command
+          - Shift
+          - Enter
+    - description: Quick documentation lookup
+      hotkeys:
+        win:
+          - Control
+          - Q
+        mac:
+          - Control
+          - J
+    - description: Show parameters for selected method
+      hotkeys:
+        win:
+          - Control
+          - P
+        mac:
+          - Command
+          - P
+    - description: Go to declaration (directly)
+      hotkeys:
+        win:
+          - Control
+          - B or Control
+          - Click
+        mac:
+          - Command
+          - B or Command
+          - Click
+    - description: Go to implementations
+      hotkeys:
+        win:
+          - Control
+          - Alt
+          - B
+        mac:
+          - Command
+          - Alt
+          - B
+    - description: Go to super-method/super-class
+      hotkeys:
+        win:
+          - Control
+          - U
+        mac:
+          - Command
+          - U
+    - description: Open quick definition lookup
+      hotkeys:
+        win:
+          - Control
+          - Shift
+          - I
+        mac:
+          - Command
+          - 'Y'
+    - description: Toggle project tool window visibility
+      hotkeys:
+        win:
+          - Alt
+          - '1'
+        mac:
+          - Command
+          - '1'
+    - description: Toggle bookmark
+      hotkeys:
+        win:
+          - F11
+        mac:
+          - F3
+    - description: Toggle bookmark with mnemonic
+      hotkeys:
+        win:
+          - Control
+          - F11
+        mac:
+          - Option
+          - F3
+    - description: Comment/uncomment with line comment
+      hotkeys:
+        win:
+          - Control
+          - /
+        mac:
+          - Command
+          - /
+    - description: Comment/uncomment with block comment
+      hotkeys:
+        win:
+          - Control
+          - Shift
+          - /
+        mac:
+          - Command
+          - Shift
+          - /
+    - description: Select successively increasing code blocks
+      hotkeys:
+        win:
+          - Control
+          - W
+        mac:
+          - Option
+          - Up
+    - description: Decrease current selection to previous state
+      hotkeys:
+        win:
+          - Control
+          - Shift
+          - W
+        mac:
+          - Option
+          - Down
+    - description: Move to code block start
+      hotkeys:
+        win:
+          - Control
+          - '['
+        mac:
+          - Option
+          - Command
+          - '['
+    - description: Move to code block end
+      hotkeys:
+        win:
+          - Control
+          - ']'
+        mac:
+          - Option
+          - Command
+          - ']'
+    - description: Select to the code block start
+      hotkeys:
+        win:
+          - Control
+          - Shift
+          - '['
+        mac:
+          - Option
+          - Command
+          - Shift
+          - '['
+    - description: Select to the code block end
+      hotkeys:
+        win:
+          - Control
+          - Shift
+          - ']'
+        mac:
+          - Option
+          - Command
+          - Shift
+          - ']'
+    - description: Delete to end of word
+      hotkeys:
+        win:
+          - Control
+          - Delete
+        mac:
+          - Option
+          - Delete
+    - description: Delete to start of word
+      hotkeys:
+        win:
+          - Control
+          - Backspace
+        mac:
+          - Option
+          - Backspace
+    - description: Optimize imports
+      hotkeys:
+        win:
+          - Control
+          - Alt
+          - O
+        mac:
+          - Control
+          - Option
+          - O
+    - description: Project quick fix (show intention actions and quick fixes)
+      hotkeys:
+        win:
+          - Alt
+          - Enter
+        mac:
+          - Option
+          - Enter
+    - description: Reformat code
+      hotkeys:
+        win:
+          - Control
+          - Alt
+          - L
+        mac:
+          - Command
+          - Option
+          - L
+    - description: Auto-indent lines
+      hotkeys:
+        win:
+          - Control
+          - Alt
+          - I
+        mac:
+          - Control
+          - Option
+          - I
+    - description: Indent/unindent lines
+      hotkeys:
+        win:
+          - Tab/Shift
+          - Tab
+        mac:
+          - Tab/Shift
+          - Tab
+    - description: Smart line join
+      hotkeys:
+        win:
+          - Control
+          - Shift
+          - J
+        mac:
+          - Control
+          - Shift
+          - J
+    - description: Smart line split
+      hotkeys:
+        win:
+          - Control
+          - Enter
+        mac:
+          - Command
+          - Enter
+    - description: Start new line
+      hotkeys:
+        win:
+          - Shift
+          - Enter
+        mac:
+          - Shift
+          - Enter
+    - description: Next/previous highlighted error
+      hotkeys:
+        win:
+          - F2 / Shift
+          - F2
+        mac:
+          - F2 / Shift
+          - F2
+  Build and Run:
+    - description: Build
+      hotkeys:
+        win:
+          - Control
+          - F9
+        mac:
+          - Command
+          - F9
+    - description: Build and run
+      hotkeys:
+        win:
+          - Shift
+          - F10
+        mac:
+          - Control
+          - R
+    - description: Apply changes (with Instant Run)
+      hotkeys:
+        win:
+          - Control
+          - F10
+        mac:
+          - Control
+          - Command
+          - R
+  Debugging:
+    - description: Debug
+      hotkeys:
+        win:
+          - Shift
+          - F9
+        mac:
+          - Control
+          - D
+    - description: Step over
+      hotkeys:
+        win:
+          - F8
+        mac:
+          - F8
+    - description: Step into
+      hotkeys:
+        win:
+          - F7
+        mac:
+          - F7
+    - description: Smart step into
+      hotkeys:
+        win:
+          - Shift
+          - F7
+        mac:
+          - Shift
+          - F7
+    - description: Step out
+      hotkeys:
+        win:
+          - Shift
+          - F8
+        mac:
+          - Shift
+          - F8
+    - description: Run to cursor
+      hotkeys:
+        win:
+          - Alt
+          - F9
+        mac:
+          - Option
+          - F9
+    - description: Evaluate expression
+      hotkeys:
+        win:
+          - Alt
+          - F8
+        mac:
+          - Option
+          - F8
+    - description: Resume program
+      hotkeys:
+        win:
+          - F9
+        mac:
+          - Command
+          - Option
+          - R
+    - description: Toggle breakpoint
+      hotkeys:
+        win:
+          - Control
+          - F8
+        mac:
+          - Command
+          - F8
+    - description: View breakpoints
+      hotkeys:
+        win:
+          - Control
+          - Shift
+          - F8
+        mac:
+          - Command
+          - Shift
+          - F8
+  Refactoring:
+    - description: Copy
+      hotkeys:
+        win:
+          - F5
+        mac:
+          - F5
+    - description: Move
+      hotkeys:
+        win:
+          - F6
+        mac:
+          - F6
+    - description: Safe delete
+      hotkeys:
+        win:
+          - Alt
+          - Delete
+        mac:
+          - Command
+          - Delete
+    - description: Rename
+      hotkeys:
+        win:
+          - Shift
+          - F6
+        mac:
+          - Shift
+          - F6
+    - description: Change signature
+      hotkeys:
+        win:
+          - Control
+          - F6
+        mac:
+          - Command
+          - F6
+    - description: Inline
+      hotkeys:
+        win:
+          - Control
+          - Alt
+          - 'N'
+        mac:
+          - Command
+          - Option
+          - 'N'
+    - description: Extract method
+      hotkeys:
+        win:
+          - Control
+          - Alt
+          - M
+        mac:
+          - Command
+          - Option
+          - M
+    - description: Extract variable
+      hotkeys:
+        win:
+          - Control
+          - Alt
+          - V
+        mac:
+          - Command
+          - Option
+          - V
+    - description: Extract field
+      hotkeys:
+        win:
+          - Control
+          - Alt
+          - F
+        mac:
+          - Command
+          - Option
+          - F
+    - description: Extract constant
+      hotkeys:
+        win:
+          - Control
+          - Alt
+          - C
+        mac:
+          - Command
+          - Option
+          - C
+    - description: Extract parameter
+      hotkeys:
+        win:
+          - Control
+          - Alt
+          - P
+        mac:
+          - Command
+          - Option
+          - P
+  Version Control / Local History:
+    - description: Commit project to VCS
+      hotkeys:
+        win:
+          - Control
+          - K
+        mac:
+          - Command
+          - K
+    - description: Update project from VCS
+      hotkeys:
+        win:
+          - Control
+          - T
+        mac:
+          - Command
+          - T
+    - description: View recent changes
+      hotkeys:
+        win:
+          - Alt
+          - Shift
+          - C
+        mac:
+          - Option
+          - Shift
+          - C
+    - description: Open VCS popup
+      hotkeys:
+        win:
+          - Alt
+          - '` (Backquote)'
+        mac:
+          - Control
+          - V
