@@ -15,44 +15,53 @@ const layouts = config.layouts
 fs.copy('static', `${distPath}/static`)  //fs.copy(srcPath + '/assets', `${distPath}/assets`) 
   .catch(err => { console.error(err) })
 
+let categories = []
+
 // read page templates
 // looking for .json files, return paths of found files
 // cwd: The current working directory in which to search
 
-let categories = []
-
 glob('**/*.yaml', { cwd: 'content' })
   .then((files) => {
+    // collect category data of each file in content directory
     files.forEach((file) => {
       let data = yaml.safeLoad(fs.readFileSync(`content/${file}`))
-      console.log(data.category)
-      categories.push(data.category)
+      if (data.category)
+        categories.push(data.category)
     })
+    return files
   })
-  .catch((err) => { console.error(err) })
-
-glob('**/*.yaml', { cwd: 'content' })
+  .then((files) => {
+    // create and write or overwrite file with category data 
+    fs.writeFileSync(`${distPath}/static/categories.yaml`, yaml.safeDump({ 'categories': categories}) )
+    return files
+  })
   .then((files) => {
     files.forEach((file) => {
       // get info data
       const fileInfo = path.parse(file)
-
       // destination path without filename and extension 
       const destDir = path.join(distPath, fileInfo.dir)
-
       // defines a current working directory in which to search
       nunjucks.configure('layouts')
       // create destination directory
       fs.mkdirs(destDir)
         .then(() => {
-          // render layout with page contents
+          // render layout with page content
           let layout = `${defaultLayout}.njk`
-          layouts.forEach((rule) => {
+          let data = yaml.safeLoad(fs.readFileSync(`content/${file}`))
+          // check if a costum layout file was specified (with a rule)
+          for (let rule of layouts) {
+            console.log(file + ' ' + rule.path)
             if (`content/${file}`.includes(rule.path)) {
               layout = rule.layout
+              if (rule.data && rule.data.indexOf('.yaml') !== -1) {
+                data.Data = (yaml.safeLoad(fs.readFileSync(`${distPath}/static/${rule.data}`)))
+              }
+              break
             }
-          })
-          return nunjucksRender(layout, yaml.safeLoad(fs.readFileSync(`content/${file}`))) //require(`./content/${file}`)
+          }
+          return nunjucksRender(layout, data)
         })
         .then((pageContent) => {
           // save the html file
