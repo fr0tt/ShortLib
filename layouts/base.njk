@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% block add_assets %}
+    {% endblock %}
+    {% block header %}
+        {% include "partials/head.njk" %}
+    {% endblock %}
+</head>
+<body>
+
+    {% block navigation %}
+        {% include "partials/navigation.njk" %}
+    {% endblock %}
+
+    {% block main %}
+        <!-- Blocks may include default content. -->
+    {% endblock %}
+
+    {% block footer %}
+        {% include "partials/footer.njk" %}
+    {% endblock %}
+
+    {% block body_scripts %}
+    {% endblock %}
+
+</body>
+</html>
