@@ -1,0 +1,29 @@
+name: Hotkey Library
+image_src: icon.svg
+author: fr0tt
+description: A description text with information
+developer: fr0tt
+website: github.com/fr0tt
+OS:
+  - win
+  - mac
+  - linux
+time: 2018-08-02
+collection:
+  test:
+    - description: Show/Minimize Hotkey Library
+      hotkeys:
+        win:
+          - Ctrl
+          - F12
+        mac:
+          - Cmd
+          - F12
+    - description: Open Explorer
+      hotkeys:
+        win:
+          - Ctrl
+          - F12
+        mac:
+          - Cmd
+          - F11

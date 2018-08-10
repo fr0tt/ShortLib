@@ -11,12 +11,10 @@
         "description": "Save all",
         "hotkeys": {
           "win": [
-            "Control",
-            "S"
+            "Control S"
           ],
           "mac": [
-            "Command",
-            "S"
+            "Command S"
           ]
         }
       },
@@ -24,14 +22,10 @@
         "description": "Synchronize",
         "hotkeys": {
           "win": [
-            "Control",
-            "Alt",
-            "Y"
+            "Control Alt Y"
           ],
           "mac": [
-            "Command",
-            "Option",
-            "Y"
+            "Command Option Y"
           ]
         }
       },
@@ -39,14 +33,10 @@
         "description": "Maximize/minimize editor",
         "hotkeys": {
           "win": [
-            "Control",
-            "Shift",
-            "F12"
+            "Control Shift F12"
           ],
           "mac": [
-            "Control",
-            "Command",
-            "F12"
+            "Control Command F12"
           ]
         }
       },
@@ -54,14 +44,10 @@
         "description": "Add to favorites",
         "hotkeys": {
           "win": [
-            "Alt",
-            "Shift",
-            "F"
+            "Alt Shift F"
           ],
           "mac": [
-            "Option",
-            "Shift",
-            "F"
+            "Option Shift F"
           ]
         }
       },
@@ -69,14 +55,10 @@
         "description": "Inspect current file with current profile",
         "hotkeys": {
           "win": [
-            "Alt",
-            "Shift",
-            "I"
+            "Alt Shift I"
           ],
           "mac": [
-            "Option",
-            "Shift",
-            "I"
+            "Option Shift I"
           ]
         }
       },
@@ -84,12 +66,10 @@
         "description": "Quick switch scheme",
         "hotkeys": {
           "win": [
-            "Control",
-            "` (Backquote)"
+            "Control ` (Backquote)"
           ],
           "mac": [
-            "Control",
-            "` (Backquote)"
+            "Control ` (Backquote)"
           ]
         }
       },
@@ -97,13 +77,10 @@
         "description": "Open settings dialogue",
         "hotkeys": {
           "win": [
-            "Control",
-            "Alt",
-            "S"
+            "Control Alt S"
           ],
           "mac": [
-            "Command",
-            ", (Comma)"
+            "Command   (Comma)"
           ]
         }
       },
@@ -111,14 +88,10 @@
         "description": "Open project structure dialog",
         "hotkeys": {
           "win": [
-            "Control",
-            "Alt",
-            "Shift",
-            "S"
+            "Control Alt Shift S"
           ],
           "mac": [
-            "Command",
-            "; (Semicolon)"
+            "Command ; (Semicolon)"
           ]
         }
       },
@@ -126,12 +99,10 @@
         "description": "Switch between tabs and tool window",
         "hotkeys": {
           "win": [
-            "Control",
-            "Tab"
+            "Control Tab"
           ],
           "mac": [
-            "Control",
-            "Tab"
+            "Control Tab"
           ]
         }
       }
@@ -152,12 +123,10 @@
         "description": "Find",
         "hotkeys": {
           "win": [
-            "Control",
-            "F"
+            "Control F"
           ],
           "mac": [
-            "Command",
-            "F"
+            "Command F"
           ]
         }
       },
@@ -168,8 +137,7 @@
             "F3"
           ],
           "mac": [
-            "Command",
-            "G"
+            "Command G"
           ]
         }
       },
@@ -177,13 +145,10 @@
         "description": "Find previous",
         "hotkeys": {
           "win": [
-            "Shift",
-            "F3"
+            "Shift F3"
           ],
           "mac": [
-            "Command",
-            "Shift",
-            "G"
+            "Command Shift G"
           ]
         }
       },
@@ -191,12 +156,10 @@
         "description": "Replace",
         "hotkeys": {
           "win": [
-            "Control",
-            "R"
+            "Control R"
           ],
           "mac": [
-            "Command",
-            "R"
+            "Command R"
           ]
         }
       },
@@ -204,14 +167,10 @@
         "description": "Find action",
         "hotkeys": {
           "win": [
-            "Control",
-            "Shift",
-            "A"
+            "Control Shift A"
           ],
           "mac": [
-            "Command",
-            "Shift",
-            "A"
+            "Command Shift A"
           ]
         }
       },
@@ -219,15 +178,10 @@
         "description": "Search by symbol name",
         "hotkeys": {
           "win": [
-            "Control",
-            "Alt",
-            "Shift",
-            "N"
+            "Control Alt Shift N"
           ],
           "mac": [
-            "Command",
-            "Option",
-            "O"
+            "Command Option O"
           ]
         }
       },
@@ -235,12 +189,10 @@
         "description": "Find class",
         "hotkeys": {
           "win": [
-            "Control",
-            "N"
+            "Control N"
           ],
           "mac": [
-            "Command",
-            "O"
+            "Command O"
           ]
         }
       },
@@ -248,14 +200,10 @@
         "description": "Find file (instead of class)",
         "hotkeys": {
           "win": [
-            "Control",
-            "Shift",
-            "N"
+            "Control Shift N"
           ],
           "mac": [
-            "Command",
-            "Shift",
-            "O"
+            "Command Shift O"
           ]
         }
       },
@@ -263,14 +211,10 @@
         "description": "Find in path",
         "hotkeys": {
           "win": [
-            "Control",
-            "Shift",
-            "F"
+            "Control Shift F"
           ],
           "mac": [
-            "Command",
-            "Shift",
-            "F"
+            "Command Shift F"
           ]
         }
       },
@@ -278,12 +222,10 @@
         "description": "Open file structure pop-up",
         "hotkeys": {
           "win": [
-            "Control",
-            "F12"
+            "Control F12"
           ],
           "mac": [
-            "Command",
-            "F12"
+            "Command F12"
           ]
         }
       },
@@ -291,12 +233,10 @@
         "description": "Navigate between open editor tabs",
         "hotkeys": {
           "win": [
-            "Alt",
-            "Right/Left Arrow"
+            "Alt Right/Left Arrow"
           ],
           "mac": [
-            "Control",
-            "Right/Left Arrow"
+            "Control Right/Left Arrow"
           ]
         }
       },
@@ -304,12 +244,10 @@
         "description": "Jump to source",
         "hotkeys": {
           "win": [
-            "F4 / Control",
-            "Enter"
+            "F4 / Control Enter"
           ],
           "mac": [
-            "F4 / Command",
-            "Down Arrow"
+            "F4 / Command Down Arrow"
           ]
         }
       },
@@ -317,12 +255,10 @@
         "description": "Open current editor tab in new window",
         "hotkeys": {
           "win": [
-            "Shift",
-            "F4"
+            "Shift F4"
           ],
           "mac": [
-            "Shift",
-            "F4"
+            "Shift F4"
           ]
         }
       },
@@ -330,12 +266,10 @@
         "description": "Recently opened files pop-up",
         "hotkeys": {
           "win": [
-            "Control",
-            "E"
+            "Control E"
           ],
           "mac": [
-            "Command",
-            "E"
+            "Command E"
           ]
         }
       },
@@ -343,14 +277,10 @@
         "description": "Recently edited files pop-up",
         "hotkeys": {
           "win": [
-            "Control",
-            "Shift",
-            "E"
+            "Control Shift E"
           ],
           "mac": [
-            "Command",
-            "Shift",
-            "E"
+            "Command Shift E"
           ]
         }
       },
@@ -358,14 +288,10 @@
         "description": "Go to last edit location",
         "hotkeys": {
           "win": [
-            "Control",
-            "Shift",
-            "Backspace"
+            "Control Shift Backspace"
           ],
           "mac": [
-            "Command",
-            "Shift",
-            "Backspace"
+            "Command Shift Backspace"
           ]
         }
       },
@@ -373,12 +299,10 @@
         "description": "Close active editor tab",
         "hotkeys": {
           "win": [
-            "Control",
-            "F4"
+            "Control F4"
           ],
           "mac": [
-            "Command",
-            "W"
+            "Command W"
           ]
         }
       },
@@ -397,12 +321,10 @@
         "description": "Hide active or last active tool window",
         "hotkeys": {
           "win": [
-            "Shift",
-            "Esc"
+            "Shift Esc"
           ],
           "mac": [
-            "Shift",
-            "Esc"
+            "Shift Esc"
           ]
         }
       },
@@ -410,12 +332,10 @@
         "description": "Go to line",
         "hotkeys": {
           "win": [
-            "Control",
-            "G"
+            "Control G"
           ],
           "mac": [
-            "Command",
-            "L"
+            "Command L"
           ]
         }
       },
@@ -423,12 +343,10 @@
         "description": "Open type hierarchy",
         "hotkeys": {
           "win": [
-            "Control",
-            "H"
+            "Control H"
           ],
           "mac": [
-            "Control",
-            "H"
+            "Control H"
           ]
         }
       },
@@ -436,14 +354,10 @@
         "description": "Open method hierarchy",
         "hotkeys": {
           "win": [
-            "Control",
-            "Shift",
-            "H"
+            "Control Shift H"
           ],
           "mac": [
-            "Command",
-            "Shift",
-            "H"
+            "Command Shift H"
           ]
         }
       },
@@ -451,14 +365,10 @@
         "description": "Open call hierarchy",
         "hotkeys": {
           "win": [
-            "Control",
-            "Alt",
-            "H"
+            "Control Alt H"
           ],
           "mac": [
-            "Control",
-            "Option",
-            "H"
+            "Control Option H"
           ]
         }
       }
@@ -468,12 +378,10 @@
         "description": "Generate code (getters, setters, constructors, hashCode/equals, toString, new file, new class)",
         "hotkeys": {
           "win": [
-            "Alt",
-            "Insert"
+            "Alt Insert"
           ],
           "mac": [
-            "Command",
-            "N"
+            "Command N"
           ]
         }
       },
@@ -481,12 +389,10 @@
         "description": "Override methods",
         "hotkeys": {
           "win": [
-            "Control",
-            "O"
+            "Control O"
           ],
           "mac": [
-            "Control",
-            "O"
+            "Control O"
           ]
         }
       },
@@ -494,12 +400,10 @@
         "description": "Implement methods",
         "hotkeys": {
           "win": [
-            "Control",
-            "I"
+            "Control I"
           ],
           "mac": [
-            "Control",
-            "I"
+            "Control I"
           ]
         }
       },
@@ -507,14 +411,10 @@
         "description": "Surround with (if...else / try...catch / etc.)",
         "hotkeys": {
           "win": [
-            "Control",
-            "Alt",
-            "T"
+            "Control Alt T"
           ],
           "mac": [
-            "Command",
-            "Option",
-            "T"
+            "Command Option T"
           ]
         }
       },
@@ -522,12 +422,10 @@
         "description": "Delete line at caret",
         "hotkeys": {
           "win": [
-            "Control",
-            "Y"
+            "Control Y"
           ],
           "mac": [
-            "Command",
-            "Backspace"
+            "Command Backspace"
           ]
         }
       },
@@ -535,12 +433,10 @@
         "description": "Collapse/expand current code block",
         "hotkeys": {
           "win": [
-            "Control",
-            "Minus/Plus"
+            "Control Minus/Plus"
           ],
           "mac": [
-            "Command",
-            "Minus/Plus"
+            "Command Minus/Plus"
           ]
         }
       },
@@ -548,14 +444,10 @@
         "description": "Collapse/expand all code blocks",
         "hotkeys": {
           "win": [
-            "Control",
-            "Shift",
-            "Minus/Plus"
+            "Control Shift Minus/Plus"
           ],
           "mac": [
-            "Command",
-            "Shift",
-            "Minus/Plus"
+            "Command Shift Minus/Plus"
           ]
         }
       },
@@ -563,12 +455,10 @@
         "description": "Duplicate current line or selection",
         "hotkeys": {
           "win": [
-            "Control",
-            "D"
+            "Control D"
           ],
           "mac": [
-            "Command",
-            "D"
+            "Command D"
           ]
         }
       },
@@ -576,12 +466,10 @@
         "description": "Basic code completion",
         "hotkeys": {
           "win": [
-            "Control",
-            "Space"
+            "Control Space"
           ],
           "mac": [
-            "Control",
-            "Space"
+            "Control Space"
           ]
         }
       },
@@ -589,14 +477,10 @@
         "description": "Smart code completion (filters the list of methods and variables by expected type)",
         "hotkeys": {
           "win": [
-            "Control",
-            "Shift",
-            "Space"
+            "Control Shift Space"
           ],
           "mac": [
-            "Control",
-            "Shift",
-            "Space"
+            "Control Shift Space"
           ]
         }
       },
@@ -604,14 +488,10 @@
         "description": "Complete statement",
         "hotkeys": {
           "win": [
-            "Control",
-            "Shift",
-            "Enter"
+            "Control Shift Enter"
           ],
           "mac": [
-            "Command",
-            "Shift",
-            "Enter"
+            "Command Shift Enter"
           ]
         }
       },
@@ -619,12 +499,10 @@
         "description": "Quick documentation lookup",
         "hotkeys": {
           "win": [
-            "Control",
-            "Q"
+            "Control Q"
           ],
           "mac": [
-            "Control",
-            "J"
+            "Control J"
           ]
         }
       },
@@ -632,12 +510,10 @@
         "description": "Show parameters for selected method",
         "hotkeys": {
           "win": [
-            "Control",
-            "P"
+            "Control P"
           ],
           "mac": [
-            "Command",
-            "P"
+            "Command P"
           ]
         }
       },
@@ -645,14 +521,10 @@
         "description": "Go to declaration (directly)",
         "hotkeys": {
           "win": [
-            "Control",
-            "B or Control",
-            "Click"
+            "Control B or Control Click"
           ],
           "mac": [
-            "Command",
-            "B or Command",
-            "Click"
+            "Command B or Command Click"
           ]
         }
       },
@@ -660,14 +532,10 @@
         "description": "Go to implementations",
         "hotkeys": {
           "win": [
-            "Control",
-            "Alt",
-            "B"
+            "Control Alt B"
           ],
           "mac": [
-            "Command",
-            "Alt",
-            "B"
+            "Command Alt B"
           ]
         }
       },
@@ -675,12 +543,10 @@
         "description": "Go to super-method/super-class",
         "hotkeys": {
           "win": [
-            "Control",
-            "U"
+            "Control U"
           ],
           "mac": [
-            "Command",
-            "U"
+            "Command U"
           ]
         }
       },
@@ -688,13 +554,10 @@
         "description": "Open quick definition lookup",
         "hotkeys": {
           "win": [
-            "Control",
-            "Shift",
-            "I"
+            "Control Shift I"
           ],
           "mac": [
-            "Command",
-            "Y"
+            "Command Y"
           ]
         }
       },
@@ -702,12 +565,10 @@
         "description": "Toggle project tool window visibility",
         "hotkeys": {
           "win": [
-            "Alt",
-            "1"
+            "Alt 1"
           ],
           "mac": [
-            "Command",
-            "1"
+            "Command 1"
           ]
         }
       },
@@ -726,12 +587,10 @@
         "description": "Toggle bookmark with mnemonic",
         "hotkeys": {
           "win": [
-            "Control",
-            "F11"
+            "Control F11"
           ],
           "mac": [
-            "Option",
-            "F3"
+            "Option F3"
           ]
         }
       },
@@ -739,12 +598,10 @@
         "description": "Comment/uncomment with line comment",
         "hotkeys": {
           "win": [
-            "Control",
-            "/"
+            "Control /"
           ],
           "mac": [
-            "Command",
-            "/"
+            "Command /"
           ]
         }
       },
@@ -752,14 +609,10 @@
         "description": "Comment/uncomment with block comment",
         "hotkeys": {
           "win": [
-            "Control",
-            "Shift",
-            "/"
+            "Control Shift /"
           ],
           "mac": [
-            "Command",
-            "Shift",
-            "/"
+            "Command Shift /"
           ]
         }
       },
@@ -767,12 +620,10 @@
         "description": "Select successively increasing code blocks",
         "hotkeys": {
           "win": [
-            "Control",
-            "W"
+            "Control W"
           ],
           "mac": [
-            "Option",
-            "Up"
+            "Option Up"
           ]
         }
       },
@@ -780,13 +631,10 @@
         "description": "Decrease current selection to previous state",
         "hotkeys": {
           "win": [
-            "Control",
-            "Shift",
-            "W"
+            "Control Shift W"
           ],
           "mac": [
-            "Option",
-            "Down"
+            "Option Down"
           ]
         }
       },
@@ -794,13 +642,10 @@
         "description": "Move to code block start",
         "hotkeys": {
           "win": [
-            "Control",
-            "["
+            "Control ["
           ],
           "mac": [
-            "Option",
-            "Command",
-            "["
+            "Option Command ["
           ]
         }
       },
@@ -808,13 +653,10 @@
         "description": "Move to code block end",
         "hotkeys": {
           "win": [
-            "Control",
-            "]"
+            "Control ]"
           ],
           "mac": [
-            "Option",
-            "Command",
-            "]"
+            "Option Command ]"
           ]
         }
       },
@@ -822,15 +664,10 @@
         "description": "Select to the code block start",
         "hotkeys": {
           "win": [
-            "Control",
-            "Shift",
-            "["
+            "Control Shift ["
           ],
           "mac": [
-            "Option",
-            "Command",
-            "Shift",
-            "["
+            "Option Command Shift ["
           ]
         }
       },
@@ -838,15 +675,10 @@
         "description": "Select to the code block end",
         "hotkeys": {
           "win": [
-            "Control",
-            "Shift",
-            "]"
+            "Control Shift ]"
           ],
           "mac": [
-            "Option",
-            "Command",
-            "Shift",
-            "]"
+            "Option Command Shift ]"
           ]
         }
       },
@@ -854,12 +686,10 @@
         "description": "Delete to end of word",
         "hotkeys": {
           "win": [
-            "Control",
-            "Delete"
+            "Control Delete"
           ],
           "mac": [
-            "Option",
-            "Delete"
+            "Option Delete"
           ]
         }
       },
@@ -867,12 +697,10 @@
         "description": "Delete to start of word",
         "hotkeys": {
           "win": [
-            "Control",
-            "Backspace"
+            "Control Backspace"
           ],
           "mac": [
-            "Option",
-            "Backspace"
+            "Option Backspace"
           ]
         }
       },
@@ -880,14 +708,10 @@
         "description": "Optimize imports",
         "hotkeys": {
           "win": [
-            "Control",
-            "Alt",
-            "O"
+            "Control Alt O"
           ],
           "mac": [
-            "Control",
-            "Option",
-            "O"
+            "Control Option O"
           ]
         }
       },
@@ -895,12 +719,10 @@
         "description": "Project quick fix (show intention actions and quick fixes)",
         "hotkeys": {
           "win": [
-            "Alt",
-            "Enter"
+            "Alt Enter"
           ],
           "mac": [
-            "Option",
-            "Enter"
+            "Option Enter"
           ]
         }
       },
@@ -908,14 +730,10 @@
         "description": "Reformat code",
         "hotkeys": {
           "win": [
-            "Control",
-            "Alt",
-            "L"
+            "Control Alt L"
           ],
           "mac": [
-            "Command",
-            "Option",
-            "L"
+            "Command Option L"
           ]
         }
       },
@@ -923,14 +741,10 @@
         "description": "Auto-indent lines",
         "hotkeys": {
           "win": [
-            "Control",
-            "Alt",
-            "I"
+            "Control Alt I"
           ],
           "mac": [
-            "Control",
-            "Option",
-            "I"
+            "Control Option I"
           ]
         }
       },
@@ -938,12 +752,10 @@
         "description": "Indent/unindent lines",
         "hotkeys": {
           "win": [
-            "Tab/Shift",
-            "Tab"
+            "Tab/Shift Tab"
           ],
           "mac": [
-            "Tab/Shift",
-            "Tab"
+            "Tab/Shift Tab"
           ]
         }
       },
@@ -951,14 +763,10 @@
         "description": "Smart line join",
         "hotkeys": {
           "win": [
-            "Control",
-            "Shift",
-            "J"
+            "Control Shift J"
           ],
           "mac": [
-            "Control",
-            "Shift",
-            "J"
+            "Control Shift J"
           ]
         }
       },
@@ -966,12 +774,10 @@
         "description": "Smart line split",
         "hotkeys": {
           "win": [
-            "Control",
-            "Enter"
+            "Control Enter"
           ],
           "mac": [
-            "Command",
-            "Enter"
+            "Command Enter"
           ]
         }
       },
@@ -979,12 +785,10 @@
         "description": "Start new line",
         "hotkeys": {
           "win": [
-            "Shift",
-            "Enter"
+            "Shift Enter"
           ],
           "mac": [
-            "Shift",
-            "Enter"
+            "Shift Enter"
           ]
         }
       },
@@ -992,12 +796,10 @@
         "description": "Next/previous highlighted error",
         "hotkeys": {
           "win": [
-            "F2 / Shift",
-            "F2"
+            "F2 / Shift F2"
           ],
           "mac": [
-            "F2 / Shift",
-            "F2"
+            "F2 / Shift F2"
           ]
         }
       }
@@ -1007,12 +809,10 @@
         "description": "Build",
         "hotkeys": {
           "win": [
-            "Control",
-            "F9"
+            "Control F9"
           ],
           "mac": [
-            "Command",
-            "F9"
+            "Command F9"
           ]
         }
       },
@@ -1020,12 +820,10 @@
         "description": "Build and run",
         "hotkeys": {
           "win": [
-            "Shift",
-            "F10"
+            "Shift F10"
           ],
           "mac": [
-            "Control",
-            "R"
+            "Control R"
           ]
         }
       },
@@ -1033,13 +831,10 @@
         "description": "Apply changes (with Instant Run)",
         "hotkeys": {
           "win": [
-            "Control",
-            "F10"
+            "Control F10"
           ],
           "mac": [
-            "Control",
-            "Command",
-            "R"
+            "Control Command R"
           ]
         }
       }
@@ -1049,12 +844,10 @@
         "description": "Debug",
         "hotkeys": {
           "win": [
-            "Shift",
-            "F9"
+            "Shift F9"
           ],
           "mac": [
-            "Control",
-            "D"
+            "Control D"
           ]
         }
       },
@@ -1084,12 +877,10 @@
         "description": "Smart step into",
         "hotkeys": {
           "win": [
-            "Shift",
-            "F7"
+            "Shift F7"
           ],
           "mac": [
-            "Shift",
-            "F7"
+            "Shift F7"
           ]
         }
       },
@@ -1097,12 +888,10 @@
         "description": "Step out",
         "hotkeys": {
           "win": [
-            "Shift",
-            "F8"
+            "Shift F8"
           ],
           "mac": [
-            "Shift",
-            "F8"
+            "Shift F8"
           ]
         }
       },
@@ -1110,12 +899,10 @@
         "description": "Run to cursor",
         "hotkeys": {
           "win": [
-            "Alt",
-            "F9"
+            "Alt F9"
           ],
           "mac": [
-            "Option",
-            "F9"
+            "Option F9"
           ]
         }
       },
@@ -1123,12 +910,10 @@
         "description": "Evaluate expression",
         "hotkeys": {
           "win": [
-            "Alt",
-            "F8"
+            "Alt F8"
           ],
           "mac": [
-            "Option",
-            "F8"
+            "Option F8"
           ]
         }
       },
@@ -1139,9 +924,7 @@
             "F9"
           ],
           "mac": [
-            "Command",
-            "Option",
-            "R"
+            "Command Option R"
           ]
         }
       },
@@ -1149,12 +932,10 @@
         "description": "Toggle breakpoint",
         "hotkeys": {
           "win": [
-            "Control",
-            "F8"
+            "Control F8"
           ],
           "mac": [
-            "Command",
-            "F8"
+            "Command F8"
           ]
         }
       },
@@ -1162,14 +943,10 @@
         "description": "View breakpoints",
         "hotkeys": {
           "win": [
-            "Control",
-            "Shift",
-            "F8"
+            "Control Shift F8"
           ],
           "mac": [
-            "Command",
-            "Shift",
-            "F8"
+            "Command Shift F8"
           ]
         }
       }
@@ -1201,12 +978,10 @@
         "description": "Safe delete",
         "hotkeys": {
           "win": [
-            "Alt",
-            "Delete"
+            "Alt Delete"
           ],
           "mac": [
-            "Command",
-            "Delete"
+            "Command Delete"
           ]
         }
       },
@@ -1214,12 +989,10 @@
         "description": "Rename",
         "hotkeys": {
           "win": [
-            "Shift",
-            "F6"
+            "Shift F6"
           ],
           "mac": [
-            "Shift",
-            "F6"
+            "Shift F6"
           ]
         }
       },
@@ -1227,12 +1000,10 @@
         "description": "Change signature",
         "hotkeys": {
           "win": [
-            "Control",
-            "F6"
+            "Control F6"
           ],
           "mac": [
-            "Command",
-            "F6"
+            "Command F6"
           ]
         }
       },
@@ -1240,14 +1011,10 @@
         "description": "Inline",
         "hotkeys": {
           "win": [
-            "Control",
-            "Alt",
-            "N"
+            "Control Alt N"
           ],
           "mac": [
-            "Command",
-            "Option",
-            "N"
+            "Command Option N"
           ]
         }
       },
@@ -1255,14 +1022,10 @@
         "description": "Extract method",
         "hotkeys": {
           "win": [
-            "Control",
-            "Alt",
-            "M"
+            "Control Alt M"
           ],
           "mac": [
-            "Command",
-            "Option",
-            "M"
+            "Command Option M"
           ]
         }
       },
@@ -1270,14 +1033,10 @@
         "description": "Extract variable",
         "hotkeys": {
           "win": [
-            "Control",
-            "Alt",
-            "V"
+            "Control Alt V"
           ],
           "mac": [
-            "Command",
-            "Option",
-            "V"
+            "Command Option V"
           ]
         }
       },
@@ -1285,14 +1044,10 @@
         "description": "Extract field",
         "hotkeys": {
           "win": [
-            "Control",
-            "Alt",
-            "F"
+            "Control Alt F"
           ],
           "mac": [
-            "Command",
-            "Option",
-            "F"
+            "Command Option F"
           ]
         }
       },
@@ -1300,14 +1055,10 @@
         "description": "Extract constant",
         "hotkeys": {
           "win": [
-            "Control",
-            "Alt",
-            "C"
+            "Control Alt C"
           ],
           "mac": [
-            "Command",
-            "Option",
-            "C"
+            "Command Option C"
           ]
         }
       },
@@ -1315,14 +1066,10 @@
         "description": "Extract parameter",
         "hotkeys": {
           "win": [
-            "Control",
-            "Alt",
-            "P"
+            "Control Alt P"
           ],
           "mac": [
-            "Command",
-            "Option",
-            "P"
+            "Command Option P"
           ]
         }
       }
@@ -1332,12 +1079,10 @@
         "description": "Commit project to VCS",
         "hotkeys": {
           "win": [
-            "Control",
-            "K"
+            "Control K"
           ],
           "mac": [
-            "Command",
-            "K"
+            "Command K"
           ]
         }
       },
@@ -1345,12 +1090,10 @@
         "description": "Update project from VCS",
         "hotkeys": {
           "win": [
-            "Control",
-            "T"
+            "Control T"
           ],
           "mac": [
-            "Command",
-            "T"
+            "Command T"
           ]
         }
       },
@@ -1358,14 +1101,10 @@
         "description": "View recent changes",
         "hotkeys": {
           "win": [
-            "Alt",
-            "Shift",
-            "C"
+            "Alt Shift C"
           ],
           "mac": [
-            "Option",
-            "Shift",
-            "C"
+            "Option Shift C"
           ]
         }
       },
@@ -1373,12 +1112,10 @@
         "description": "Open VCS popup",
         "hotkeys": {
           "win": [
-            "Alt",
-            "` (Backquote)"
+            "Alt ` (Backquote)"
           ],
           "mac": [
-            "Control",
-            "V"
+            "Control V"
           ]
         }
       }
