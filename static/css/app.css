@@ -1,0 +1,371 @@
+section.container {
+    height: calc( 100% - 160px );
+}
+  
+.contentside {
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+}
+  
+.editButtons {
+    display: block;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    text-align: right;
+    margin-bottom: 40px;
+}
+  
+.editButtons button {
+    padding: 0.55em 1.05em;
+    margin-left: 2%;
+    font-family: Open Sans, Roboto, Arial, sans-serif;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    color: #2a2d33;
+    border: 1px solid #2a2d33;
+    background-color: transparent;
+    box-shadow: 1px 1px 4px rgba(42, 45, 51, 0.6);
+    transition: color, background-color 0.3s;
+    -webkit-transition: color, background-color 0.3s;
+    -moz-transition: color, background-color 0.3s;
+    cursor: pointer;
+}
+  
+.editButtons button:hover {
+    color: #fff;
+    background-color: #2a2d33;
+}
+
+.editButtons button:hover .editIcon {
+    fill: #fff;
+}
+  
+.editButtons .editIcon {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    margin-top: -0.2em;
+    margin-left: 0.3em;
+    margin-right: -0.2em;
+    fill: #2a2d33;
+}
+  
+#info {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    /* background-color: #F2F2F2;
+    background: linear-gradient(0, #fff, #ececec); */
+    transition: width 0.6s;
+}
+
+#info > .container {
+    max-width: 1400px;
+    margin: auto;
+    padding: 4% 0;
+    background-color: #F2F2F2;
+}
+
+#info, #shortcuts {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+  
+h1 {
+    display: inline-block;
+    margin: 0;
+    margin-top: 0.8em;
+    font-family: Open Sans, Source Sans Pro, Arial, sans-serif;
+    font-size: 52px;
+    color: #2a2d33;
+}
+  
+#info img.logo {
+    display: block;
+    width: 172px;
+    height: 172px;
+}
+
+#info img.logo, #info .textsection {
+    padding: 0 4%;
+}
+  
+#info .textsection {
+    font-family: Open Sans, Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+  
+#info .description {
+    margin: 1em 0;
+    font-size: 18px;
+    color: #6d6d6d;
+}
+  
+#info .details {
+    margin: 3em 0;
+}
+  
+#info .detail {
+    margin: 1em 0;
+}
+  
+#info .details svg {
+    width: 24px;
+    height: 24px;
+    vertical-align: bottom;
+    fill: #5C5C5C;
+}
+  
+#info .details span {
+    margin-left: 0.7em;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
+  
+#info .details a {
+    color: #000;
+}
+  
+#shortcuts {
+    display: block;
+    max-width: 1400px;
+    margin: auto;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background-color: #fff;
+}
+  
+#shortcuts .settings {
+    text-align: right;
+    margin-bottom: 50px;
+}
+  
+.fade-enter-active, .fade-leave-active {
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+}
+  
+.fade-enter, .fade-leave-to{
+    opacity: 0;
+}
+  
+#shortcuts mark {
+    font-weight: 600;
+    background-color: #ff0;
+}
+  
+#shortcuts .setting {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+    text-align: left;
+}
+  
+#shortcuts .options {
+    position: absolute;
+    width: 100%;
+}
+  
+#shortcuts .option, #shortcuts .settings .filter {
+    display: block;
+    padding: 12px 9px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .25);
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+}
+  
+#shortcuts .option {
+    cursor: pointer;
+}
+  
+#shortcuts .option:hover {
+    background-color: #f7f7f7;
+}
+  
+#shortcuts .setting svg {
+    vertical-align: middle;
+}
+  
+#shortcuts .settings svg.arrowIcon {
+    width: 9px;
+    height: 8px;
+    margin-top: 2px;
+    margin-left: 8px;
+    margin-right: 6px;
+    fill: #000;
+    transform: rotateZ(180deg);
+}
+  
+#shortcuts .settings svg {
+    width: 18px;
+    height: 18px;
+    margin: 0 8px;
+}
+  
+#shortcuts .windowsIcon {
+    fill: #007ACC;
+}
+  
+#shortcuts .macIcon {
+    width: 20px;
+    height: 20px;
+    fill: #b1b1b1;
+}
+  
+#shortcuts .linuxIcon {
+    width: 22px;
+    height: 22px;
+    margin: -2px 8px;
+}
+  
+#shortcuts .filterIcon {
+    fill: #bbbbbb;
+    transition: 0.5s fill;
+    -webkit-transition: 0.5s fill;
+    -moz-transition: 0.5s fill;
+}
+  
+#shortcuts .filterIcon.active {
+    fill: #2a2d33;
+}
+  
+#shortcuts .setting input {
+    margin-left: 1px;
+    font-family: Open Sans;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    background: none;
+}
+  
+#shortcuts .setting input::placeholder {
+    color: #bbbbbb;
+}
+
+h4 {
+    padding-left: 10px;
+    font-family: Open Sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+#shortcuts h4 {
+    padding: 0 20px;
+    letter-spacing: 0.02em;
+}
+
+#shortcuts .toc a{
+    font-size: 1.15em;
+    color: #0060d1;
+}
+  
+#shortcuts table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+   
+#shortcuts h2 {
+    display: inline-block;
+    margin: 0;
+    margin-top: 100px;
+    margin-bottom: 26px;
+    padding: 0 0.3em;
+    font-family: Open Sans;
+    font-size: 38px;
+    color:#2a2d33;
+}
+
+#shortcuts h2.filter {
+    font-weight: 400;
+}
+
+/*#shortcuts .collapseIcon {
+    width: 32px;
+    height: 32px;
+    fill: #fff;
+}*/
+
+#shortcuts thead {
+    display: none;
+}
+
+#shortcuts thead tr {
+    background-color: unset !important;
+}
+
+#shortcuts thead th {
+    padding: 1em 1.25em;
+    text-align: left;
+}
+  
+#shortcuts tr, #shortcuts .header {
+    display: table-row;
+}
+  
+#shortcuts tr:nth-child(odd) {
+    background-color: #f3f3f3;
+}
+
+#shortcuts .section td {
+    display: table-cell;
+    padding: 0.6em 1.0em;
+    font-family: Open Sans;
+    font-size: 18px;
+}
+  
+/*#shortcuts .section td.kbd {
+    width: 40%;
+}*/
+#shortcuts .section td.description {/*#shortcuts .section td:nth-of-type(2) {*/
+    width: 60%;
+}
+  
+#shortcuts center {
+    font-style: italic;
+}
+  
+.editContainer {
+    max-width: 1500px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+  
+.editContainer .editButtons {
+    text-align: left;
+}
+  
+.editContainer .tabs {
+    display: inline-block;
+    width: 40em;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(69, 69, 69, 0.25);
+}
+  
+.editContainer .tabs button {
+    display: inline-block;
+    width: 50%;
+    padding: 0.5em 1.6em;
+    font-size: 20px;
+    font-family: Open Sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif;
+    color: #2A2D33;
+    background-color: unset;
+    transition: color 0.3s;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    cursor: pointer;
+}
+  
+.editContainer .tabs button:hover {
+    color: rgb(146, 130, 245);
+}
+  
+.editContainer .tabs .active {
+    color: #fff !important;
+    background-color: #9282F5;
+}
