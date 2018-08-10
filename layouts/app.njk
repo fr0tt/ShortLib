@@ -1,1 +1,163 @@
-<h4>{{ name }}</h4>
+{% import "macros/icons/edit.njk" as edit %} 
+{% import "macros/icons/building.njk" as building %} 
+{% import "macros/icons/link.njk" as link %} 
+{% import "macros/icons/arrow.njk" as arrow %}  
+{% import "macros/icons/filter.njk" as filter %} 
+{% import "macros/icons/windows.njk" as windows %}
+{% import "macros/icons/mac.njk" as mac %}
+{% import "macros/icons/linux.njk" as linux %}
+
+{% extends "base.njk" %}
+
+{% block add_assets %}
+	<script src="/static/js/vue.js"></script>
+	<link rel="stylesheet" href="/static/css/app.css" type="text/css"/>
+{% endblock %}
+
+{% block main %}
+
+	<div class="container">
+		<div class="contentside">
+
+			<section id="info">
+
+				<div class="editButtons">
+					<button>
+						<a href="https://github.com/fr0tt/shortlib/content/{{ Page.path.dir | safe }}">Edit{{ edit.icon("editIcon") }}</a>
+					</button>
+				</div>
+
+				<div class="container">
+					{% if image_src %}
+						<img class="logo" src="{{ '/' + Page.path.dir + '/' + image_src | safe }}"/>
+					{% endif %}
+
+					<div class="textsection">
+						<h1 class="title">{{ name }}</h1>
+						<p class="description">{{ description | safe }}</p>
+						
+						<div class="details">
+							<div class="detail">
+								{{ building.icon("buildingIcon") }}
+								<span>{{ developer }}</span>
+							</div>
+							<div class="detail">
+								{{ link.icon("linkIcon") }}							
+								<span>
+									<a href="{{ website }}" target="_blank">{{ website }}</a>
+								</span>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</section>
+
+			<section id="shortcuts">
+
+				<div class="settings">
+
+					<div class="setting" @click="showOS = !showOS">
+						<div class="select">
+							<div class="option">
+								{{ windows.icon("windowsIcon", 'v-if="selectedOS === \'win\'"') }}
+								{{ mac.icon("macIcon", 'v-else-if="selectedOS === \'mac\'"') }}
+								{{ linux.icon("linuxIcon", 'v-else-if="selectedOS === \'linux\'"') }}
+								{{ arrow.icon("arrowIcon") }}															
+							</div> 
+						</div>
+						<transition name="fade"> 
+							<div class="options" v-show="showOS">
+								<div class="option" v-if="showOSAsAnOption('win')" @click="selectedOS = 'win'">
+									{{ windows.icon("windowsIcon") }}
+								</div>
+								<div class="option" v-if="showOSAsAnOption('mac')" @click="selectedOS = 'mac'">
+									{{ mac.icon("macIcon") }}
+								</div>
+								<div class="option" v-if="showOSAsAnOption('linux')" @click="selectedOS = 'linux'">
+									{{ linux.icon("linuxIcon") }}
+								</div>
+							</div>
+						</transition> 
+					</div>
+
+					<div class="setting">
+						<div class="filter">
+							{{ filter.icon("filterIcon", "{ active: filterIsActive }") }}
+							<input v-model="filterQuery" @focus="filterIsActive = true" @focusout="filterIsActive = false" autocorrect="off" placeholder="Type to filter">
+						</div>
+					</div>
+
+				</div>
+				
+				<h4>Table of Contents</h4>
+
+				<ul class="toc">
+					{%- for sectionName, section in collection %}
+					<li>
+						<a href="#{{ sectionName | replace(" ", "-") }}">
+							{{- sectionName -}}
+						</a>
+					</li>
+					{% endfor -%}
+				</ul>
+
+				<h2 class="filter" v-if="filterQuery" v-html="'Filter result for: ' + filterQuery"></h2>
+
+				<div class="section">
+					{% for sectionName, section in collection %} 
+					<div>
+						<h2 id="{{ sectionName | replace(" ", "-") }}" v-show="!filterQuery">
+							{{- sectionName -}}
+						</h2>
+						<table>
+							<tbody>
+								{% for shortcut in section %}
+								<tr v-show="containsFilter('{{ shortcut.description | replace("'", "\'") }}')">
+									{%- if shortcut.hotkeys.win %}
+									<td v-show="selectedOS === 'win'">
+										{{- shortcut.hotkeys.win | join(" ") | replace(" or ", " <center>or</center> ") | safe -}}
+									</td>
+									{% endif -%}
+									{%- if shortcut.hotkeys.mac %}
+									<td v-show="selectedOS === 'mac'">
+										{{- shortcut.hotkeys.mac | join(" ") | replace(" or ", " <center>or</center> ") | safe -}}
+									</td>
+									{% endif -%}
+									{%- if shortcut.hotkeys.linux %}
+									<td v-show="selectedOS === 'linux'">
+										{{- shortcut.hotkeys.linux | join(" ") | replace(" or ", " <center>or</center> ") | safe -}}
+									</td> 
+									{%- elif (generate_linux) and (shortcut.hotkeys.win) %}
+									<td v-show="selectedOS === 'linux'">
+										{{- shortcut.hotkeys.win | join(" ") | replace(" or ", " <center>or</center> ") | safe -}}
+									</td>
+									{% endif -%}
+									<td class="description" v-html="highlight('{{ shortcut.description }}')">
+										{{- shortcut.description -}}
+									</td>
+								</tr>
+								{% endfor %}
+							</tbody>
+						</table>
+					</div>
+					{% endfor %}
+				</div>
+
+			</section>
+		</div>
+	</div>
+
+{% endblock %}
+
+{% block body_scripts %}
+	<script>
+		const osTitleCase = {{ OS | dump | safe }}
+		const OS = osTitleCase.map(function (os) { //.slice(0, structure.length-1)
+			return os.toLowerCase()
+		}) 
+		//const generateLinux = {{ generate_linux | default("false") }}
+	</script>
+	<script src="/static/js/shortcuts.js"></script>
+{% endblock %}
