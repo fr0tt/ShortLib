@@ -1,0 +1,20 @@
+<link rel="icon" href="/static/logo/favicon.ico" type="image/x-icon"/>
+<link rel="/logo/apple-touch-icon" href="/static/apple-touch-icon.png"/>
+<link rel="icon" href="/static/logo/favicon-32.png" type="image/png"/>
+<link rel="icon" href="/static/logo/favicon-16.png" type="image/pg"/>
+
+<link rel="stylesheet" href="/static/css/base.css" type="text/css"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans"/>
+<!--<link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css"/>-->
+
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge, IE=11, IE=10, IE=9">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta hid="title" name="title" content="ShortLib: {{ name }}">
+{%- if description -%}
+    <meta hid="description" name="description" content="{{ name }} - ShortLib: {{ description | striptags | truncate(100) }}">
+{%- else -%}
+    <meta hid="description" name="description" content="ShortLib - {{ name }}. Find keyboard shortcuts in our database on ShortLib">
+{%- endif %}
+<meta hid="keywords" name="keywords" content="{{ name }}, Shortcuts, Hotkeys, Shortcut, Hotkey, Hotkey Library, Keyboard Shortcuts, Keyboard Hotkeys, Keyboard, Keybinding">
+<title>ShortLib: {{ name }}</title>
