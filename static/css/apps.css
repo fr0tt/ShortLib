@@ -1,0 +1,120 @@
+.container {
+    width: 100%;
+    min-height: 100%;
+    margin: auto;
+}
+  
+#cards {
+    padding-top: 60px;
+    background-color: #f9f9f9;
+    background: linear-gradient(145deg, #efefef, #fff);
+}
+  
+#cards h2 {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0em 0.4em;
+    padding-left: 1em;
+    font-weight: 500;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #008cdd;
+}
+
+#cards ol {
+    list-style-type: none;
+    padding: 0;
+}
+  
+#cards .group {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 3% 80px 3%;
+}
+
+#cards ol li {
+    display: inline-block;
+}
+  
+#cards .group li {
+    width: 190px;
+    margin: 0.9em;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 1px 4px 6px #d8d8d8;
+    transition: box-shadow 0.4s;
+}
+  
+#cards .group li:hover {
+    box-shadow: 1px 4px 6px #bfbfbf;
+}
+  
+#cards .group img {
+    display: block;
+    width: 138px;
+    height: 138px;
+    margin: auto;
+    margin-top: 16px;
+}
+  
+#cards .group .text {
+    text-align: left;
+    margin: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+  
+#cards .group .text span {
+    display: block;
+}
+
+#cards .group .title {
+    font-size: 18px;
+    /*font-family: Roboto, Open Sans, Arial, sans-serif;
+    font-weight: 400;
+    text-align: center;*/
+    font-family: Open Sans, Arial, sans-serif;
+    font-weight: 600;
+    color: #000;
+}
+  
+#cards .group .description {
+    margin: 0.25em 0;
+    font-size: 15px;
+    font-family: Open Sans, Roboto, Arial, sans-serif;
+    color: #707070;
+}
+  
+#cards .group .category {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    color: #008CDB;
+}
+
+@media (max-width: 600px) {
+    #cards .group {
+        text-align: center;
+    }
+
+    #cards .group li {
+        width: 150px;
+        margin: 1.2%;
+    }
+
+    #cards .group img {
+        width: 100px;
+        height: 100px;
+    }
+
+    #cards .group .text {
+        margin: 8px;
+    }
+}
+
+@media (max-width: 710px) {
+    #cards .group {
+        text-align: center;
+    }
+}
