@@ -1,17 +1,18 @@
-const postHook = require('./posthook')
+const util = require('./util')
 
 module.exports = {
-  layouts: [
-    { path: '/apps/', layout: 'app.njk' },
-    { path: '/', layout: 'home.njk', data: 'categories.yaml' }
-  ],
-  build: {
-    distPath: 'public',
-    defaultLayout: 'default', /* necessary ? */
-  },
-  postHook: postHook.generateCategories,
   site: {
     title: 'ShortLib',
     description: ''
-  }
+  },
+  build: {
+    distPath: 'public'
+  },
+  layouts: [
+    { path: '/apps/', layout: 'app.njk' },
+    { path: '/index', layout: 'index.njk', data: 'data.yaml' }
+  ],
+  preHook: ((files) => {
+    util.generateData('public', files)
+  })
 }
