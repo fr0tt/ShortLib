@@ -1,0 +1,12 @@
+{% macro item(app) %}
+<li>
+    <a href="{{ app.link }}">
+    <img src="{{ app.link + '/' + app.image_src }}"/>
+    <div class="text">
+        <span class="title">{{ app.name }}</span>
+        {#- <span class="description">{{ .Summary }}</span> #}     
+        <span class="category">{{ app.category | default("unkown") }}</span> {# | join("-") #}
+    </div>
+    </a>
+</li>  
+{% endmacro %}

@@ -1,0 +1,22 @@
+{% import "macros/icons/add.njk" as add %} 
+{% import "macros/card.njk" as card %}
+
+{% extends "base.njk" %}
+
+{% block add_assets %}
+<link rel="stylesheet" href="/static/css/index.css" type="text/css"/>
+<link rel="stylesheet" href="/static/css/apps.css" type="text/css"/>
+{% endblock %}
+
+{% block main %} 
+<div id="cards" class="container">  
+    <h2>
+        Latest {# <a href="categories/latest">Latest</a> #}
+    </h2>
+    <ol class="group">
+    {% for app in Data.metainfo | sortByTime(true, "time") -%}
+        {{- card.item(app) -}}
+    {% endfor %}
+    </ol>  
+</div>
+{% endblock %}
