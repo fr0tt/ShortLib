@@ -34,6 +34,12 @@ module.exports = {
         })
     })
 
+    env.addFilter('joinArray', function (arr, del, arrDel) {
+        return arr.map(item => 
+            item.join(del)
+        ).join(arrDel)
+    })
+
     // copy assets folder
     fs.copy('static', `${distPath}/static`)
     .catch(err => { console.error(err) })

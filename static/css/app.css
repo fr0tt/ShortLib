@@ -317,6 +317,15 @@ h4 {
     font-family: Open Sans;
     font-size: 18px;
 }
+
+kbd {
+    padding: 0.15em 0.3em;
+    margin: 0 0.1em;
+    font-family: inherit;
+    border: 1px solid #bbbbbb;
+    background-color: #fff;
+    border-radius: 0.2em;
+}
   
 /*#shortcuts .section td.kbd {
     width: 40%;

@@ -7,11 +7,12 @@ by changing the sort method accordingly https://developer.mozilla.org/de/docs/We
 - [x] Page.path has to be available for every (content-)page
 - [x] copy every file in content to public but content files (so everything but .yaml) 
 - [x] logo lettering
-- [ ] mobile optimization
+- [x] mobile optimization
 
 ---
  
 - [x] Table of Content
+- [x] anchor for sections
 - [ ] watch mode: show some sign of everything-is-ok after an error but only once
 - [ ] support json as content type
 - [ ] app.njk: only show host instead of full URL as a costum filter with https://nodejs.org/api/url.html#url_url_host

@@ -109,29 +109,35 @@
 					{% for sectionName, section in collection %} 
 					<div>
 						<h2 id="{{ sectionName | replace(" ", "-") }}" v-show="!filterQuery">
-							{{- sectionName -}}
+							<a href="#{{ sectionName | replace(" ", "-") }}">
+								{{- sectionName -}}
+							</a>
 						</h2>
 						<table>
-							<tbody>
+							<tbody> 
 								{% for shortcut in section %}
 								<tr v-show="containsFilter('{{ shortcut.description | replace("'", "\'") }}')">
 									{%- if shortcut.hotkeys.win %}
 									<td v-show="selectedOS === 'win'">
-										{{- shortcut.hotkeys.win | join(" ") | replace(" or ", " <center>or</center> ") | safe -}}
+										<kbd>{{- shortcut.hotkeys.win | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
+										{# {{- shortcut.hotkeys.win | join(" ") | replace(" or ", " <center>or</center> ") | safe -}} #}
 									</td>
 									{% endif -%}
 									{%- if shortcut.hotkeys.mac %}
 									<td v-show="selectedOS === 'mac'">
-										{{- shortcut.hotkeys.mac | join(" ") | replace(" or ", " <center>or</center> ") | safe -}}
+										<kbd>{{- shortcut.hotkeys.mac | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
+										{# {{- shortcut.hotkeys.mac | join(" ") | replace(" or ", " <center>or</center> ") | safe -}} #}
 									</td>
 									{% endif -%}
 									{%- if shortcut.hotkeys.linux %}
 									<td v-show="selectedOS === 'linux'">
-										{{- shortcut.hotkeys.linux | join(" ") | replace(" or ", " <center>or</center> ") | safe -}}
+										<kbd>{{- shortcut.hotkeys.linux | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
+										{# - shortcut.hotkeys.linux | join(" ") | replace(" or ", " <center>or</center> ") | safe - #}}}
 									</td> 
 									{%- elif (generate_linux) and (shortcut.hotkeys.win) %}
 									<td v-show="selectedOS === 'linux'">
-										{{- shortcut.hotkeys.win | join(" ") | replace(" or ", " <center>or</center> ") | safe -}}
+										<kbd>{{- shortcut.hotkeys.win | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
+										{# {{- shortcut.hotkeys.win | join(" ") | replace(" or ", " <center>or</center> ") | safe -}} #}
 									</td>
 									{% endif -%}
 									<td class="description" v-html="highlight('{{ shortcut.description }}')">
