@@ -1,0 +1,1993 @@
+name: Visual Studio Code
+category: Developer
+image_src: icon.svg
+description: Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.
+developer: Microsoft
+website: 'https://code.visualstudio.com'
+OS:
+  - win
+  - mac
+  - linux
+generate_linux: true
+collection:
+    General:
+        - 
+            description: Show Command Palette
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - P
+                    - 
+                        - F1
+                mac:
+                    - 
+                        - ⇧
+                        - ⌘
+                        - P
+                    - 
+                        - F1
+        - 
+            description: 'Quick Open, Go to File…'
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - P
+                mac:
+                    - 
+                        - ⌘
+                        - P
+        - 
+            description: New window/instance
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - 'N'
+                mac:
+                    - 
+                        - ⇧
+                        - ⌘
+                        - 'N'
+        - 
+            description: Close window/instance
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - W
+                mac:
+                    - 
+                        - ⌘
+                        - W
+        - 
+            description: User Settings
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - ','
+                mac:
+                    - 
+                        - ⌘
+                        - ','
+        - 
+            description: Keyboard Shortcuts
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - Ctrl
+                        - S
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - ⌘
+                        - S
+    Basic editing:
+        - 
+            description: Copy line (empty selection)
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - C
+                mac:
+                    - 
+                        - ⌘
+                        - C
+        - 
+            description: Delete Line
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - K
+                mac:
+                    - 
+                        - ⇧
+                        - ⌘
+                        - K
+        - 
+            description: Insert Line Below
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Enter
+                mac:
+                    - 
+                        - ⌘
+                        - Enter
+        - 
+            description: Insert Line Above
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - Enter
+                mac:
+                    - 
+                        - ⇧
+                        - ⌘
+                        - Enter
+        - 
+            description: Move Line Down
+            hotkeys:
+                win:
+                    - 
+                        - Alt
+                        - Down
+                mac:
+                    - 
+                        - ⌥
+                        - ↓
+        - 
+            description: Move Line Up
+            hotkeys:
+                win:
+                    - 
+                        - Alt
+                        - Up
+                mac:
+                    - 
+                        - ⌥
+                        - ↑
+        - 
+            description: Copy Line Down
+            hotkeys:
+                win:
+                    - 
+                        - Shift
+                        - Alt
+                        - Down
+                mac:
+                    - 
+                        - ⇧
+                        - ⌥
+                        - ↓
+        - 
+            description: Copy Line Up
+            hotkeys:
+                win:
+                    - 
+                        - Shift
+                        - Alt
+                        - Up
+                mac:
+                    - 
+                        - ⇧
+                        - ⌥
+                        - ↑
+        - 
+            description: Add Selection To Next Find Match
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - D
+                mac:
+                    - 
+                        - ⌘
+                        - D
+        - 
+            description: Move Last Selection To Next Find Match
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - Ctrl
+                        - D
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - ⌘
+                        - D
+        - 
+            description: Undo last cursor operation
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - U
+                mac:
+                    - 
+                        - ⌘
+                        - U
+        - 
+            description: Insert cursor at end of each line selected
+            hotkeys:
+                win:
+                    - 
+                        - Shift
+                        - Alt
+                        - I
+                mac:
+                    - 
+                        - ⇧
+                        - ⌥
+                        - I
+        - 
+            description: Select all occurrences of current selection
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - L
+                mac:
+                    - 
+                        - ⇧
+                        - ⌘
+                        - L
+        - 
+            description: Select all occurrences of current word
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - F2
+                mac:
+                    - 
+                        - ⌘
+                        - F2
+        - 
+            description: Select current line
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - I
+                mac:
+                    - 
+                        - ⌘
+                        - I
+        - 
+            description: Insert Cursor Below
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Alt
+                        - Down
+                mac:
+                    - 
+                        - ⌥
+                        - ⌘
+                        - ↓
+        - 
+            description: Insert Cursor Above
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Alt
+                        - Up
+                mac:
+                    - 
+                        - ⌥
+                        - ⌘
+                        - ↑
+        - 
+            description: Jump to matching bracket
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - "\\"
+                mac:
+                    - 
+                        - ⇧
+                        - ⌘
+                        - "\\"
+        - 
+            description: Indent Line
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - ']'
+                mac:
+                    - 
+                        - ⌘
+                        - ']'
+        - 
+            description: Outdent Line
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - '['
+                mac:
+                    - 
+                        - ⌘
+                        - '['
+        - 
+            description: Go to Beginning of Line
+            hotkeys:
+                win:
+                    - 
+                        - Home
+                mac:
+                    - 
+                        - Home
+        - 
+            description: Go to End of Line
+            hotkeys:
+                win:
+                    - 
+                        - End
+                mac:
+                    - 
+                        - End
+        - 
+            description: Go to End of File
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - End
+                mac:
+                    - 
+                        - ⌘↓
+        - 
+            description: Go to Beginning of File
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Home
+                mac:
+                    - 
+                        - ⌘↑
+        - 
+            description: Scroll Line Down
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Down
+                mac:
+                    - 
+                        - ⌃
+                        - Pagedown
+        - 
+            description: Scroll Line Up
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Up
+                mac:
+                    - 
+                        - ⌃
+                        - Pageup
+        - 
+            description: Scroll Page Down
+            hotkeys:
+                win:
+                    - 
+                        - Alt
+                        - Pagedown
+                mac:
+                    - 
+                        - ⌘
+                        - Pagedown
+        - 
+            description: Scroll Page Up
+            hotkeys:
+                win:
+                    - 
+                        - Alt
+                        - Pageup
+                mac:
+                    - 
+                        - ⌘
+                        - Pageup
+        - 
+            description: Fold (collapse) region
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - '['
+                mac:
+                    - 
+                        - ⌥
+                        - ⌘
+                        - '['
+        - 
+            description: Unfold (uncollapse) region
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - ']'
+                mac:
+                    - 
+                        - ⌥
+                        - ⌘
+                        - ']'
+        - 
+            description: Fold (collapse) all subregions
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - Ctrl
+                        - '['
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - ⌘
+                        - '['
+        - 
+            description: Unfold (uncollapse) all subregions
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - Ctrl
+                        - ']'
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - ⌘
+                        - ']'
+        - 
+            description: Fold (collapse) all regions
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - Ctrl
+                        - '0'
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - ⌘
+                        - '0'
+        - 
+            description: Unfold (uncollapse) all regions
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - Ctrl
+                        - J
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - ⌘
+                        - J
+        - 
+            description: Add Line Comment
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - Ctrl
+                        - C
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - ⌘
+                        - C
+        - 
+            description: Remove Line Comment
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - Ctrl
+                        - U
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - ⌘
+                        - U
+        - 
+            description: Toggle Line Comment
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - /
+                mac:
+                    - 
+                        - ⌘
+                        - /
+        - 
+            description: Toggle Block Comment
+            hotkeys:
+                win:
+                    - 
+                        - Shift
+                        - Alt
+                        - A
+                mac:
+                    - 
+                        - ⇧
+                        - ⌥
+                        - A
+        - 
+            description: Find
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - F
+                mac:
+                    - 
+                        - ⌘
+                        - F
+        - 
+            description: Replace
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - H
+                mac:
+                    - 
+                        - ⌥
+                        - ⌘
+                        - F
+        - 
+            description: Find Next
+            hotkeys:
+                win:
+                    - 
+                        - F3
+                mac:
+                    - 
+                        - ⌘
+                        - G
+        - 
+            description: Find Previous
+            hotkeys:
+                win:
+                    - 
+                        - Shift
+                        - F3
+                mac:
+                    - 
+                        - ⇧
+                        - ⌘
+                        - G
+        - 
+            description: Select All Occurrences of Find Match
+            hotkeys:
+                win:
+                    - 
+                        - Alt
+                        - Enter
+                mac:
+                    - 
+                        - ⌥
+                        - Enter
+        - 
+            description: Toggle Find Case Sensitive
+            hotkeys:
+                win:
+                    - 
+                        - Alt
+                        - C
+                mac:
+                    - 
+                        - ⌥
+                        - ⌘
+                        - C
+        - 
+            description: Toggle Find Regex
+            hotkeys:
+                win:
+                    - 
+                        - Alt
+                        - R
+                mac:
+                    - 
+                        - ⌥
+                        - ⌘
+                        - R
+        - 
+            description: Toggle Find Whole Word
+            hotkeys:
+                win:
+                    - 
+                        - Alt
+                        - W
+                mac:
+                    - 
+                        - ⌥
+                        - ⌘
+                        - W
+        - 
+            description: Toggle Use of Tab Key for Setting Focus
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - M
+                mac:
+                    - 
+                        - ⌃
+                        - ⇧
+                        - M
+        - 
+            description: Toggle Render Whitespace
+            hotkeys:
+                win:
+                    - 
+                        - Unassigned
+                mac:
+                    - 
+                        - Unassigned
+        - 
+            description: Toggle Word Wrap
+            hotkeys:
+                win:
+                    - 
+                        - Alt
+                        - Z
+                mac:
+                    - 
+                        - ⌥
+                        - Z
+    Rich languages editing:
+        - 
+            description: Trigger Suggest
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Space
+                mac:
+                    - 
+                        - ⌃
+                        - Space
+        - 
+            description: Trigger Parameter Hints
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - Space
+                mac:
+                    - 
+                        - ⇧
+                        - ⌘
+                        - Space
+        - 
+            description: Format Document
+            hotkeys:
+                win:
+                    - 
+                        - Shift
+                        - Alt
+                        - F
+                mac:
+                    - 
+                        - ⇧
+                        - ⌥
+                        - F
+        - 
+            description: Format Selection
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - Ctrl
+                        - F
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - ⌘
+                        - F
+        - 
+            description: Go to Definition
+            hotkeys:
+                win:
+                    - 
+                        - F12
+                mac:
+                    - 
+                        - F12
+        - 
+            description: Show Hover
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - Ctrl
+                        - I
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - ⌘
+                        - I
+        - 
+            description: Peek Definition
+            hotkeys:
+                win:
+                    - 
+                        - Alt
+                        - F12
+                mac:
+                    - 
+                        - ⌥
+                        - F12
+        - 
+            description: Open Definition to the Side
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - F12
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - F12
+        - 
+            description: Quick Fix
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - .
+                mac:
+                    - 
+                        - ⌘
+                        - .
+        - 
+            description: Show References
+            hotkeys:
+                win:
+                    - 
+                        - Shift
+                        - F12
+                mac:
+                    - 
+                        - ⇧
+                        - F12
+        - 
+            description: Rename Symbol
+            hotkeys:
+                win:
+                    - 
+                        - F2
+                mac:
+                    - 
+                        - F2
+        - 
+            description: Replace with Next Value
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - .
+                mac:
+                    - 
+                        - ⇧
+                        - ⌘
+                        - .
+        - 
+            description: Replace with Previous Value
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - ','
+                mac:
+                    - 
+                        - ⇧
+                        - ⌘
+                        - ','
+        - 
+            description: Expand AST Select
+            hotkeys:
+                win:
+                    - 
+                        - Shift
+                        - Alt
+                        - Right
+                mac:
+                    - 
+                        - ⌃
+                        - ⇧
+                        - ⌘
+                        - →
+        - 
+            description: Shrink AST Select
+            hotkeys:
+                win:
+                    - 
+                        - Shift
+                        - Alt
+                        - Left
+                mac:
+                    - 
+                        - ⌃
+                        - ⇧
+                        - ⌘
+                        - ←
+        - 
+            description: Trim Trailing Whitespace
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - Ctrl
+                        - X
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - ⌘
+                        - X
+        - 
+            description: Change Language Mode
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - M
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - M
+    Navigation:
+        - 
+            description: Show All Symbols
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - T
+                mac:
+                    - 
+                        - ⌘
+                        - T
+        - 
+            description: Go to Line...
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - G
+                mac:
+                    - 
+                        - ⌃
+                        - G
+        - 
+            description: 'Go to File..., Quick Open'
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - P
+                mac:
+                    - 
+                        - ⌘
+                        - P
+        - 
+            description: Go to Symbol...
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - O
+                mac:
+                    - 
+                        - ⇧
+                        - ⌘
+                        - O
+        - 
+            description: Show Problems
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - M
+                mac:
+                    - 
+                        - ⇧
+                        - ⌘
+                        - M
+        - 
+            description: Go to Next Error or Warning
+            hotkeys:
+                win:
+                    - 
+                        - F8
+                mac:
+                    - 
+                        - F8
+        - 
+            description: Go to Previous Error or Warning
+            hotkeys:
+                win:
+                    - 
+                        - Shift
+                        - F8
+                mac:
+                    - 
+                        - ⇧
+                        - F8
+        - 
+            description: Show All Commands
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - P
+                mac:
+                    - 
+                        - ⇧
+                        - ⌘
+                        - P
+        - 
+            description: Navigate Editor Group History
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - Tab
+                mac:
+                    - 
+                        - ⌃
+                        - ⇧
+                        - Tab
+        - 
+            description: Go Back
+            hotkeys:
+                win:
+                    - 
+                        - Alt
+                        - Left
+                mac:
+                    - 
+                        - ⌃
+                        - '-'
+        - 
+            description: Go Forward
+            hotkeys:
+                win:
+                    - 
+                        - Alt
+                        - Right
+                mac:
+                    - 
+                        - ⌃
+                        - ⇧
+                        - '-'
+    Editor/Window Management:
+        - 
+            description: Close Window
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - W
+                mac:
+                    - 
+                        - ⌘
+                        - W
+        - 
+            description: Close Editor
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - F4
+                mac:
+                    - 
+                        - ⌘
+                        - W
+        - 
+            description: Close Folder
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - F
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - F
+        - 
+            description: Cycle Between Editor Groups
+            hotkeys:
+                win:
+                    - 
+                        - Unassigned
+                mac:
+                    - 
+                        - Unassigned
+        - 
+            description: Split Editor
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - "\\"
+                mac:
+                    - 
+                        - ⌘
+                        - "\\"
+        - 
+            description: Focus into First Editor Group
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - '1'
+                mac:
+                    - 
+                        - ⌘
+                        - '1'
+        - 
+            description: Focus into Second Editor Group
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - '2'
+                mac:
+                    - 
+                        - ⌘
+                        - '2'
+        - 
+            description: Focus into Third Editor Group
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - '3'
+                mac:
+                    - 
+                        - ⌘
+                        - '3'
+        - 
+            description: Focus into Editor Group on the Left
+            hotkeys:
+                win:
+                    - 
+                        - Unassigned
+                mac:
+                    - 
+                        - Unassigned
+        - 
+            description: Focus into Editor Group on the Right
+            hotkeys:
+                win:
+                    - 
+                        - Unassigned
+                mac:
+                    - 
+                        - Unassigned
+        - 
+            description: Move Editor Left
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - Pageup
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - ⇧
+                        - ⌘
+                        - ←
+        - 
+            description: Move Editor Right
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - Pagedown
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - ⇧
+                        - ⌘
+                        - →
+        - 
+            description: Move Active Editor Group Left
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - Left
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - ←
+        - 
+            description: Move Active Editor Group Right
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - Right
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - →
+        - 
+            description: Move Editor into Next Group
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Alt
+                        - Right
+                mac:
+                    - 
+                        - ⌃
+                        - ⌘→
+        - 
+            description: Move Editor into Previous Group
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Alt
+                        - Left
+                mac:
+                    - 
+                        - ⌃
+                        - ⌘←
+    File Management:
+        - 
+            description: Open File...
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - O
+                mac:
+                    - 
+                        - Unassigned
+        - 
+            description: Save
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - S
+                mac:
+                    - 
+                        - ⌘
+                        - S
+        - 
+            description: Save All
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - S
+                mac:
+                    - 
+                        - ⌥
+                        - ⌘
+                        - S
+        - 
+            description: Save As...
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - S
+                mac:
+                    - 
+                        - ⇧
+                        - ⌘
+                        - S
+        - 
+            description: Close
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - F4
+                mac:
+                    - 
+                        - ⌘
+                        - W
+        - 
+            description: Close Others
+            hotkeys:
+                win:
+                    - 
+                        - Unassigned
+                mac:
+                    - 
+                        - ⌥
+                        - ⌘
+                        - T
+        - 
+            description: Close Group
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - W
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - W
+        - 
+            description: Close Other Groups
+            hotkeys:
+                win:
+                    - 
+                        - Unassigned
+                mac:
+                    - 
+                        - Unassigned
+        - 
+            description: Close Group to Left
+            hotkeys:
+                win:
+                    - 
+                        - Unassigned
+                mac:
+                    - 
+                        - Unassigned
+        - 
+            description: Close Group to Right
+            hotkeys:
+                win:
+                    - 
+                        - Unassigned
+                mac:
+                    - 
+                        - Unassigned
+        - 
+            description: Close All
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - Ctrl
+                        - W
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - ⌘
+                        - W
+        - 
+            description: Reopen Closed Editor
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - T
+                mac:
+                    - 
+                        - ⇧
+                        - ⌘
+                        - T
+        - 
+            description: Keep Open
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - Enter
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - Enter
+        - 
+            description: Open Next
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Tab
+                mac:
+                    - 
+                        - ⌃
+                        - Tab
+        - 
+            description: Open Previous
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - Tab
+                mac:
+                    - 
+                        - ⌃
+                        - ⇧
+                        - Tab
+        - 
+            description: Copy Path of Active File
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - P
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - P
+        - 
+            description: Reveal Active File in Windows
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - R
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - R
+        - 
+            description: Show Opened File in New Window
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - O
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - O
+        - 
+            description: Compare Opened File With
+            hotkeys:
+                win:
+                    - 
+                        - Unassigned
+                mac:
+                    - 
+                        - Unassigned
+    Display:
+        - 
+            description: Toggle Zen Mode
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - Z
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - Z
+        - 
+            description: Leave Zen Mode
+            hotkeys:
+                win:
+                    - 
+                        - Escape
+                        - Escape
+                mac:
+                    - 
+                        - Escape
+                        - Escape
+        - 
+            description: Zoom in
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - =
+                mac:
+                    - 
+                        - ⌘
+                        - =
+        - 
+            description: Zoom out
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - '-'
+                mac:
+                    - 
+                        - ⌘
+                        - '-'
+        - 
+            description: Reset Zoom
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Numpad0
+                mac:
+                    - 
+                        - ⌘
+                        - Numpad0
+        - 
+            description: Toggle Sidebar Visibility
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - B
+                mac:
+                    - 
+                        - ⌘
+                        - B
+        - 
+            description: Show Explorer / Toggle Focus
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - E
+                mac:
+                    - 
+                        - ⇧
+                        - ⌘
+                        - E
+        - 
+            description: Show Search
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - F
+                mac:
+                    - 
+                        - ⇧
+                        - ⌘
+                        - F
+        - 
+            description: Show Source Control
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - G
+                mac:
+                    - 
+                        - ⌃
+                        - ⇧
+                        - G
+        - 
+            description: Show Debug
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - D
+                mac:
+                    - 
+                        - ⇧
+                        - ⌘
+                        - D
+        - 
+            description: Show Extensions
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - X
+                mac:
+                    - 
+                        - ⇧
+                        - ⌘
+                        - X
+        - 
+            description: Show Output
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - U
+                mac:
+                    - 
+                        - ⇧
+                        - ⌘
+                        - U
+        - 
+            description: Quick Open View
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Q
+                mac:
+                    - 
+                        - ⌃
+                        - Q
+        - 
+            description: Open New Command Prompt
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - C
+                mac:
+                    - 
+                        - ⇧
+                        - ⌘
+                        - C
+        - 
+            description: Toggle Markdown Preview
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - V
+                mac:
+                    - 
+                        - ⇧
+                        - ⌘
+                        - V
+        - 
+            description: Open Preview to the Side
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - V
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - V
+        - 
+            description: Toggle Integrated Terminal
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - '`'
+                mac:
+                    - 
+                        - ⌃
+                        - '`'
+    Search:
+        - 
+            description: Replace in Files
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - H
+                mac:
+                    - 
+                        - ⇧
+                        - ⌘
+                        - H
+        - 
+            description: Toggle Match Case
+            hotkeys:
+                win:
+                    - 
+                        - Alt
+                        - C
+                mac:
+                    - 
+                        - ⌥
+                        - ⌘
+                        - C
+        - 
+            description: Toggle Match Whole Word
+            hotkeys:
+                win:
+                    - 
+                        - Alt
+                        - W
+                mac:
+                    - 
+                        - ⌥
+                        - ⌘
+                        - W
+        - 
+            description: Toggle Use Regular Expression
+            hotkeys:
+                win:
+                    - 
+                        - Alt
+                        - R
+                mac:
+                    - 
+                        - ⌥
+                        - ⌘
+                        - R
+        - 
+            description: Toggle Search Details
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - J
+                mac:
+                    - 
+                        - ⇧
+                        - ⌘
+                        - J
+        - 
+            description: Focus Next Search Result
+            hotkeys:
+                win:
+                    - 
+                        - F4
+                mac:
+                    - 
+                        - F4
+        - 
+            description: Focus Previous Search Result
+            hotkeys:
+                win:
+                    - 
+                        - Shift
+                        - F4
+                mac:
+                    - 
+                        - ⇧
+                        - F4
+        - 
+            description: Show Next Search Term
+            hotkeys:
+                win:
+                    - 
+                        - Down
+                mac:
+                    - 
+                        - ↓
+        - 
+            description: Show Previous Search Term
+            hotkeys:
+                win:
+                    - 
+                        - Up
+                mac:
+                    - 
+                        - ↑
+    Preferences:
+        - 
+            description: Open Workspace Settings
+            hotkeys:
+                win:
+                    - 
+                        - Unassigned
+                mac:
+                    - 
+                        - Unassigned
+        - 
+            description: Open Keyboard Shortcuts
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - Ctrl
+                        - S
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - ⌘
+                        - S
+        - 
+            description: Open User Snippets
+            hotkeys:
+                win:
+                    - 
+                        - Unassigned
+                mac:
+                    - 
+                        - Unassigned
+        - 
+            description: Select Color Theme
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - Ctrl
+                        - T
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - ⌘
+                        - T
+        - 
+            description: Configure Display Language
+            hotkeys:
+                win:
+                    - 
+                        - Unassigned
+                mac:
+                    - 
+                        - Unassigned
+    Debug:
+        - 
+            description: Start
+            hotkeys:
+                win:
+                    - 
+                        - F5
+                mac:
+                    - 
+                        - F5
+        - 
+            description: Continue
+            hotkeys:
+                win:
+                    - 
+                        - F5
+                mac:
+                    - 
+                        - F5
+        - 
+            description: Start (without debugging)
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - F5
+                mac:
+                    - 
+                        - ⌃
+                        - F5
+        - 
+            description: Pause
+            hotkeys:
+                win:
+                    - 
+                        - F6
+                mac:
+                    - 
+                        - F6
+        - 
+            description: Step Into
+            hotkeys:
+                win:
+                    - 
+                        - F11
+                mac:
+                    - 
+                        - F11
+        - 
+            description: Step Out
+            hotkeys:
+                win:
+                    - 
+                        - Shift
+                        - F11
+                mac:
+                    - 
+                        - ⇧
+                        - F11
+        - 
+            description: Step Over
+            hotkeys:
+                win:
+                    - 
+                        - F10
+                mac:
+                    - 
+                        - F10
+        - 
+            description: Stop
+            hotkeys:
+                win:
+                    - 
+                        - Shift
+                        - F5
+                mac:
+                    - 
+                        - ⇧
+                        - F5
+        - 
+            description: Show Hover
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - K
+                        - Ctrl
+                        - I
+                mac:
+                    - 
+                        - ⌘
+                        - K
+                        - ⌘
+                        - I
+    Tasks:
+        - 
+            description: Run Test Task
+            hotkeys:
+                win:
+                    - 
+                        - Unassigned
+                mac:
+                    - 
+                        - Unassigned
+    Integrated Terminal:
+        - 
+            description: Show integrated terminal
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - '`'
+                mac:
+                    - 
+                        - ⌃
+                        - '`'
+        - 
+            description: Create new terminal
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Shift
+                        - '`'
+                mac:
+                    - 
+                        - ⌃
+                        - ⇧
+                        - '`'
+        - 
+            description: Copy selection
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - C
+                mac:
+                    - 
+                        - ⌘
+                        - C
+        - 
+            description: Paste into active terminal
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - V
+                mac:
+                    - 
+                        - ''
+        - 
+            description: Scroll up/down
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - ↑
+                        - /
+                        - ↓
+                mac:
+                    - 
+                        - ⌘↑
+                        - /
+        - 
+            description: Scroll page up/down
+            hotkeys:
+                win:
+                    - 
+                        - Shift
+                        - Pgup
+                        - /
+                        - Pgdn
+                mac:
+                    - 
+                        - Pgup
+                        - /
+                        - Pgdn
+        - 
+            description: Scroll to top/bottom
+            hotkeys:
+                win:
+                    - 
+                        - Ctrl
+                        - Home
+                        - /
+                        - End
+                mac:
+                    - 
+                        - ⌘
+                        - Home
+                        - /
+                        - End
