@@ -15,7 +15,7 @@ let vue = new Vue({
             return value.toLowerCase().indexOf(this.filterQuery.toLowerCase()) !== -1
         },
         highlight: function (value) {
-            return value.replace(new RegExp(this.filterQuery, 'gi'), '<mark>$&</mark>')
+            return this.filterQuery === '' ? value : value.replace(new RegExp(this.filterQuery, 'gi'), '<mark>$&</mark>')
         },
         showOSAsAnOption: function (os) {
             if (this.selectedOS === os) {
