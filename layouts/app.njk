@@ -116,7 +116,7 @@
 						<table>
 							<tbody> 
 								{% for shortcut in section %}
-								<tr v-show="containsFilter('{{ shortcut.description | replace("'", "\'") }}')">
+								<tr v-show="containsFilter('{{ shortcut.description | escape | forceescape }}')">
 									{%- if shortcut.hotkeys.win %}
 									<td v-show="selectedOS === 'win'">
 										<kbd>{{- shortcut.hotkeys.win | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
@@ -140,11 +140,11 @@
 										{# {{- shortcut.hotkeys.win | join(" ") | replace(" or ", " <center>or</center> ") | safe -}} #}
 									</td>
 									{% endif -%}
-									<td class="description" v-html="highlight('{{ shortcut.description }}')">
+									<td class="description" v-html="highlight('{{ shortcut.description | escape | forceescape }}')">
 										{{- shortcut.description -}}
 									</td>
 								</tr>
-								{% endfor %}
+								{% endfor %} 
 							</tbody>
 						</table>
 					</div>
