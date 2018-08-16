@@ -14,1879 +14,2163 @@ collection:
             description: Copy
             hotkeys:
                 win:
-                    - Ctrl
-                    - C
+                    - 
+                        - Ctrl
+                        - C
                 mac:
-                    - ⌘
-                    - C
+                    - 
+                        - ⌘
+                        - C
         - 
             description: Cut
             hotkeys:
                 win:
-                    - Ctrl
-                    - X
+                    - 
+                        - Ctrl
+                        - X
                 mac:
-                    - ⌘
-                    - X
+                    - 
+                        - ⌘
+                        - X
         - 
             description: Paste
             hotkeys:
                 win:
-                    - Ctrl
-                    - V
+                    - 
+                        - Ctrl
+                        - V
                 mac:
-                    - ⌘
-                    - V
+                    - 
+                        - ⌘
+                        - V
         - 
             description: Paste without formatting
             hotkeys:
                 win:
-                    - Ctrl
-                    - Shift
-                    - V
+                    - 
+                        - Ctrl
+                        - Shift
+                        - V
                 mac:
-                    - ⌘
-                    - Shift
-                    - V
+                    - 
+                        - ⌘
+                        - Shift
+                        - V
         - 
             description: Undo
             hotkeys:
                 win:
-                    - Ctrl
-                    - Z
+                    - 
+                        - Ctrl
+                        - Z
                 mac:
-                    - ⌘
-                    - Z
+                    - 
+                        - ⌘
+                        - Z
         - 
             description: Redo
             hotkeys:
                 win:
-                    - Ctrl
-                    - Shift
-                    - Z
+                    - 
+                        - Ctrl
+                        - Shift
+                        - Z
                 mac:
-                    - ⌘
-                    - Shift
-                    - Z
+                    - 
+                        - ⌘
+                        - Shift
+                        - Z
         - 
             description: Insert + or + edit + link
             hotkeys:
                 win:
-                    - Ctrl
-                    - K
+                    - 
+                        - Ctrl
+                        - K
                 mac:
-                    - ⌘
-                    - K
+                    - 
+                        - ⌘
+                        - K
         - 
             description: Open link
             hotkeys:
                 win:
-                    - Alt
-                    - Enter
+                    - 
+                        - Alt
+                        - Enter
                 mac:
-                    - Option
-                    - Enter
+                    - 
+                        - Option
+                        - Enter
         - 
             description: Show common keyboard shortcuts
             hotkeys:
                 win:
-                    - Ctrl
-                    - /
+                    - 
+                        - Ctrl
+                        - /
                 mac:
-                    - ⌘
-                    - /
+                    - 
+                        - ⌘
+                        - /
         - 
             description: Save Every change is automatically saved in Drive
             hotkeys:
                 win:
-                    - Ctrl
-                    - S
+                    - 
+                        - Ctrl
+                        - S
                 mac:
-                    - ⌘
-                    - S
+                    - 
+                        - ⌘
+                        - S
         - 
             description: Print
             hotkeys:
                 win:
-                    - Ctrl
-                    - P
+                    - 
+                        - Ctrl
+                        - P
                 mac:
-                    - ⌘
-                    - P
+                    - 
+                        - ⌘
+                        - P
         - 
             description: Open
             hotkeys:
                 win:
-                    - Ctrl
-                    - O
+                    - 
+                        - Ctrl
+                        - O
                 mac:
-                    - ⌘
-                    - O
+                    - 
+                        - ⌘
+                        - O
         - 
             description: Find
             hotkeys:
                 win:
-                    - Ctrl
-                    - F
+                    - 
+                        - Ctrl
+                        - F
                 mac:
-                    - ⌘
-                    - F
+                    - 
+                        - ⌘
+                        - F
         - 
             description: Find and replace
             hotkeys:
                 win:
-                    - Ctrl
-                    - H
+                    - 
+                        - Ctrl
+                        - H
                 mac:
-                    - ⌘
-                    - Shift
-                    - H
+                    - 
+                        - ⌘
+                        - Shift
+                        - H
         - 
             description: Find again
             hotkeys:
                 win:
-                    - Ctrl
-                    - G
+                    - 
+                        - Ctrl
+                        - G
                 mac:
-                    - ⌘
-                    - G
+                    - 
+                        - ⌘
+                        - G
         - 
             description: Find previous
             hotkeys:
                 win:
-                    - Ctrl
-                    - Shift
-                    - G
+                    - 
+                        - Ctrl
+                        - Shift
+                        - G
                 mac:
-                    - ⌘
-                    - Shift
-                    - G
+                    - 
+                        - ⌘
+                        - Shift
+                        - G
         - 
             description: Hide the menus (compact mode)
             hotkeys:
                 win:
-                    - Ctrl
-                    - Shift
-                    - F
+                    - 
+                        - Ctrl
+                        - Shift
+                        - F
                 mac:
-                    - Ctrl
-                    - Shift
-                    - F
+                    - 
+                        - Ctrl
+                        - Shift
+                        - F
         - 
             description: Insert page break
             hotkeys:
                 win:
-                    - Ctrl
-                    - Enter
+                    - 
+                        - Ctrl
+                        - Enter
                 mac:
-                    - ⌘
-                    - Enter
+                    - 
+                        - ⌘
+                        - Enter
         - 
             description: Search the menus
             hotkeys:
                 win:
-                    - Alt
-                    - /
-                    - or
-                    - Alt
-                    - Shift
-                    - Z
-                    - or
-                    - Alt
-                    - Z
+                    - 
+                        - Alt
+                        - /
+                    - 
+                        - Alt
+                        - Shift
+                        - Z
+                    - 
+                        - Alt
+                        - Z
                 mac:
-                    - Option
-                    - '/<Br>'
-                    - Ctrl
-                    - Option
-                    - 'Z<Br>'
-                    - '<Em>Mozilla'
-                    - 'Firefox:</Em>Ctrl'
-                    - '~'
+                    - 
+                        - Option
+                        - '/<Br>'
+                        - Ctrl
+                        - Option
+                        - 'Z<Br>'
+                        - '<Em>Mozilla'
+                        - 'Firefox:</Em>Ctrl'
+                        - '~'
     Text formatting:
         - 
             description: Bold
             hotkeys:
                 win:
-                    - Ctrl
-                    - B
+                    - 
+                        - Ctrl
+                        - B
                 mac:
-                    - ⌘
-                    - B
+                    - 
+                        - ⌘
+                        - B
         - 
             description: Italicize
             hotkeys:
                 win:
-                    - Ctrl
-                    - I
+                    - 
+                        - Ctrl
+                        - I
                 mac:
-                    - ⌘
-                    - I
+                    - 
+                        - ⌘
+                        - I
         - 
             description: Underline
             hotkeys:
                 win:
-                    - Ctrl
-                    - U
+                    - 
+                        - Ctrl
+                        - U
                 mac:
-                    - ⌘
-                    - U
+                    - 
+                        - ⌘
+                        - U
         - 
             description: Strikethrough
             hotkeys:
                 win:
-                    - Alt
-                    - Shift
-                    - '5'
+                    - 
+                        - Alt
+                        - Shift
+                        - '5'
                 mac:
-                    - ⌘
-                    - Shift
-                    - X
+                    - 
+                        - ⌘
+                        - Shift
+                        - X
         - 
             description: Superscript
             hotkeys:
                 win:
-                    - Ctrl
-                    - .
+                    - 
+                        - Ctrl
+                        - .
                 mac:
-                    - ⌘
-                    - .
+                    - 
+                        - ⌘
+                        - .
         - 
             description: Subscript
             hotkeys:
                 win:
-                    - Ctrl
-                    - ''
-                    - ''
+                    - 
+                        - Ctrl
+                        - ''
+                        - ''
                 mac:
-                    - ⌘
-                    - ''
-                    - ''
+                    - 
+                        - ⌘
+                        - ''
+                        - ''
         - 
             description: Copy text formatting
             hotkeys:
                 win:
-                    - Ctrl
-                    - Alt
-                    - C
+                    - 
+                        - Ctrl
+                        - Alt
+                        - C
                 mac:
-                    - ⌘
-                    - Option
-                    - C
+                    - 
+                        - ⌘
+                        - Option
+                        - C
         - 
             description: Paste text formatting
             hotkeys:
                 win:
-                    - Ctrl
-                    - Alt
-                    - V
+                    - 
+                        - Ctrl
+                        - Alt
+                        - V
                 mac:
-                    - ⌘
-                    - Option
-                    - V
+                    - 
+                        - ⌘
+                        - Option
+                        - V
         - 
             description: Clear text formatting
             hotkeys:
                 win:
-                    - Ctrl
-                    - "\\"
-                    - or
-                    - Ctrl
-                    - Space
+                    - 
+                        - Ctrl
+                        - "\\"
+                    - 
+                        - Ctrl
+                        - Space
                 mac:
-                    - ⌘
-                    - "\\"
+                    - 
+                        - ⌘
+                        - "\\"
         - 
             description: Increase font size
             hotkeys:
                 win:
-                    - Ctrl
-                    - Shift
-                    - '&Amp;Amp;Gt;'
+                    - 
+                        - Ctrl
+                        - Shift
+                        - '&Amp;Amp;Amp;Gt;'
                 mac:
-                    - ⌘
-                    - Shift
-                    - ≫
+                    - 
+                        - ⌘
+                        - Shift
+                        - ≫
         - 
             description: Decrease font size
             hotkeys:
                 win:
-                    - Ctrl
-                    - Shift
-                    - '&Amp;Amp;Lt;'
+                    - 
+                        - Ctrl
+                        - Shift
+                        - '&Amp;Amp;Amp;Lt;'
                 mac:
-                    - ⌘
-                    - Shift
-                    - ≪
+                    - 
+                        - ⌘
+                        - Shift
+                        - ≪
     Paragraph-formatting:
         - 
             description: Increase paragraph indentation
             hotkeys:
                 win:
-                    - Ctrl
-                    - ']'
+                    - 
+                        - Ctrl
+                        - ']'
                 mac:
-                    - ⌘
-                    - ']'
+                    - 
+                        - ⌘
+                        - ']'
         - 
             description: Decrease paragraph indentation
             hotkeys:
                 win:
-                    - Ctrl
-                    - '['
+                    - 
+                        - Ctrl
+                        - '['
                 mac:
-                    - ⌘
-                    - '['
+                    - 
+                        - ⌘
+                        - '['
         - 
             description: Apply normal text style
             hotkeys:
                 win:
-                    - Ctrl
-                    - Alt
-                    - '0'
+                    - 
+                        - Ctrl
+                        - Alt
+                        - '0'
                 mac:
-                    - ⌘
-                    - Option
-                    - O
+                    - 
+                        - ⌘
+                        - Option
+                        - O
         - 
             description: 'Apply heading style [1-6]'
             hotkeys:
                 win:
-                    - Ctrl
-                    - Alt
-                    - '[1-6]'
+                    - 
+                        - Ctrl
+                        - Alt
+                        - '[1-6]'
                 mac:
-                    - ⌘
-                    - Option
-                    - '+[1-6]'
+                    - 
+                        - ⌘
+                        - Option
+                        - '+[1-6]'
         - 
             description: Left align
             hotkeys:
                 win:
-                    - Ctrl
-                    - Shift
-                    - L
+                    - 
+                        - Ctrl
+                        - Shift
+                        - L
                 mac:
-                    - ⌘
-                    - Shift
-                    - L
+                    - 
+                        - ⌘
+                        - Shift
+                        - L
         - 
             description: Center align
             hotkeys:
                 win:
-                    - Ctrl
-                    - Shift
-                    - E
+                    - 
+                        - Ctrl
+                        - Shift
+                        - E
                 mac:
-                    - ⌘
-                    - Shift
-                    - E
+                    - 
+                        - ⌘
+                        - Shift
+                        - E
         - 
             description: Right align
             hotkeys:
                 win:
-                    - Ctrl
-                    - Shift
-                    - R
+                    - 
+                        - Ctrl
+                        - Shift
+                        - R
                 mac:
-                    - ⌘
-                    - Shift
-                    - R
+                    - 
+                        - ⌘
+                        - Shift
+                        - R
         - 
             description: Justify
             hotkeys:
                 win:
-                    - Ctrl
-                    - Shift
-                    - J
+                    - 
+                        - Ctrl
+                        - Shift
+                        - J
                 mac:
-                    - ⌘
-                    - Shift
-                    - J
+                    - 
+                        - ⌘
+                        - Shift
+                        - J
         - 
             description: Numbered list
             hotkeys:
                 win:
-                    - Ctrl
-                    - Shift
-                    - '7'
+                    - 
+                        - Ctrl
+                        - Shift
+                        - '7'
                 mac:
-                    - ⌘
-                    - Shift
-                    - '7'
+                    - 
+                        - ⌘
+                        - Shift
+                        - '7'
         - 
             description: Bulleted list
             hotkeys:
                 win:
-                    - Ctrl
-                    - Shift
-                    - '8'
+                    - 
+                        - Ctrl
+                        - Shift
+                        - '8'
                 mac:
-                    - ⌘
-                    - Shift
-                    - '8'
+                    - 
+                        - ⌘
+                        - Shift
+                        - '8'
         - 
             description: Move paragraph up/down
             hotkeys:
                 win:
-                    - Alt
-                    - Shift
-                    - Up/Down
-                    - Arrow
+                    - 
+                        - Alt
+                        - Shift
+                        - Up/Down
+                        - Arrow
                 mac:
-                    - ''
+                    - 
+                        - ''
     Images-and-drawings:
         - 
             description: Resize larger
             hotkeys:
                 win:
-                    - Ctrl
-                    - Alt
-                    - K
+                    - 
+                        - Ctrl
+                        - Alt
+                        - K
                 mac:
-                    - ⌘
-                    - Ctrl
-                    - K
+                    - 
+                        - ⌘
+                        - Ctrl
+                        - K
         - 
             description: Resize larger horizontally
             hotkeys:
                 win:
-                    - Ctrl
-                    - Alt
-                    - B
+                    - 
+                        - Ctrl
+                        - Alt
+                        - B
                 mac:
-                    - ⌘
-                    - Ctrl
-                    - B
+                    - 
+                        - ⌘
+                        - Ctrl
+                        - B
         - 
             description: Resize larger vertically
             hotkeys:
                 win:
-                    - Ctrl
-                    - Alt
-                    - I
+                    - 
+                        - Ctrl
+                        - Alt
+                        - I
                 mac:
-                    - ⌘
-                    - Ctrl
-                    - I
+                    - 
+                        - ⌘
+                        - Ctrl
+                        - I
         - 
             description: Resize smaller
             hotkeys:
                 win:
-                    - Ctrl
-                    - Alt
-                    - J
+                    - 
+                        - Ctrl
+                        - Alt
+                        - J
                 mac:
-                    - ⌘
-                    - Ctrl
-                    - J
+                    - 
+                        - ⌘
+                        - Ctrl
+                        - J
         - 
             description: Resize smaller horizontally
             hotkeys:
                 win:
-                    - Ctrl
-                    - Alt
-                    - W
+                    - 
+                        - Ctrl
+                        - Alt
+                        - W
                 mac:
-                    - ⌘
-                    - Ctrl
-                    - W
+                    - 
+                        - ⌘
+                        - Ctrl
+                        - W
         - 
             description: Resize smaller vertically
             hotkeys:
                 win:
-                    - Ctrl
-                    - Alt
-                    - Q
+                    - 
+                        - Ctrl
+                        - Alt
+                        - Q
                 mac:
-                    - ⌘
-                    - Ctrl
-                    - Q
+                    - 
+                        - ⌘
+                        - Ctrl
+                        - Q
         - 
             description: Rotate clockwise by 15°
             hotkeys:
                 win:
-                    - Alt
-                    - Right
-                    - Arrow
+                    - 
+                        - Alt
+                        - Right
+                        - Arrow
                 mac:
-                    - Option
-                    - Right
-                    - Arrow
+                    - 
+                        - Option
+                        - Right
+                        - Arrow
         - 
             description: Rotate counterclockwise by 15°
             hotkeys:
                 win:
-                    - Alt
-                    - Left
-                    - Arrow
+                    - 
+                        - Alt
+                        - Left
+                        - Arrow
                 mac:
-                    - Option
-                    - Left
-                    - Arrow
+                    - 
+                        - Option
+                        - Left
+                        - Arrow
         - 
             description: Rotate counterclockwise by 1°
             hotkeys:
                 win:
-                    - Alt
-                    - Shift
-                    - Left
-                    - Arrow
+                    - 
+                        - Alt
+                        - Shift
+                        - Left
+                        - Arrow
                 mac:
-                    - Option
-                    - Shift
-                    - Left
-                    - Arrow
+                    - 
+                        - Option
+                        - Shift
+                        - Left
+                        - Arrow
         - 
             description: Rotate clockwise by 1°
             hotkeys:
                 win:
-                    - Alt
-                    - Shift
-                    - Right
-                    - Arrow
+                    - 
+                        - Alt
+                        - Shift
+                        - Right
+                        - Arrow
                 mac:
-                    - Option
-                    - Shift
-                    - Right
-                    - Arrow
+                    - 
+                        - Option
+                        - Shift
+                        - Right
+                        - Arrow
         - 
             description: Close drawing editor
             hotkeys:
                 win:
-                    - Shift
-                    - Esc
+                    - 
+                        - Shift
+                        - Esc
                 mac:
-                    - ⌘
-                    - 'Esc<Br>'
-                    - Shift
-                    - Esc
+                    - 
+                        - ⌘
+                        - 'Esc<Br>'
+                        - Shift
+                        - Esc
     Comments and footnotes:
         - 
             description: Insert comment
             hotkeys:
                 win:
-                    - Ctrl
-                    - Alt
-                    - M
+                    - 
+                        - Ctrl
+                        - Alt
+                        - M
                 mac:
-                    - ⌘
-                    - Option
-                    - M
+                    - 
+                        - ⌘
+                        - Option
+                        - M
         - 
             description: Open discussion thread
             hotkeys:
                 win:
-                    - Ctrl
-                    - Alt
-                    - Shift
-                    - A
+                    - 
+                        - Ctrl
+                        - Alt
+                        - Shift
+                        - A
                 mac:
-                    - ⌘
-                    - Option
-                    - Shift
-                    - A
+                    - 
+                        - ⌘
+                        - Option
+                        - Shift
+                        - A
         - 
             description: Enter current comment
             hotkeys:
                 win:
-                    - Ctrl
-                    - Enter
+                    - 
+                        - Ctrl
+                        - Enter
                 mac:
-                    - Ctrl
-                    - Enter
+                    - 
+                        - Ctrl
+                        - Enter
         - 
             description: Insert footnote
             hotkeys:
                 win:
-                    - Ctrl
-                    - Alt
-                    - F
+                    - 
+                        - Ctrl
+                        - Alt
+                        - F
                 mac:
-                    - ⌘
-                    - Option
-                    - F
+                    - 
+                        - ⌘
+                        - Option
+                        - F
         - 
             description: Move to current footnote
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - E
-                    - Then
-                    - F
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - E
+                        - Then
+                        - F
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Pressethenf
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Pressethenf
         - 
             description: Move to next footnote
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - 'N'
-                    - Then
-                    - F
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - 'N'
+                        - Then
+                        - F
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Pressnthenf
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Pressnthenf
         - 
             description: Move to previous footnote
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - P
-                    - Then
-                    - F
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - P
+                        - Then
+                        - F
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Presspthenf
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Presspthenf
     Menus:
         - 
             description: Context (right-click) menu
             hotkeys:
                 win:
-                    - Ctrl
-                    - Shift
-                    - X
-                    - or
-                    - Ctrl
-                    - Shift
-                    - "\\"
+                    - 
+                        - Ctrl
+                        - Shift
+                        - X
+                    - 
+                        - Ctrl
+                        - Shift
+                        - "\\"
                 mac:
-                    - ⌘
-                    - Shift
-                    - "\\"
+                    - 
+                        - ⌘
+                        - Shift
+                        - "\\"
         - 
             description: File menu
             hotkeys:
                 win:
-                    - Alt
-                    - F
-                    - or
-                    - Alt
-                    - Shift
-                    - F
+                    - 
+                        - Alt
+                        - F
+                    - 
+                        - Alt
+                        - Shift
+                        - F
                 mac:
-                    - Ctrl
-                    - Option
-                    - F
+                    - 
+                        - Ctrl
+                        - Option
+                        - F
         - 
             description: Edit menu
             hotkeys:
                 win:
-                    - Alt
-                    - E
-                    - or
-                    - Alt
-                    - Shift
-                    - E
+                    - 
+                        - Alt
+                        - E
+                    - 
+                        - Alt
+                        - Shift
+                        - E
                 mac:
-                    - Ctrl
-                    - Option
-                    - E
+                    - 
+                        - Ctrl
+                        - Option
+                        - E
         - 
             description: View menu
             hotkeys:
                 win:
-                    - Alt
-                    - V
-                    - Alt
-                    - Shift
-                    - V
+                    - 
+                        - Alt
+                        - V
+                        - Alt
+                        - Shift
+                        - V
                 mac:
-                    - Ctrl
-                    - Option
-                    - V
+                    - 
+                        - Ctrl
+                        - Option
+                        - V
         - 
             description: Insert menu
             hotkeys:
                 win:
-                    - Alt
-                    - I
-                    - Alt
-                    - Shift
-                    - I
+                    - 
+                        - Alt
+                        - I
+                        - Alt
+                        - Shift
+                        - I
                 mac:
-                    - Ctrl
-                    - Option
-                    - I
+                    - 
+                        - Ctrl
+                        - Option
+                        - I
         - 
             description: Format menu
             hotkeys:
                 win:
-                    - Alt
-                    - O
-                    - or
-                    - Alt
-                    - Shift
-                    - O
+                    - 
+                        - Alt
+                        - O
+                    - 
+                        - Alt
+                        - Shift
+                        - O
                 mac:
-                    - Ctrl
-                    - Option
-                    - O
+                    - 
+                        - Ctrl
+                        - Option
+                        - O
         - 
             description: Tools menu
             hotkeys:
                 win:
-                    - Alt
-                    - T
-                    - or
-                    - Alt
-                    - Shift
-                    - T
+                    - 
+                        - Alt
+                        - T
+                    - 
+                        - Alt
+                        - Shift
+                        - T
                 mac:
-                    - Ctrl
-                    - Option
-                    - T
+                    - 
+                        - Ctrl
+                        - Option
+                        - T
         - 
             description: Table menu
             hotkeys:
                 win:
-                    - Alt
-                    - B
-                    - or
-                    - Alt
-                    - Shift
-                    - B
+                    - 
+                        - Alt
+                        - B
+                    - 
+                        - Alt
+                        - Shift
+                        - B
                 mac:
-                    - Ctrl
-                    - Option
-                    - B
+                    - 
+                        - Ctrl
+                        - Option
+                        - B
         - 
             description: Help menu
             hotkeys:
                 win:
-                    - Alt
-                    - H
-                    - or
-                    - Alt
-                    - Shift
-                    - H
+                    - 
+                        - Alt
+                        - H
+                    - 
+                        - Alt
+                        - Shift
+                        - H
                 mac:
-                    - Ctrl
-                    - Option
-                    - H
+                    - 
+                        - Ctrl
+                        - Option
+                        - H
         - 
             description: Accessibility menu (present when screen reader support is enabled)
             hotkeys:
                 win:
-                    - Alt
-                    - A
-                    - or
-                    - Alt
-                    - Shift
-                    - A
+                    - 
+                        - Alt
+                        - A
+                    - 
+                        - Alt
+                        - Shift
+                        - A
                 mac:
-                    - Ctrl
-                    - Option
-                    - A
+                    - 
+                        - Ctrl
+                        - Option
+                        - A
         - 
             description: Input Tools menu (available in documents in non-Latin languages)
             hotkeys:
                 win:
-                    - Ctrl
-                    - Alt
-                    - Shift
-                    - K
+                    - 
+                        - Ctrl
+                        - Alt
+                        - Shift
+                        - K
                 mac:
-                    - ⌘
-                    - Option
-                    - Shift
-                    - K
+                    - 
+                        - ⌘
+                        - Option
+                        - Shift
+                        - K
         - 
             description: Toggle input controls (available in documents in non-Latin languages)
             hotkeys:
                 win:
-                    - Ctrl
-                    - Shift
-                    - K
+                    - 
+                        - Ctrl
+                        - Shift
+                        - K
                 mac:
-                    - ⌘
-                    - Shift
-                    - K
+                    - 
+                        - ⌘
+                        - Shift
+                        - K
         - 
-            description: Show your browser\'s context menu
+            description: "Show your browser\\'s context menu"
             hotkeys:
                 win:
-                    - Shift
-                    - Right-Click
+                    - 
+                        - Shift
+                        - Right-Click
                 mac:
-                    - Shift
-                    - Right-Click
+                    - 
+                        - Shift
+                        - Right-Click
         - 
             description: Select all
             hotkeys:
                 win:
-                    - Ctrl
-                    - A
+                    - 
+                        - Ctrl
+                        - A
                 mac:
-                    - ⌘
-                    - A
+                    - 
+                        - ⌘
+                        - A
         - 
             description: Extend selection one character
             hotkeys:
                 win:
-                    - Shift
-                    - Left/Right
-                    - Arrow
+                    - 
+                        - Shift
+                        - Left/Right
+                        - Arrow
                 mac:
-                    - Shift
-                    - Left/Right
-                    - Arrow
+                    - 
+                        - Shift
+                        - Left/Right
+                        - Arrow
         - 
             description: Extend selection one line
             hotkeys:
                 win:
-                    - Shift
-                    - Up/Down
-                    - Arrow
+                    - 
+                        - Shift
+                        - Up/Down
+                        - Arrow
                 mac:
-                    - Shift
-                    - Up/Down
-                    - Arrow
+                    - 
+                        - Shift
+                        - Up/Down
+                        - Arrow
         - 
             description: Extend selection one word
             hotkeys:
                 win:
-                    - Ctrl
-                    - Shift
-                    - Left/Right
-                    - Arrow
+                    - 
+                        - Ctrl
+                        - Shift
+                        - Left/Right
+                        - Arrow
                 mac:
-                    - Shift
-                    - Fn
-                    - Left
-                    - Arrow
+                    - 
+                        - Shift
+                        - Fn
+                        - Left
+                        - Arrow
         - 
             description: Extend selection to the beginning of the line
             hotkeys:
                 win:
-                    - Shift
-                    - Home
+                    - 
+                        - Shift
+                        - Home
                 mac:
-                    - Option
-                    - Shift
-                    - Up/Down
-                    - Arrow
+                    - 
+                        - Option
+                        - Shift
+                        - Up/Down
+                        - Arrow
         - 
             description: Extend selection to the end of the line
             hotkeys:
                 win:
-                    - Shift
-                    - End
+                    - 
+                        - Shift
+                        - End
                 mac:
-                    - Shift
-                    - Fn
-                    - Right
-                    - Arrow
+                    - 
+                        - Shift
+                        - Fn
+                        - Right
+                        - Arrow
         - 
             description: Extend selection to the beginning of the document
             hotkeys:
                 win:
-                    - Ctrl
-                    - Shift
-                    - Home
+                    - 
+                        - Ctrl
+                        - Shift
+                        - Home
                 mac:
-                    - ⌘
-                    - Shift
-                    - Up
-                    - Arrow
+                    - 
+                        - ⌘
+                        - Shift
+                        - Up
+                        - Arrow
         - 
             description: Extend selection to the end of the document
             hotkeys:
                 win:
-                    - Ctrl
-                    - Shift
-                    - End
+                    - 
+                        - Ctrl
+                        - Shift
+                        - End
                 mac:
-                    - ⌘
-                    - Shift
-                    - Down
-                    - Arrow
+                    - 
+                        - ⌘
+                        - Shift
+                        - Down
+                        - Arrow
         - 
             description: Select current list item
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - Shift
-                    - ''
-                    - Press
-                    - E
-                    - Then
-                    - I
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - Shift
+                        - ''
+                        - Press
+                        - E
+                        - Then
+                        - I
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - Shift
-                    - ''
-                    - Pressetheni
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - Shift
+                        - ''
+                        - Pressetheni
         - 
             description: Select all list items at current level
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - Shift
-                    - ''
-                    - Press
-                    - E
-                    - Then
-                    - O
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - Shift
+                        - ''
+                        - Press
+                        - E
+                        - Then
+                        - O
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - Shift
-                    - Pressetheno
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - Shift
+                        - Pressetheno
     Text selection with mouse:
         - 
             description: Select word
             hotkeys:
                 win:
-                    - Double-Click
+                    - 
+                        - Double-Click
                 mac:
-                    - Double-Click
+                    - 
+                        - Double-Click
         - 
             description: Extend selection one word at a time
             hotkeys:
                 win:
-                    - Double-Click
-                    - Drag
+                    - 
+                        - Double-Click
+                        - Drag
                 mac:
-                    - Double-Click
-                    - Drag
+                    - 
+                        - Double-Click
+                        - Drag
         - 
             description: Select paragraph
             hotkeys:
                 win:
-                    - Triple-Click
+                    - 
+                        - Triple-Click
                 mac:
-                    - Triple-Click
+                    - 
+                        - Triple-Click
         - 
             description: Extend selection one paragraph at a time
             hotkeys:
                 win:
-                    - Triple-Click
-                    - Drag
+                    - 
+                        - Triple-Click
+                        - Drag
                 mac:
-                    - Triple-Click
-                    - Drag
+                    - 
+                        - Triple-Click
+                        - Drag
     Screen reader support:
         - 
             description: Enable screen reader support
             hotkeys:
                 win:
-                    - Ctrl
-                    - Alt
-                    - Z
-                    - or
-                    - Alt
-                    - Shift
-                    - '~'
+                    - 
+                        - Ctrl
+                        - Alt
+                        - Z
+                    - 
+                        - Alt
+                        - Shift
+                        - '~'
                 mac:
-                    - Option
-                    - ⌘
-                    - Z
+                    - 
+                        - Option
+                        - ⌘
+                        - Z
         - 
             description: Speak selection
             hotkeys:
                 win:
-                    - Ctrl
-                    - Alt
-                    - X
+                    - 
+                        - Ctrl
+                        - Alt
+                        - X
                 mac:
-                    - Ctrl
-                    - ⌘
-                    - X
+                    - 
+                        - Ctrl
+                        - ⌘
+                        - X
         - 
             description: Speak from cursor location
             hotkeys:
                 win:
-                    - Ctrl
-                    - Alt
-                    - R
+                    - 
+                        - Ctrl
+                        - Alt
+                        - R
                 mac:
-                    - Ctrl
-                    - ⌘
-                    - R
+                    - 
+                        - Ctrl
+                        - ⌘
+                        - R
         - 
             description: Announce cursor location
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - A
-                    - Then
-                    - L
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - A
+                        - Then
+                        - L
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Pressathenl
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Pressathenl
         - 
             description: Announce formatting at cursor location
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - A
-                    - Then
-                    - F
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - A
+                        - Then
+                        - F
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Pressathenf
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Pressathenf
         - 
             description: Speak the table column and row header
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - Shift
-                    - ''
-                    - Press
-                    - T
-                    - Then
-                    - H
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - Shift
+                        - ''
+                        - Press
+                        - T
+                        - Then
+                        - H
                 mac:
-                    - Holdingctrl
-                    - ⌘+
-                    - Shift
-                    - ''
-                    - Presstthenh
+                    - 
+                        - Holdingctrl
+                        - ⌘+
+                        - Shift
+                        - ''
+                        - Presstthenh
         - 
             description: Speak the table cell location
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - Shift
-                    - ''
-                    - Press
-                    - T
-                    - Then
-                    - 'N'
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - Shift
+                        - ''
+                        - Press
+                        - T
+                        - Then
+                        - 'N'
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - Shift
-                    - ''
-                    - Presstthenn
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - Shift
+                        - ''
+                        - Presstthenn
         - 
             description: Speak the table row header
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - Shift
-                    - ''
-                    - Press
-                    - T
-                    - Then
-                    - R
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - Shift
+                        - ''
+                        - Press
+                        - T
+                        - Then
+                        - R
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - Shift
-                    - ''
-                    - Presstthenr
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - Shift
+                        - ''
+                        - Presstthenr
         - 
             description: Speak the table column header
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - Shift
-                    - ''
-                    - Press
-                    - T
-                    - Then
-                    - C
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - Shift
+                        - ''
+                        - Press
+                        - T
+                        - Then
+                        - C
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - Shift
-                    - ''
-                    - Presstthenc
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - Shift
+                        - ''
+                        - Presstthenc
     Document navigation:
         - 
             description: Move to next heading
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - 'N'
-                    - Then
-                    - H
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - 'N'
+                        - Then
+                        - H
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Pressnthenh
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Pressnthenh
         - 
             description: Move to previous heading
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - P
-                    - Then
-                    - H
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - P
+                        - Then
+                        - H
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Presspthenh
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Presspthenh
         - 
             description: 'Move to next heading [1-6]'
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - 'N'
-                    - Then
-                    - '[1-6]'
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - 'N'
+                        - Then
+                        - '[1-6]'
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Pressnthen
-                    - '[1-6]'
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Pressnthen
+                        - '[1-6]'
         - 
             description: 'Move to previous heading [1-6]'
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - P
-                    - Then
-                    - '[1-6]'
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - P
+                        - Then
+                        - '[1-6]'
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Presspthen
-                    - '[1-6]'
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Presspthen
+                        - '[1-6]'
         - 
             description: Move to next graphic (image or drawing)
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - 'N'
-                    - Then
-                    - G
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - 'N'
+                        - Then
+                        - G
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Pressntheng
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Pressntheng
         - 
             description: Move to previous graphic (image or drawing)
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - P
-                    - Then
-                    - G
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - P
+                        - Then
+                        - G
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Pressptheng
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Pressptheng
         - 
             description: Move to next list
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - 'N'
-                    - Then
-                    - O
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - 'N'
+                        - Then
+                        - O
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Pressntheno
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Pressntheno
         - 
             description: Move to previous list
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - P
-                    - Then
-                    - O
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - P
+                        - Then
+                        - O
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Pressptheno
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Pressptheno
         - 
             description: Move to next item in the current list
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - 'N'
-                    - Then
-                    - I
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - 'N'
+                        - Then
+                        - I
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Pressntheni
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Pressntheni
         - 
             description: Move to previous item in the current list
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - P
-                    - Then
-                    - I
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - P
+                        - Then
+                        - I
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Pressptheni
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Pressptheni
         - 
             description: Move to next link
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - 'N'
-                    - Then
-                    - L
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - 'N'
+                        - Then
+                        - L
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Pressnthenl
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Pressnthenl
         - 
             description: Move to previous link
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - P
-                    - Then
-                    - L
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - P
+                        - Then
+                        - L
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Presspthenl
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Presspthenl
         - 
             description: Move to next bookmark
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - 'N'
-                    - Then
-                    - B
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - 'N'
+                        - Then
+                        - B
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Pressnthenb
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Pressnthenb
         - 
             description: Move to previous bookmark
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - P
-                    - Then
-                    - B
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - P
+                        - Then
+                        - B
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Presspthenb
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Presspthenb
         - 
             description: Move to next formatting change
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - 'N'
-                    - Then
-                    - W
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - 'N'
+                        - Then
+                        - W
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Pressnthenw
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Pressnthenw
         - 
             description: Move to previous formatting change
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - P
-                    - Then
-                    - W
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - P
+                        - Then
+                        - W
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Presspthenw
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Presspthenw
         - 
             description: Move to next edit (while viewing revision history or new changes)
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - 'N'
-                    - Then
-                    - R
-                    - or
-                    - Ctrl
-                    - Alt
-                    - K
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - 'N'
+                        - Then
+                        - R
+                    - 
+                        - Ctrl
+                        - Alt
+                        - K
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Pressnthenr
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Pressnthenr
         - 
             description: Move to previous edit (while viewing revision history or new changes)
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - P
-                    - Then
-                    - R
-                    - or
-                    - Ctrl
-                    - Alt
-                    - J
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - P
+                        - Then
+                        - R
+                    - 
+                        - Ctrl
+                        - Alt
+                        - J
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Presspthenr
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Presspthenr
     Table navigation:
         - 
             description: Move to the start of the table
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - Shift
-                    - ''
-                    - Press
-                    - T
-                    - Then
-                    - S
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - Shift
+                        - ''
+                        - Press
+                        - T
+                        - Then
+                        - S
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - Shift
-                    - ''
-                    - Presstthens
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - Shift
+                        - ''
+                        - Presstthens
         - 
             description: Move to the end of the table
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - Shift
-                    - ''
-                    - Press
-                    - T
-                    - Then
-                    - D
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - Shift
+                        - ''
+                        - Press
+                        - T
+                        - Then
+                        - D
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - Shift
-                    - ''
-                    - Presstthend
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - Shift
+                        - ''
+                        - Presstthend
         - 
             description: Move to the start of the table column
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - Shift
-                    - ''
-                    - Press
-                    - T
-                    - Then
-                    - I
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - Shift
+                        - ''
+                        - Press
+                        - T
+                        - Then
+                        - I
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - Shift
-                    - ''
-                    - Pressttheni
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - Shift
+                        - ''
+                        - Pressttheni
         - 
             description: Move to the end of the table column
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - Shift
-                    - ''
-                    - Press
-                    - T
-                    - Then
-                    - K
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - Shift
+                        - ''
+                        - Press
+                        - T
+                        - Then
+                        - K
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - Shift
-                    - ''
-                    - Presstthenk
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - Shift
+                        - ''
+                        - Presstthenk
         - 
             description: Move to the next table column
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - Shift
-                    - ''
-                    - Press
-                    - T
-                    - Then
-                    - B
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - Shift
+                        - ''
+                        - Press
+                        - T
+                        - Then
+                        - B
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - Shift
-                    - ''
-                    - Presstthenb
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - Shift
+                        - ''
+                        - Presstthenb
         - 
             description: Move to the previous table column
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - Shift
-                    - ''
-                    - Press
-                    - T
-                    - Then
-                    - V
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - Shift
+                        - ''
+                        - Press
+                        - T
+                        - Then
+                        - V
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - Shift
-                    - ''
-                    - Presstthenv
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - Shift
+                        - ''
+                        - Presstthenv
         - 
             description: Move to the start of the table row
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - Shift
-                    - ''
-                    - Press
-                    - T
-                    - Then
-                    - J
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - Shift
+                        - ''
+                        - Press
+                        - T
+                        - Then
+                        - J
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - Shift
-                    - ''
-                    - Presstthenj
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - Shift
+                        - ''
+                        - Presstthenj
         - 
             description: Move to the end of the table row
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - Shift
-                    - ''
-                    - Press
-                    - T
-                    - Then
-                    - L
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - Shift
+                        - ''
+                        - Press
+                        - T
+                        - Then
+                        - L
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - Shift
-                    - ''
-                    - Presstthenl
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - Shift
+                        - ''
+                        - Presstthenl
         - 
             description: Move to the next table row
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - Shift
-                    - ''
-                    - Press
-                    - T
-                    - Then
-                    - M
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - Shift
+                        - ''
+                        - Press
+                        - T
+                        - Then
+                        - M
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - Shift
-                    - ''
-                    - Presstthenm
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - Shift
+                        - ''
+                        - Presstthenm
         - 
             description: Move to the previous table row
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - Shift
-                    - ''
-                    - Press
-                    - T
-                    - Then
-                    - G
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - Shift
+                        - ''
+                        - Press
+                        - T
+                        - Then
+                        - G
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - Shift
-                    - ''
-                    - Pressttheng
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - Shift
+                        - ''
+                        - Pressttheng
         - 
             description: Exit table
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - Shift
-                    - ''
-                    - Press
-                    - T
-                    - Then
-                    - E
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - Shift
+                        - ''
+                        - Press
+                        - T
+                        - Then
+                        - E
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - Shift
-                    - ''
-                    - Presstthene
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - Shift
+                        - ''
+                        - Presstthene
         - 
             description: Move to the next table
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - Shift
-                    - ''
-                    - Press
-                    - 'N'
-                    - Then
-                    - T
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - Shift
+                        - ''
+                        - Press
+                        - 'N'
+                        - Then
+                        - T
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - Shift
-                    - ''
-                    - Pressnthent
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - Shift
+                        - ''
+                        - Pressnthent
         - 
             description: Move to the previous table
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - Shift
-                    - ''
-                    - Press
-                    - P
-                    - Then
-                    - T
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - Shift
+                        - ''
+                        - Press
+                        - P
+                        - Then
+                        - T
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - Shift
-                    - Presspthent
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - Shift
+                        - Presspthent
     Other tools and navigation:
         - 
             description: Open revision history
             hotkeys:
                 win:
-                    - Ctrl
-                    - Alt
-                    - Shift
-                    - H
+                    - 
+                        - Ctrl
+                        - Alt
+                        - Shift
+                        - H
                 mac:
-                    - ⌘
-                    - Option
-                    - Shift
-                    - H
+                    - 
+                        - ⌘
+                        - Option
+                        - Shift
+                        - H
         - 
             description: Open Explore tool
             hotkeys:
                 win:
-                    - Ctrl
-                    - Alt
-                    - Shift
-                    - I
+                    - 
+                        - Ctrl
+                        - Alt
+                        - Shift
+                        - I
                 mac:
-                    - ⌘
-                    - Option
-                    - Shift
-                    - I
+                    - 
+                        - ⌘
+                        - Option
+                        - Shift
+                        - I
         - 
             description: Open dictionary
             hotkeys:
                 win:
-                    - Ctrl
-                    - Shift
-                    - 'Y'
+                    - 
+                        - Ctrl
+                        - Shift
+                        - 'Y'
                 mac:
-                    - ⌘
-                    - Shift
-                    - 'Y'
+                    - 
+                        - ⌘
+                        - Shift
+                        - 'Y'
         - 
             description: Word count
             hotkeys:
                 win:
-                    - Ctrl
-                    - Shift
-                    - C
+                    - 
+                        - Ctrl
+                        - Shift
+                        - C
                 mac:
-                    - ⌘
-                    - Shift
-                    - C
+                    - 
+                        - ⌘
+                        - Shift
+                        - C
         - 
             description: Start voice typing (available in Chrome browsers)
             hotkeys:
                 win:
-                    - Ctrl
-                    - Shift
-                    - S
+                    - 
+                        - Ctrl
+                        - Shift
+                        - S
                 mac:
-                    - ⌘
-                    - Shift
-                    - S
+                    - 
+                        - ⌘
+                        - Shift
+                        - S
         - 
             description: Page up
             hotkeys:
                 win:
-                    - Page
-                    - Up
+                    - 
+                        - Page
+                        - Up
                 mac:
-                    - Fn
-                    - Up
-                    - Arrow
+                    - 
+                        - Fn
+                        - Up
+                        - Arrow
         - 
             description: Page down
             hotkeys:
                 win:
-                    - Page
-                    - Down
+                    - 
+                        - Page
+                        - Down
                 mac:
-                    - Fn
-                    - Down
-                    - Arrow
+                    - 
+                        - Fn
+                        - Down
+                        - Arrow
         - 
             description: Move to next misspelling
             hotkeys:
                 win:
-                    - Ctrl
-                    - "'"
+                    - 
+                        - Ctrl
+                        - "'"
                 mac:
-                    - ⌘
-                    - "'"
+                    - 
+                        - ⌘
+                        - "'"
         - 
             description: Move to previous misspelling
             hotkeys:
                 win:
-                    - Ctrl
-                    - ;
+                    - 
+                        - Ctrl
+                        - ;
                 mac:
-                    - ⌘
-                    - ;
+                    - 
+                        - ⌘
+                        - ;
         - 
             description: Insert or move to header
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - O
-                    - Then
-                    - H
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - O
+                        - Then
+                        - H
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Pressothenh
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Pressothenh
         - 
             description: Insert or move to footer
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - O
-                    - Then
-                    - F
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - O
+                        - Then
+                        - F
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Pressothenf
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Pressothenf
         - 
             description: 'Move focus to popup (for links, bookmarks, and images)'
             hotkeys:
                 win:
-                    - Holding
-                    - Ctrl
-                    - Alt
-                    - ''
-                    - Press
-                    - E
-                    - Then
-                    - P
+                    - 
+                        - Holding
+                        - Ctrl
+                        - Alt
+                        - ''
+                        - Press
+                        - E
+                        - Then
+                        - P
                 mac:
-                    - Holdingctrl
-                    - ⌘
-                    - ''
-                    - Pressethenp
+                    - 
+                        - Holdingctrl
+                        - ⌘
+                        - ''
+                        - Pressethenp
         - 
             description: Open chat inside the document
             hotkeys:
                 win:
-                    - Shift
-                    - Esc
+                    - 
+                        - Shift
+                        - Esc
                 mac:
-                    - ''
+                    - 
+                        - ''
         - 
             description: Move focus out of document text
             hotkeys:
                 win:
-                    - Ctrl
-                    - Alt
-                    - Shift
-                    - M
+                    - 
+                        - Ctrl
+                        - Alt
+                        - Shift
+                        - M
                 mac:
-                    - ⌘
-                    - Option
-                    - Shift
-                    - M
+                    - 
+                        - ⌘
+                        - Option
+                        - Shift
+                        - M
         - 
             description: Return focus to document text
             hotkeys:
                 win:
-                    - Esc
+                    - 
+                        - Esc
                 mac:
-                    - Esc
+                    - 
+                        - Esc
         - 
             description: Focus containing webpage (such as when using Docs in Google+ Hangouts)
             hotkeys:
                 win:
-                    - Ctrl
-                    - Shift
-                    - Esc
+                    - 
+                        - Ctrl
+                        - Shift
+                        - Esc
                 mac:
-                    - Ctrl
-                    - Shift
-                    - Esc
+                    - 
+                        - Ctrl
+                        - Shift
+                        - Esc
