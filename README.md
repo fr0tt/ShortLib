@@ -1,7 +1,7 @@
 ## To-Do
 
-- [ ] (re)design shortcut appearance  https://get.slack.help/hc/de/articles/201374536-Tastaturk%C3%BCrzel-in-Slack
-- [ ] think about changing data structure (_ " ")
+- [x] (re)design shortcut appearance  https://get.slack.help/hc/de/articles/201374536-Tastaturk%C3%BCrzel-in-Slack
+- [x] think about changing data structure 
 - [x] sort by date should not work properly by default, that's why there`s need for a costum solution https://mozilla.github.io/nunjucks/api#custom-filters
 by changing the sort method accordingly https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#Parameter
 - [x] Page.path has to be available for every (content-)page
