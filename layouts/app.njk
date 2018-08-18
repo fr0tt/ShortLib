@@ -114,31 +114,38 @@
 							</a>
 						</h2>
 						<table>
-							<tbody> 
+							<tbody>
+								{% set msg = "was not specified or is missing" %}
 								{% for shortcut in section %}
 								<tr v-show="containsFilter('{{ shortcut.description | escape | forceescape }}')">
-									{%- if shortcut.hotkeys.win %}
-									<td v-show="selectedOS === 'win'">
-										<kbd>{{- shortcut.hotkeys.win | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
-										{# {{- shortcut.hotkeys.win | join(" ") | replace(" or ", " <center>or</center> ") | safe -}} #}
-									</td>
+									{%- if 'win' in OS %}
+										<td v-show="selectedOS === 'win'">
+											{%- if shortcut.hotkeys.win %}
+												<kbd>{{- shortcut.hotkeys.win | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
+											{% else -%}
+												<i>{{ msg }}</i>
+											{% endif -%}
+										</td>
 									{% endif -%}
-									{%- if shortcut.hotkeys.mac %}
-									<td v-show="selectedOS === 'mac'">
-										<kbd>{{- shortcut.hotkeys.mac | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
-										{# {{- shortcut.hotkeys.mac | join(" ") | replace(" or ", " <center>or</center> ") | safe -}} #}
-									</td>
+									{%- if 'mac' in OS %}
+										<td v-show="selectedOS === 'mac'">
+											{%- if shortcut.hotkeys.mac %}
+												<kbd>{{- shortcut.hotkeys.mac | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
+											{% else -%}
+												<i>{{ msg }}</i>
+											{% endif -%}
+										</td>
 									{% endif -%}
-									{%- if shortcut.hotkeys.linux %}
-									<td v-show="selectedOS === 'linux'">
-										<kbd>{{- shortcut.hotkeys.linux | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
-										{# - shortcut.hotkeys.linux | join(" ") | replace(" or ", " <center>or</center> ") | safe - #}}}
-									</td> 
-									{%- elif (generate_linux) and (shortcut.hotkeys.win) %}
-									<td v-show="selectedOS === 'linux'">
-										<kbd>{{- shortcut.hotkeys.win | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
-										{# {{- shortcut.hotkeys.win | join(" ") | replace(" or ", " <center>or</center> ") | safe -}} #}
-									</td>
+									{%- if ('linux' in OS) or ('win' in OS) %}
+										<td v-show="selectedOS === 'linux'">
+											{%- if shortcut.hotkeys.linux %}
+												<kbd>{{- shortcut.hotkeys.linux | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
+											{%- elif (generate_linux) and (shortcut.hotkeys.win) %}
+												<kbd>{{- shortcut.hotkeys.win | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
+											{% elif ('linux' in OS) or (generate_linux) -%}
+												<i>{{ msg }}</i>
+											{% endif -%}
+										</td>
 									{% endif -%}
 									<td class="description" v-html="highlight('{{ shortcut.description | escape | forceescape }}')">
 										{{- shortcut.description -}}
