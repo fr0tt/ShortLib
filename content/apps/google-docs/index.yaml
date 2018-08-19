@@ -3,7 +3,7 @@ category: Office
 image_src: icon.png
 description: With Google Docs, you can write, edit, and collaborate wherever you are.
 developer: Google LLC
-website: 'https://docs.google.com/document/'
+website: 'https://docs.google.com/'
 source: 'https://support.google.com/docs/answer/179738'
 OS:
   - windows
@@ -332,24 +332,24 @@ collection:
                 - 
                     - Ctrl
                     - Shift
-                    - '&Amp;Amp;Amp;Gt;'
+                    - '>'
             mac:
                 - 
                     - ⌘
                     - Shift
-                    - ≫
+                    - '>'
         - 
             description: Decrease font size
             windows:
                 - 
                     - Ctrl
                     - Shift
-                    - '&Amp;Amp;Amp;Lt;'
+                    - '<'
             mac:
                 - 
                     - ⌘
                     - Shift
-                    - ≪
+                    - '<'
     Paragraph-formatting:
         - 
             description: Increase paragraph indentation
