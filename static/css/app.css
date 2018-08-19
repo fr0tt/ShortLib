@@ -313,7 +313,7 @@ h4 {
 
 #shortcuts .section td {
     display: table-cell;
-    padding: 0.6em 1.0em;
+    padding: 0.15em 1.0em;
     font-family: Open Sans;
     font-size: 18px;
 }
@@ -321,6 +321,7 @@ h4 {
 kbd {
     padding: 0.15em 0.3em;
     margin: 0 0.1em;
+    line-height: 2.3em;
     font-family: inherit;
     border: 1px solid #bbbbbb;
     background-color: #fff;

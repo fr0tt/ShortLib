@@ -1,6 +1,6 @@
 html {
     min-height: 100%;
-    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: "Source Sans Pro", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 16px;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -89,4 +89,16 @@ button {
 footer {
     background-color: #2a2d33;
     background: linear-gradient(45deg, #262a30, #2a2d33);
+}
+
+footer .container {
+    padding-top: 3em;
+    padding-bottom: 2em;
+    text-align: center;
+    color: #fff;
+    font-family: Fira Sans, Open Sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif
+}
+
+footer a {
+    margin: 0 0.4em;
 }
