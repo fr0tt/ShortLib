@@ -1,10 +1,10 @@
-<p style="text-align: center">
+<p align="center">
     <a href="https://www.shortlib.com"target="_blank">
         <img width="100" src="https://www.shortlib.com/static/logo/logo.svg" alt="Shortlib Logo">
     </a>
 </p>
 
-<h1 style="text-align: center">ShortLib</h1>
+<h1 align="center">ShortLib</h1>
 
 ShortLib is an open source project accommodating keyboard shortcuts for Windows, Mac and Linux. 
 
@@ -29,12 +29,11 @@ ShortLib is an open source project accommodating keyboard shortcuts for Windows,
 | image_src      | relative path to the applications icon          | icon.svg                               |
 | description    | a short summary about the application           | Once upon a time ...                   |
 | developer      | name of the developer                           | Super Cool Developer LLC               | 
-| website        | link to the developer                           | https://github.com/fr0tt               |
+| website        | (official) site of the application              | https://github.com                     |
 | source         | links to used references                        | https://github.com/fr0tt               |
 | OS             | operating systems of defined shortcuts (if generate_linux is set to true linux shortcuts can be served without beeing defined)                                            | windows or linux or mac                |
 | generate_linux | show linux users windows shortcut if no linux shortcut was defined                                                                                                               | true or false                          |
-| time           | creation time in ISO-8061 format (https://www.w3.org/QA/Tips/iso-date)
-                                                                   | 1970-12-24 or 1970-12-24T00:00:00.000Z |
+| time           | creation time in ISO-8061 format (https://www.w3.org/QA/Tips/iso-date)             | 1970-12-24 or 1970-12-24T00:00:00.000Z |
 
 - fill index.yaml accordingly with shortcuts (see below or have a look at existing programs)
 
