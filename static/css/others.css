@@ -1,0 +1,8 @@
+#wrapper {
+    max-width: 800px;
+    margin: 100px auto 250px auto;
+}
+
+h1, h2 {
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif
+}

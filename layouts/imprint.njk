@@ -1,0 +1,17 @@
+{% extends "base.njk" %}
+
+{% block add_assets %}
+	<link rel="stylesheet" href="/static/css/others.css" type="text/css"/>
+{% endblock %}
+
+{% block main %} 
+<div id="wrapper" class="container">
+    <h1>{{ name }}</h1>
+    <h2>Publisher</h2>
+    {% for line in imprint %}
+    <p>{{- line -}}</p>
+    {% endfor %}
+    <h2>Mail</h2>
+    {{ mail }}
+</div>
+{% endblock %}
