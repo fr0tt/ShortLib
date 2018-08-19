@@ -5,7 +5,7 @@ developer: Google Inc.
 website: 'https://www.google.com/chrome/'
 source: 'https://support.google.com/chrome/answer/157179'
 OS:
-  - win
+  - windows
   - mac
   - linux
 time: 2018-05-03
@@ -14,7 +14,7 @@ collection:
     Tab and window shortcuts: 
         - 
             description: Open a new window
-            win:
+            windows:
                 - 
                     - Ctrl
                     - 'N'
@@ -24,7 +24,7 @@ collection:
                     - 'N'
         - 
             description: Open a new window in Incognito mode
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -36,7 +36,7 @@ collection:
                     - 'N'
         - 
             description: 'Open a new tab, and jump to it'
-            win:
+            windows:
                 - 
                     - Ctrl
                     - T
@@ -46,7 +46,7 @@ collection:
                     - T
         - 
             description: 'Reopen the last closed tab, and jump to it'
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -58,7 +58,7 @@ collection:
                     - T
         - 
             description: Jump to the next open tab
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Tab
@@ -72,7 +72,7 @@ collection:
                     - Right Arrow
         - 
             description: Jump to the previous open tab
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -87,7 +87,7 @@ collection:
                     - Left Arrow
         - 
             description: Jump to a specific tab
-            win:
+            windows:
                 - 
                     - Ctrl
                     - '1'
@@ -103,7 +103,7 @@ collection:
                     - '8'
         - 
             description: Jump to the last tab
-            win:
+            windows:
                 - 
                     - Ctrl
                     - '9'
@@ -113,13 +113,13 @@ collection:
                     - '9'
         - 
             description: Open your home page in the current tab
-            win:
+            windows:
                 - 
                     - Alt
                     - Home
         - 
             description: Open the previous page from your browsing history in the current tab
-            win:
+            windows:
                 - 
                     - Alt
                     - Left
@@ -134,7 +134,7 @@ collection:
                     - Arrow
         - 
             description: Open the next page from your browsing history in the current tab
-            win:
+            windows:
                 - 
                     - Alt
                     - Right
@@ -149,7 +149,7 @@ collection:
                     - Arrow
         - 
             description: Close the current tab
-            win:
+            windows:
                 - 
                     - Ctrl
                     - W
@@ -162,14 +162,14 @@ collection:
                     - W
         - 
             description: Close all open tabs and the browser
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
                     - W
         - 
             description: Minimize the current window
-            win:
+            windows:
                 - 
                     - Alt
                     - Space
@@ -180,7 +180,7 @@ collection:
                     - M
         - 
             description: Maximize the current window
-            win:
+            windows:
                 - 
                     - Alt
                     - Space
@@ -190,7 +190,7 @@ collection:
                     - ''
         - 
             description: Close the current window
-            win:
+            windows:
                 - 
                     - Alt
                     - F4
@@ -201,7 +201,7 @@ collection:
                     - W
         - 
             description: Hide Google Chrome
-            win:
+            windows:
                 - 
                     - ''
             mac:
@@ -210,7 +210,7 @@ collection:
                     - H
         - 
             description: Quit Google Chrome
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -222,7 +222,7 @@ collection:
     Feature shortcuts: 
         - 
             description: Open the Chrome menu
-            win:
+            windows:
                 - 
                     - Alt
                     - F
@@ -236,7 +236,7 @@ collection:
                     - ''
         - 
             description: Show or hide the Bookmarks bar
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -248,7 +248,7 @@ collection:
                     - B
         - 
             description: Open the Bookmarks Manager
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -260,7 +260,7 @@ collection:
                     - B
         - 
             description: Open the Settings page in a new tab
-            win:
+            windows:
                 - 
                     - ''
             mac:
@@ -270,7 +270,7 @@ collection:
                     - ''
         - 
             description: Open the History page in a new tab
-            win:
+            windows:
                 - 
                     - Ctrl
                     - H
@@ -280,7 +280,7 @@ collection:
                     - 'Y'
         - 
             description: Open the Downloads page in a new tab
-            win:
+            windows:
                 - 
                     - Ctrl
                     - J
@@ -291,31 +291,31 @@ collection:
                     - J
         - 
             description: Open the Chrome Task Manager
-            win:
+            windows:
                 - 
                     - Shift
                     - Esc
         - 
             description: Set focus on the first item in the Chrome toolbar
-            win:
+            windows:
                 - 
                     - Shift
                     - Alt
                     - T
         - 
             description: 'Switch focus forward between the Address bar, Bookmarks bar (if showing), and page content'
-            win:
+            windows:
                 - 
                     - F6
         - 
             description: 'Switch focus backward between the Address bar, Bookmarks bar (if showing), and page content'
-            win:
+            windows:
                 - 
                     - Shift
                     - F6
         - 
             description: Open the Find Bar to search the current page
-            win:
+            windows:
                 - 
                     - Ctrl
                     - F
@@ -327,7 +327,7 @@ collection:
                     - F
         - 
             description: Jump to the next match to your Find Bar search
-            win:
+            windows:
                 - 
                     - Ctrl
                     - G
@@ -337,7 +337,7 @@ collection:
                     - G
         - 
             description: Jump to the previous match to your Find Bar search
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -355,7 +355,7 @@ collection:
                     - E
         - 
             description: Open Developer Tools
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -369,7 +369,7 @@ collection:
                     - I
         - 
             description: Open the Clear Browsing Data options
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -381,12 +381,12 @@ collection:
                     - Delete
         - 
             description: Open the Chrome Help Center in a new tab
-            win:
+            windows:
                 - 
                     - F1
         - 
             description: Log in a different user or browse as a Guest
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -398,7 +398,7 @@ collection:
                     - M
         - 
             description: Open a feedback form
-            win:
+            windows:
                 - 
                     - Alt
                     - Shift
@@ -406,7 +406,7 @@ collection:
     Address bar shortcuts:
         - 
             description: Search with your default search engine
-            win:
+            windows:
                 - 
                     - Type A Search Term
                     - Enter
@@ -416,7 +416,7 @@ collection:
                     - Enter
         - 
             description: Search using a different search engine
-            win:
+            windows:
                 - 
                     - Type a search engine name
                     - Tab
@@ -426,7 +426,7 @@ collection:
                     - Tab
         - 
             description: 'Add www. and .com to a site name, and open it in the current tab'
-            win:
+            windows:
                 - 
                     - Type a site name
                     - Ctrl
@@ -453,14 +453,14 @@ collection:
                     - Enter
         - 
             description: Open a new tab and perform a Google search
-            win:
+            windows:
                 - 
                     - Type a search term
                     - Alt
                     - Enter
         - 
             description: Jump to the address bar
-            win:
+            windows:
                 - 
                     - Ctrl
                     - L
@@ -475,7 +475,7 @@ collection:
                     - L
         - 
             description: Search from anywhere on the page
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -484,7 +484,7 @@ collection:
                     - E
         - 
             description: Remove predictions from your address bar
-            win:
+            windows:
                 - 
                     - Down Arrow
                     - To Highlight
@@ -501,7 +501,7 @@ collection:
     Webpage shortcuts:
         - 
             description: Open options to print the current page
-            win:
+            windows:
                 - 
                     - Ctrl
                     - P
@@ -511,7 +511,7 @@ collection:
                     - P
         - 
             description: Open options to save the current page
-            win:
+            windows:
                 - 
                     - Ctrl
                     - S
@@ -535,7 +535,7 @@ collection:
                     - I
         - 
             description: Reload the current page
-            win:
+            windows:
                 - 
                     - F5
                 - 
@@ -547,7 +547,7 @@ collection:
                     - R
         - 
             description: 'Reload the current page, ignoring cached content'
-            win:
+            windows:
                 - 
                     - Shift
                     - F5
@@ -562,7 +562,7 @@ collection:
                     - R
         - 
             description: Stop the page loading
-            win:
+            windows:
                 - 
                     - Esc
             mac:
@@ -570,7 +570,7 @@ collection:
                     - Esc
         - 
             description: Browse clickable items moving forward
-            win:
+            windows:
                 - 
                     - Tab
             mac:
@@ -578,7 +578,7 @@ collection:
                     - Tab
         - 
             description: Browse clickable items moving backward
-            win:
+            windows:
                 - 
                     - Shift
                     - Tab
@@ -588,7 +588,7 @@ collection:
                     - Tab
         - 
             description: Open a file from your computer in Chrome
-            win:
+            windows:
                 - 
                     - Ctrl
                     - O
@@ -604,7 +604,7 @@ collection:
                     - File
         - 
             description: Display non-editable HTML source code for the current page
-            win:
+            windows:
                 - 
                     - Ctrl
                     - U
@@ -615,7 +615,7 @@ collection:
                     - U
         - 
             description: Open the JavaScript Console
-            win:
+            windows:
             mac:
                 - 
                     - ⌘
@@ -623,7 +623,7 @@ collection:
                     - J
         - 
             description: Save your current webpage as a bookmark
-            win:
+            windows:
                 - 
                     - Ctrl
                     - D
@@ -633,7 +633,7 @@ collection:
                     - D
         - 
             description: Save all open tabs as bookmarks in a new folder
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -645,7 +645,7 @@ collection:
                     - D
         - 
             description: Turn full-screen mode on or off
-            win:
+            windows:
                 - 
                     - F11
             mac:
@@ -655,7 +655,7 @@ collection:
                     - F
         - 
             description: Make everything on the page bigger
-            win:
+            windows:
                 - 
                     - Ctrl
                     - +
@@ -665,7 +665,7 @@ collection:
                     - +
         - 
             description: Make everything on the page smaller
-            win:
+            windows:
                 - 
                     - Ctrl
                     - '-'
@@ -675,7 +675,7 @@ collection:
                     - '-'
         - 
             description: Return everything on the page to default size
-            win:
+            windows:
                 - 
                     - Ctrl
                     - '0'
@@ -685,7 +685,7 @@ collection:
                     - '0'
         - 
             description: 'Scroll down a webpage, a screen at a time'
-            win:
+            windows:
                 - 
                     - Space
                 - 
@@ -695,7 +695,7 @@ collection:
                     - Space
         - 
             description: 'Scroll up a webpage, a screen at a time'
-            win:
+            windows:
                 - 
                     - Shift
                     - Space
@@ -714,7 +714,7 @@ collection:
                     - F
         - 
             description: Go to the top of the page
-            win:
+            windows:
                 - 
                     - Home
             mac:
@@ -722,18 +722,18 @@ collection:
                     - ''
         - 
             description: Go to the bottom of the page
-            win:
+            windows:
                 - 
                     - End
         - 
             description: Scroll horizontally on the page
-            win:
+            windows:
                 - 
                     - Shift
                     - Scroll Your Mousewheel
         - 
             description: Move your cursor to the front of the previous word in a text field
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Left Arrow
@@ -743,7 +743,7 @@ collection:
                     - Left Arrow
         - 
             description: Move your cursor to the back of the next word in a text field
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Right Arrow
@@ -753,7 +753,7 @@ collection:
                     - Right Arrow
         - 
             description: Delete the previous word in a text field
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Backspace
@@ -763,7 +763,7 @@ collection:
                     - Delete
         - 
             description: Move focus to a notification
-            win:
+            windows:
                 - 
                     - Alt
                     - 'N'
@@ -772,7 +772,7 @@ collection:
                     - ''
         - 
             description: Allow within a notification
-            win:
+            windows:
                 - 
                     - Alt
                     - Shift
@@ -782,14 +782,14 @@ collection:
                     - ''
         - 
             description: Deny within a notification
-            win:
+            windows:
                 - 
                     - Alt
                     - Shift
                     - D
         - 
             description: Open the Home page in the current tab
-            win:
+            windows:
                 - 
                     - Alt
                     - Home
@@ -801,7 +801,7 @@ collection:
     Mouse shortcuts: 
         - 
             description: Open a link in new background tab
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Click a Link
@@ -811,7 +811,7 @@ collection:
                     - Click a Link
         - 
             description: 'Open a link, and jump to it'
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -823,7 +823,7 @@ collection:
                     - Click a Link
         - 
             description: Return a tab to its original position
-            win:
+            windows:
                 - 
                     - Esc
                     - While Dragging
@@ -833,7 +833,7 @@ collection:
                     - While Dragging
         - 
             description: Save the current webpage as a bookmark
-            win:
+            windows:
                 - 
                     - Drag The Web Address To The Bookmarks Bar
             mac:
@@ -841,7 +841,7 @@ collection:
                     - Drag The Web Address To The Bookmarks Bar
         - 
             description: Download the target of a link
-            win:
+            windows:
                 - 
                     - Alt
                     - Click A Link
@@ -851,13 +851,13 @@ collection:
                     - Click A Link
         - 
             description: Make everything on the page bigger
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Scroll Your Mousewheel Up
         - 
             description: Make everything on the page smaller
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Scroll Your Mousewheel Down

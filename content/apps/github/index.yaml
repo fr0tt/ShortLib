@@ -6,7 +6,7 @@ developer: 'GitHub, Inc.'
 website: 'https://github.com'
 source: 'https://help.github.com/articles/using-keyboard-shortcuts/'
 OS:
-  - win
+  - windows
   - mac
   - linux
 generate_linux: true
@@ -15,7 +15,7 @@ collection:
     Site wide shortcuts: 
         - 
             description: Go to your notifications
-            win:
+            windows:
                 - 
                     - G
                     - 'N'
@@ -26,7 +26,7 @@ collection:
     Repositories:
         - 
             description: Go to the Issues tab
-            win:
+            windows:
                 - 
                     - G
                     - I
@@ -36,7 +36,7 @@ collection:
                     - I
         - 
             description: Go to the Pull requests tab
-            win:
+            windows:
                 - 
                     - G
                     - P
@@ -46,7 +46,7 @@ collection:
                     - P
         - 
             description: Go to the Projects tab
-            win:
+            windows:
                 - 
                     - G
                     - B
@@ -56,7 +56,7 @@ collection:
                     - B
         - 
             description: Go to the Wiki tab
-            win:
+            windows:
                 - 
                     - G
                     - W
@@ -67,7 +67,7 @@ collection:
     Source code editing:
         - 
             description: Find next
-            win:
+            windows:
                 - 
                     - Ctrl
                     - G
@@ -77,7 +77,7 @@ collection:
                     - G
         - 
             description: Find previous
-            win:
+            windows:
                 - 
                     - Shift
                     - Ctrl
@@ -89,7 +89,7 @@ collection:
                     - G
         - 
             description: Replace
-            win:
+            windows:
                 - 
                     - Shift
                     - Ctrl
@@ -101,7 +101,7 @@ collection:
                     - F
         - 
             description: Replace all
-            win:
+            windows:
                 - 
                     - Shift
                     - Ctrl
@@ -114,7 +114,7 @@ collection:
                     - F
         - 
             description: Jump to line
-            win:
+            windows:
                 - 
                     - Alt
                     - G
@@ -124,7 +124,7 @@ collection:
                     - G
         - 
             description: Undo
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Z
@@ -134,7 +134,7 @@ collection:
                     - Z
         - 
             description: Redo
-            win:
+            windows:
                 - 
                     - Ctrl
                     - 'Y'
@@ -145,7 +145,7 @@ collection:
     Source code browsing:
         - 
             description: Jump to a line in your code
-            win:
+            windows:
                 - 
                     - L
             mac:
@@ -153,7 +153,7 @@ collection:
                     - L
         - 
             description: Switch to a new branch or tag
-            win:
+            windows:
                 - 
                     - W
             mac:
@@ -161,7 +161,7 @@ collection:
                     - W
         - 
             description: Expand a URL to its canonical form
-            win:
+            windows:
                 - 
                     - 'Y'
             mac:
@@ -169,7 +169,7 @@ collection:
                     - 'Y'
         - 
             description: Show or hide comments on diffs
-            win:
+            windows:
                 - 
                     - I
             mac:
@@ -177,7 +177,7 @@ collection:
                     - I
         - 
             description: Open blame view
-            win:
+            windows:
                 - 
                     - B
             mac:
@@ -186,7 +186,7 @@ collection:
     Comments:
         - 
             description: Inserts Markdown formatting for italicizing text
-            win:
+            windows:
                 - 
                     - Ctrl
                     - I
@@ -196,7 +196,7 @@ collection:
                     - I
         - 
             description: Inserts Markdown formatting for creating a link
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -206,7 +206,7 @@ collection:
                     - K
         - 
             description: Toggles between the Write and Preview comment tabs
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -218,7 +218,7 @@ collection:
                     - P
         - 
             description: Submits a comment
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Enter
@@ -229,7 +229,7 @@ collection:
     Issue and pull request lists:
         - 
             description: Focus the issues search bar
-            win:
+            windows:
                 - 
                     - /
             mac:
@@ -237,7 +237,7 @@ collection:
                     - /
         - 
             description: Filter by author
-            win:
+            windows:
                 - 
                     - U
             mac:
@@ -245,7 +245,7 @@ collection:
                     - U
         - 
             description: Filter by or edit labels
-            win:
+            windows:
                 - 
                     - L
             mac:
@@ -253,7 +253,7 @@ collection:
                     - L
         - 
             description: Filter by or edit milestones
-            win:
+            windows:
                 - 
                     - M
             mac:
@@ -261,7 +261,7 @@ collection:
                     - M
         - 
             description: Filter by or edit assignee
-            win:
+            windows:
                 - 
                     - A
             mac:
@@ -269,7 +269,7 @@ collection:
                     - A
         - 
             description: Quote the selected text in your reply
-            win:
+            windows:
                 - 
                     - R
             mac:
@@ -277,7 +277,7 @@ collection:
                     - R
         - 
             description: Open issue
-            win:
+            windows:
                 - 
                     - O
                 - 
@@ -290,7 +290,7 @@ collection:
     Issues and pull requests:
         - 
             description: Set a milestone
-            win:
+            windows:
                 - 
                     - M
             mac:
@@ -298,7 +298,7 @@ collection:
                     - M
         - 
             description: Apply a label
-            win:
+            windows:
                 - 
                     - L
             mac:
@@ -306,7 +306,7 @@ collection:
                     - L
         - 
             description: Set an assignee
-            win:
+            windows:
                 - 
                     - A
             mac:
@@ -315,7 +315,7 @@ collection:
     Changes in pull requests:
         - 
             description: Open the list of changed files in the pull request
-            win:
+            windows:
                 - 
                     - T
             mac:
@@ -323,7 +323,7 @@ collection:
                     - T
         - 
             description: Move selection down in the list
-            win:
+            windows:
                 - 
                     - J
             mac:
@@ -331,7 +331,7 @@ collection:
                     - J
         - 
             description: Move selection up in the list
-            win:
+            windows:
                 - 
                     - K
             mac:
@@ -340,7 +340,7 @@ collection:
     Moving a column:
         - 
             description: Cancel the move in progress
-            win:
+            windows:
                 - 
                     - Escape
             mac:
@@ -348,7 +348,7 @@ collection:
                     - Escape
         - 
             description: Complete the move in progress
-            win:
+            windows:
                 - 
                     - Enter
             mac:
@@ -356,7 +356,7 @@ collection:
                     - Enter
         - 
             description: Move column to the left
-            win:
+            windows:
                 - 
                     - ←
                 - 
@@ -368,7 +368,7 @@ collection:
                     - H
         - 
             description: Move column to the leftmost position
-            win:
+            windows:
                 - 
                     - Ctrl
                     - ←
@@ -384,7 +384,7 @@ collection:
                     - H
         - 
             description: Move column to the right
-            win:
+            windows:
                 - 
                     - →
                 - 
@@ -396,7 +396,7 @@ collection:
                     - L
         - 
             description: Move column to the rightmost position
-            win:
+            windows:
                 - 
                     - Ctrl
                     - →
@@ -413,7 +413,7 @@ collection:
     Moving a card:
         - 
             description: Cancel the move in progress
-            win:
+            windows:
                 - 
                     - Escape
             mac:
@@ -421,7 +421,7 @@ collection:
                     - Escape
         - 
             description: Complete the move in progress
-            win:
+            windows:
                 - 
                     - Enter
             mac:
@@ -429,7 +429,7 @@ collection:
                     - Enter
         - 
             description: Move card down
-            win:
+            windows:
                 - 
                     - ↓
                 - 
@@ -441,7 +441,7 @@ collection:
                     - J
         - 
             description: Move card to the bottom of the column
-            win:
+            windows:
                 - 
                     - Ctrl
                     - ↓
@@ -457,7 +457,7 @@ collection:
                     - J
         - 
             description: Move card up
-            win:
+            windows:
                 - 
                     - ↑
                 - 
@@ -469,7 +469,7 @@ collection:
                     - K
         - 
             description: Move card to the top of the column
-            win:
+            windows:
                 - 
                     - Ctrl
                     - ↑
@@ -485,7 +485,7 @@ collection:
                     - K
         - 
             description: Move card to the bottom of the column on the left
-            win:
+            windows:
                 - 
                     - ←
                 - 
@@ -497,7 +497,7 @@ collection:
                     - H
         - 
             description: Move card to the top of the column on the left
-            win:
+            windows:
                 - 
                     - Shift
                     - ←
@@ -513,7 +513,7 @@ collection:
                     - H
         - 
             description: Move card to the bottom of the leftmost column
-            win:
+            windows:
                 - 
                     - Ctrl
                     - ←
@@ -529,7 +529,7 @@ collection:
                     - H
         - 
             description: Move card to the top of the leftmost column
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -549,7 +549,7 @@ collection:
                     - H
         - 
             description: Move card to the bottom of the column on the right
-            win:
+            windows:
                 - 
                     - →
             mac:
@@ -557,7 +557,7 @@ collection:
                     - →
         - 
             description: Move card to the top of the column on the right
-            win:
+            windows:
                 - 
                     - Shift
                     - →
@@ -573,7 +573,7 @@ collection:
                     - L
         - 
             description: Move card to the bottom of the rightmost column
-            win:
+            windows:
                 - 
                     - Ctrl
                     - →
@@ -589,7 +589,7 @@ collection:
                     - L
         - 
             description: Move card to the bottom of the rightmost column
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -610,7 +610,7 @@ collection:
     Notifications:
         - 
             description: Mark as read
-            win:
+            windows:
                 - 
                     - E
                 - 
@@ -626,7 +626,7 @@ collection:
                     - 'Y'
         - 
             description: Mute thread
-            win:
+            windows:
                 - 
                     - Shift
                     - M
@@ -637,7 +637,7 @@ collection:
     Network Graph:
         - 
             description: Scroll right
-            win:
+            windows:
                 - 
                     - →
                 - 
@@ -649,7 +649,7 @@ collection:
                     - L
         - 
             description: Scroll up
-            win:
+            windows:
                 - 
                     - ↑
                 - 
@@ -661,7 +661,7 @@ collection:
                     - K
         - 
             description: Scroll down
-            win:
+            windows:
                 - 
                     - ↓
                 - 
@@ -673,7 +673,7 @@ collection:
                     - J
         - 
             description: Scroll all the way left
-            win:
+            windows:
                 - 
                     - Shift
                     - ←
@@ -689,7 +689,7 @@ collection:
                     - H
         - 
             description: Scroll all the way right
-            win:
+            windows:
                 - 
                     - Shift
                     - →
@@ -705,7 +705,7 @@ collection:
                     - L
         - 
             description: Scroll all the way up
-            win:
+            windows:
                 - 
                     - Shift
                     - ↑
@@ -721,7 +721,7 @@ collection:
                     - K
         - 
             description: Scroll all the way down
-            win:
+            windows:
                 - 
                     - Shift
                     - ↓

@@ -61,7 +61,7 @@
 					<div class="setting" @click="showOS = !showOS">
 						<div class="select">
 							<div class="option">
-								{{ windows.icon("windowsIcon", 'v-if="selectedOS === \'win\'"') }}
+								{{ windows.icon("windowsIcon", 'v-if="selectedOS === \'windows\'"') }}
 								{{ mac.icon("macIcon", 'v-else-if="selectedOS === \'mac\'"') }}
 								{{ linux.icon("linuxIcon", 'v-else-if="selectedOS === \'linux\'"') }}
 								{{ arrow.icon("arrowIcon") }}															
@@ -69,7 +69,7 @@
 						</div>
 						<transition name="fade"> 
 							<div class="options" v-show="showOS">
-								<div class="option" v-if="showOSAsAnOption('win')" @click="selectedOS = 'win'">
+								<div class="option" v-if="showOSAsAnOption('windows')" @click="selectedOS = 'windows'">
 									{{ windows.icon("windowsIcon") }}
 								</div>
 								<div class="option" v-if="showOSAsAnOption('mac')" @click="selectedOS = 'mac'">
@@ -118,10 +118,10 @@
 								{% set msg = "was not specified or is missing" %}
 								{% for shortcut in section %}
 								<tr v-show="containsFilter('{{ shortcut.description | escape | forceescape }}')">
-									{%- if 'win' in OS %}
-										<td v-show="selectedOS === 'win'">
-											{%- if shortcut.win %}
-												<kbd>{{- shortcut.win | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
+									{%- if 'windows' in OS %}
+										<td v-show="selectedOS === 'windows'">
+											{%- if shortcut.windows %}
+												<kbd>{{- shortcut.windows | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
 											{% else -%}
 												<i>{{ msg }}</i>
 											{% endif -%}
@@ -136,12 +136,12 @@
 											{% endif -%}
 										</td>
 									{% endif -%}
-									{%- if ('linux' in OS) or ('win' in OS) %}
+									{%- if ('linux' in OS) or ('windows' in OS) %}
 										<td v-show="selectedOS === 'linux'">
 											{%- if shortcut.linux %}
 												<kbd>{{- shortcut.linux | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
-											{%- elif (generate_linux) and (shortcut.win) %}
-												<kbd>{{- shortcut.win | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
+											{%- elif (generate_linux) and (shortcut.windows) %}
+												<kbd>{{- shortcut.windows | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
 											{% elif ('linux' in OS) or (generate_linux) -%}
 												<i>{{ msg }}</i>
 											{% endif -%}

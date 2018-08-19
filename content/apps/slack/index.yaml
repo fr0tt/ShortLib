@@ -6,7 +6,7 @@ developer: Slack Technologies
 website: 'https://slack.com'
 source: 'https://get.slack.help/hc/en-us/articles/201374536-Slack-keyboard-shortcuts'
 OS:
-  - win
+  - windows
   - mac
   - linux
 time: 2018-03-11
@@ -14,7 +14,7 @@ collection:
     Quick list of shortcuts:
         - 
             description: Open list of keyboard shortcuts
-            win:
+            windows:
                 - 
                     - Ctrl
                     - /
@@ -25,7 +25,7 @@ collection:
     Navigation:
         - 
             description: Move focus to the next element
-            win:
+            windows:
                 - 
                     - Tab
             mac:
@@ -33,7 +33,7 @@ collection:
                     - Tab
         - 
             description: Move focus to the previous element
-            win:
+            windows:
                 - 
                     - Shift
                     - Tab
@@ -43,7 +43,7 @@ collection:
                     - Tab
         - 
             description: Move focus through messages in a channel or Direct Message
-            win:
+            windows:
                 - 
                     - ↑
                 - 
@@ -55,7 +55,7 @@ collection:
                     - ↓
         - 
             description: 'Move focus to the next section*'
-            win:
+            windows:
                 - 
                     - Ctrl
                     - '`'
@@ -65,7 +65,7 @@ collection:
                     - '`'
         - 
             description: 'Move focus to the previous section*'
-            win:
+            windows:
                 - 
                     - Shift
                     - Ctrl
@@ -77,7 +77,7 @@ collection:
                     - '`'
         - 
             description: 'Take action or "click" on buttons'
-            win:
+            windows:
                 - 
                     - Spacebar
             mac:
@@ -85,7 +85,7 @@ collection:
                     - Spacebar
         - 
             description: 'Take action or "click" on links'
-            win:
+            windows:
                 - 
                     - Enter
             mac:
@@ -93,7 +93,7 @@ collection:
                     - Enter
         - 
             description: 'Close windows, menus, or the message input box'
-            win:
+            windows:
                 - 
                     - Esc
             mac:
@@ -101,7 +101,7 @@ collection:
                     - Esc
         - 
             description: Zoom in(increase or decreasetext size)
-            win:
+            windows:
                 - 
                     - Ctrl
                     - +
@@ -111,7 +111,7 @@ collection:
                     - +
         - 
             description: Zoom out(increase or decreasetext size)
-            win:
+            windows:
                 - 
                     - Ctrl
                     - '-'
@@ -121,7 +121,7 @@ collection:
                     - '-'
         - 
             description: Scroll up(This can be toggled in your Preferences.)
-            win:
+            windows:
                 - 
                     - Home
                     - Page
@@ -134,7 +134,7 @@ collection:
                     - Up
         - 
             description: Scroll down(This can be toggled in your Preferences.)
-            win:
+            windows:
                 - 
                     - End
                     - Page
@@ -147,7 +147,7 @@ collection:
                     - Down
         - 
             description: Quick Switcher(T is desktop app only.)
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -161,7 +161,7 @@ collection:
                     - T
         - 
             description: Open direct messages menu
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -173,7 +173,7 @@ collection:
                     - K
         - 
             description: Open All Threads view
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -185,7 +185,7 @@ collection:
                     - T
         - 
             description: Previous channel or Direct Message
-            win:
+            windows:
                 - 
                     - Alt
                     - ↑
@@ -195,7 +195,7 @@ collection:
                     - ↑
         - 
             description: Next channel or Direct Message
-            win:
+            windows:
                 - 
                     - Alt
                     - ↓
@@ -205,7 +205,7 @@ collection:
                     - ↓
         - 
             description: Previous unread channel or Direct Message
-            win:
+            windows:
                 - 
                     - Alt
                     - Shift
@@ -217,7 +217,7 @@ collection:
                     - ↑
         - 
             description: Nextunread channel or Direct Message
-            win:
+            windows:
                 - 
                     - Alt
                     - Shift
@@ -229,7 +229,7 @@ collection:
                     - ↓
         - 
             description: Previous channel or Direct Message visited
-            win:
+            windows:
                 - 
                     - Alt
                     - ←
@@ -239,7 +239,7 @@ collection:
                     - '['
         - 
             description: Next channel or Direct Message visited
-            win:
+            windows:
                 - 
                     - Alt
                     - →
@@ -249,7 +249,7 @@ collection:
                     - ']'
         - 
             description: Preferences(Desktopapps only.)
-            win:
+            windows:
                 - 
                     - Ctrl
                     - ''
@@ -261,7 +261,7 @@ collection:
                     - ''
         - 
             description: Open or close right pane
-            win:
+            windows:
                 - 
                     - Ctrl
                     - .
@@ -271,7 +271,7 @@ collection:
                     - .
         - 
             description: Channel info pane
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -283,7 +283,7 @@ collection:
                     - I
         - 
             description: Activity
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -295,7 +295,7 @@ collection:
                     - M
         - 
             description: Directory
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -307,7 +307,7 @@ collection:
                     - E
         - 
             description: Starred Items
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -319,7 +319,7 @@ collection:
                     - S
         - 
             description: Search the current channel or conversation
-            win:
+            windows:
                 - 
                     - Ctrl
                     - F
@@ -329,7 +329,7 @@ collection:
                     - F
         - 
             description: Toggle full screen view
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -342,7 +342,7 @@ collection:
     All Unreadsnavigation:
         - 
             description: Open All Unreads view
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -354,7 +354,7 @@ collection:
                     - A
         - 
             description: Mark messages as unread
-            win:
+            windows:
                 - 
                     - Altand
                     - Click
@@ -368,7 +368,7 @@ collection:
                     - Message
         - 
             description: Move between channels
-            win:
+            windows:
                 - 
                     - →
                 - 
@@ -380,7 +380,7 @@ collection:
                     - ←
         - 
             description: Toggle current channel read or unread
-            win:
+            windows:
                 - 
                     - R
             mac:
@@ -389,7 +389,7 @@ collection:
     Switch teams:
         - 
             description: Switch to previous team
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -401,7 +401,7 @@ collection:
                     - '['
         - 
             description: Switch to next team
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Tab
@@ -412,7 +412,7 @@ collection:
                     - ']'
         - 
             description: Switch to a specific team (see assigned number under the team icon in your Slack app)
-            win:
+            windows:
                 - 
                     - Ctrl
                     - '[Number]'
@@ -423,7 +423,7 @@ collection:
     Mark messages read or unread:
         - 
             description: Mark all messages in current channel or Direct Messageas read
-            win:
+            windows:
                 - 
                     - Esc
             mac:
@@ -431,7 +431,7 @@ collection:
                     - Esc
         - 
             description: Mark all messagesas read
-            win:
+            windows:
                 - 
                     - Shift
                     - Esc
@@ -441,7 +441,7 @@ collection:
                     - Esc
         - 
             description: Set amessage as your oldest unread message
-            win:
+            windows:
                 - 
                     - Altand
                     - Click
@@ -456,7 +456,7 @@ collection:
     Message shortcuts:
         - 
             description: Edit your last message
-            win:
+            windows:
                 - 
                     - ↑
                     - In
@@ -470,7 +470,7 @@ collection:
                     - Box
         - 
             description: Selecttext to beginning of current line
-            win:
+            windows:
                 - 
                     - Shift
                     - ↑
@@ -480,7 +480,7 @@ collection:
                     - ↑
         - 
             description: Select text to end of current line
-            win:
+            windows:
                 - 
                     - Shift
                     - ↓
@@ -490,7 +490,7 @@ collection:
                     - ↓
         - 
             description: Create a new line in your message
-            win:
+            windows:
                 - 
                     - Shift
                     - Enter
@@ -500,7 +500,7 @@ collection:
                     - Enter
         - 
             description: 'Add emoji reactions to a message*'
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -513,7 +513,7 @@ collection:
     Messageautocomplete:
         - 
             description: 'Autocomplete@display name beginning with [character]'
-            win:
+            windows:
                 - 
                     - '[Character]'
                     - Tab
@@ -529,7 +529,7 @@ collection:
                     - Tab
         - 
             description: 'Autocompletechannel beginning with [character]'
-            win:
+            windows:
                 - 
                     - '#[Character]'
                     - Tab
@@ -539,7 +539,7 @@ collection:
                     - Tab
         - 
             description: 'Autocompleteemoji beginning with [character]'
-            win:
+            windows:
                 - 
                     - ':[Character]'
                     - Tab
@@ -550,7 +550,7 @@ collection:
     Files and snippets:
         - 
             description: Upload a file
-            win:
+            windows:
                 - 
                     - Ctrl
                     - U
@@ -560,7 +560,7 @@ collection:
                     - U
         - 
             description: Create a new Snippet
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -573,7 +573,7 @@ collection:
     Call actions:
         - 
             description: Toggle mute on and off(hold down to talk when muted)
-            win:
+            windows:
                 - 
                     - M
             mac:
@@ -581,7 +581,7 @@ collection:
                     - M
         - 
             description: Toggle video on and off
-            win:
+            windows:
                 - 
                     - V
             mac:
@@ -589,7 +589,7 @@ collection:
                     - V
         - 
             description: Show the invite list
-            win:
+            windows:
                 - 
                     - +
                 - 
@@ -601,7 +601,7 @@ collection:
                     - A
         - 
             description: View and select and emoji reactions
-            win:
+            windows:
                 - 
                     - E
                     - 1-9

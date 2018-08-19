@@ -6,7 +6,7 @@ developer: Microsoft
 website: 'https://code.visualstudio.com'
 source: 'https://code.visualstudio.com/docs/getstarted/keybindings'
 OS:
-  - win
+  - windows
   - mac
   - linux
 generate_linux: true
@@ -15,7 +15,7 @@ collection:
     General:
         - 
             description: Show Command Palette
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -31,7 +31,7 @@ collection:
                     - F1
         - 
             description: 'Quick Open, Go to File…'
-            win:
+            windows:
                 - 
                     - Ctrl
                     - P
@@ -41,7 +41,7 @@ collection:
                     - P
         - 
             description: New window/instance
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -53,7 +53,7 @@ collection:
                     - 'N'
         - 
             description: Close window/instance
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -64,7 +64,7 @@ collection:
                     - W
         - 
             description: User Settings
-            win:
+            windows:
                 - 
                     - Ctrl
                     - ','
@@ -74,7 +74,7 @@ collection:
                     - ','
         - 
             description: Keyboard Shortcuts
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -89,7 +89,7 @@ collection:
     Basic editing:
         - 
             description: Copy line (empty selection)
-            win:
+            windows:
                 - 
                     - Ctrl
                     - C
@@ -99,7 +99,7 @@ collection:
                     - C
         - 
             description: Delete Line
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -111,7 +111,7 @@ collection:
                     - K
         - 
             description: Insert Line Below
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Enter
@@ -121,7 +121,7 @@ collection:
                     - Enter
         - 
             description: Insert Line Above
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -133,7 +133,7 @@ collection:
                     - Enter
         - 
             description: Move Line Down
-            win:
+            windows:
                 - 
                     - Alt
                     - Down
@@ -143,7 +143,7 @@ collection:
                     - ↓
         - 
             description: Move Line Up
-            win:
+            windows:
                 - 
                     - Alt
                     - Up
@@ -153,7 +153,7 @@ collection:
                     - ↑
         - 
             description: Copy Line Down
-            win:
+            windows:
                 - 
                     - Shift
                     - Alt
@@ -165,7 +165,7 @@ collection:
                     - ↓
         - 
             description: Copy Line Up
-            win:
+            windows:
                 - 
                     - Shift
                     - Alt
@@ -177,7 +177,7 @@ collection:
                     - ↑
         - 
             description: Add Selection To Next Find Match
-            win:
+            windows:
                 - 
                     - Ctrl
                     - D
@@ -187,7 +187,7 @@ collection:
                     - D
         - 
             description: Move Last Selection To Next Find Match
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -201,7 +201,7 @@ collection:
                     - D
         - 
             description: Undo last cursor operation
-            win:
+            windows:
                 - 
                     - Ctrl
                     - U
@@ -211,7 +211,7 @@ collection:
                     - U
         - 
             description: Insert cursor at end of each line selected
-            win:
+            windows:
                 - 
                     - Shift
                     - Alt
@@ -223,7 +223,7 @@ collection:
                     - I
         - 
             description: Select all occurrences of current selection
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -235,7 +235,7 @@ collection:
                     - L
         - 
             description: Select all occurrences of current word
-            win:
+            windows:
                 - 
                     - Ctrl
                     - F2
@@ -245,7 +245,7 @@ collection:
                     - F2
         - 
             description: Select current line
-            win:
+            windows:
                 - 
                     - Ctrl
                     - I
@@ -255,7 +255,7 @@ collection:
                     - I
         - 
             description: Insert Cursor Below
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Alt
@@ -267,7 +267,7 @@ collection:
                     - ↓
         - 
             description: Insert Cursor Above
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Alt
@@ -279,7 +279,7 @@ collection:
                     - ↑
         - 
             description: Jump to matching bracket
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -291,7 +291,7 @@ collection:
                     - "\\"
         - 
             description: Indent Line
-            win:
+            windows:
                 - 
                     - Ctrl
                     - ']'
@@ -301,7 +301,7 @@ collection:
                     - ']'
         - 
             description: Outdent Line
-            win:
+            windows:
                 - 
                     - Ctrl
                     - '['
@@ -311,7 +311,7 @@ collection:
                     - '['
         - 
             description: Go to Beginning of Line
-            win:
+            windows:
                 - 
                     - Home
             mac:
@@ -319,7 +319,7 @@ collection:
                     - Home
         - 
             description: Go to End of Line
-            win:
+            windows:
                 - 
                     - End
             mac:
@@ -327,7 +327,7 @@ collection:
                     - End
         - 
             description: Go to End of File
-            win:
+            windows:
                 - 
                     - Ctrl
                     - End
@@ -336,7 +336,7 @@ collection:
                     - ⌘↓
         - 
             description: Go to Beginning of File
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Home
@@ -345,7 +345,7 @@ collection:
                     - ⌘↑
         - 
             description: Scroll Line Down
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Down
@@ -355,7 +355,7 @@ collection:
                     - Pagedown
         - 
             description: Scroll Line Up
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Up
@@ -365,7 +365,7 @@ collection:
                     - Pageup
         - 
             description: Scroll Page Down
-            win:
+            windows:
                 - 
                     - Alt
                     - Pagedown
@@ -375,7 +375,7 @@ collection:
                     - Pagedown
         - 
             description: Scroll Page Up
-            win:
+            windows:
                 - 
                     - Alt
                     - Pageup
@@ -385,7 +385,7 @@ collection:
                     - Pageup
         - 
             description: Fold (collapse) region
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -397,7 +397,7 @@ collection:
                     - '['
         - 
             description: Unfold (uncollapse) region
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -409,7 +409,7 @@ collection:
                     - ']'
         - 
             description: Fold (collapse) all subregions
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -423,7 +423,7 @@ collection:
                     - '['
         - 
             description: Unfold (uncollapse) all subregions
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -437,7 +437,7 @@ collection:
                     - ']'
         - 
             description: Fold (collapse) all regions
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -451,7 +451,7 @@ collection:
                     - '0'
         - 
             description: Unfold (uncollapse) all regions
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -465,7 +465,7 @@ collection:
                     - J
         - 
             description: Add Line Comment
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -479,7 +479,7 @@ collection:
                     - C
         - 
             description: Remove Line Comment
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -493,7 +493,7 @@ collection:
                     - U
         - 
             description: Toggle Line Comment
-            win:
+            windows:
                 - 
                     - Ctrl
                     - /
@@ -503,7 +503,7 @@ collection:
                     - /
         - 
             description: Toggle Block Comment
-            win:
+            windows:
                 - 
                     - Shift
                     - Alt
@@ -515,7 +515,7 @@ collection:
                     - A
         - 
             description: Find
-            win:
+            windows:
                 - 
                     - Ctrl
                     - F
@@ -525,7 +525,7 @@ collection:
                     - F
         - 
             description: Replace
-            win:
+            windows:
                 - 
                     - Ctrl
                     - H
@@ -536,7 +536,7 @@ collection:
                     - F
         - 
             description: Find Next
-            win:
+            windows:
                 - 
                     - F3
             mac:
@@ -545,7 +545,7 @@ collection:
                     - G
         - 
             description: Find Previous
-            win:
+            windows:
                 - 
                     - Shift
                     - F3
@@ -556,7 +556,7 @@ collection:
                     - G
         - 
             description: Select All Occurrences of Find Match
-            win:
+            windows:
                 - 
                     - Alt
                     - Enter
@@ -566,7 +566,7 @@ collection:
                     - Enter
         - 
             description: Toggle Find Case Sensitive
-            win:
+            windows:
                 - 
                     - Alt
                     - C
@@ -577,7 +577,7 @@ collection:
                     - C
         - 
             description: Toggle Find Regex
-            win:
+            windows:
                 - 
                     - Alt
                     - R
@@ -588,7 +588,7 @@ collection:
                     - R
         - 
             description: Toggle Find Whole Word
-            win:
+            windows:
                 - 
                     - Alt
                     - W
@@ -599,7 +599,7 @@ collection:
                     - W
         - 
             description: Toggle Use of Tab Key for Setting Focus
-            win:
+            windows:
                 - 
                     - Ctrl
                     - M
@@ -610,7 +610,7 @@ collection:
                     - M
         - 
             description: Toggle Render Whitespace
-            win:
+            windows:
                 - 
                     - Unassigned
             mac:
@@ -618,7 +618,7 @@ collection:
                     - Unassigned
         - 
             description: Toggle Word Wrap
-            win:
+            windows:
                 - 
                     - Alt
                     - Z
@@ -629,7 +629,7 @@ collection:
     Rich languages editing:
         - 
             description: Trigger Suggest
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Space
@@ -639,7 +639,7 @@ collection:
                     - Space
         - 
             description: Trigger Parameter Hints
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -651,7 +651,7 @@ collection:
                     - Space
         - 
             description: Format Document
-            win:
+            windows:
                 - 
                     - Shift
                     - Alt
@@ -663,7 +663,7 @@ collection:
                     - F
         - 
             description: Format Selection
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -677,7 +677,7 @@ collection:
                     - F
         - 
             description: Go to Definition
-            win:
+            windows:
                 - 
                     - F12
             mac:
@@ -685,7 +685,7 @@ collection:
                     - F12
         - 
             description: Show Hover
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -699,7 +699,7 @@ collection:
                     - I
         - 
             description: Peek Definition
-            win:
+            windows:
                 - 
                     - Alt
                     - F12
@@ -709,7 +709,7 @@ collection:
                     - F12
         - 
             description: Open Definition to the Side
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -721,7 +721,7 @@ collection:
                     - F12
         - 
             description: Quick Fix
-            win:
+            windows:
                 - 
                     - Ctrl
                     - .
@@ -731,7 +731,7 @@ collection:
                     - .
         - 
             description: Show References
-            win:
+            windows:
                 - 
                     - Shift
                     - F12
@@ -741,7 +741,7 @@ collection:
                     - F12
         - 
             description: Rename Symbol
-            win:
+            windows:
                 - 
                     - F2
             mac:
@@ -749,7 +749,7 @@ collection:
                     - F2
         - 
             description: Replace with Next Value
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -761,7 +761,7 @@ collection:
                     - .
         - 
             description: Replace with Previous Value
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -773,7 +773,7 @@ collection:
                     - ','
         - 
             description: Expand AST Select
-            win:
+            windows:
                 - 
                     - Shift
                     - Alt
@@ -786,7 +786,7 @@ collection:
                     - →
         - 
             description: Shrink AST Select
-            win:
+            windows:
                 - 
                     - Shift
                     - Alt
@@ -799,7 +799,7 @@ collection:
                     - ←
         - 
             description: Trim Trailing Whitespace
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -813,7 +813,7 @@ collection:
                     - X
         - 
             description: Change Language Mode
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -826,7 +826,7 @@ collection:
     Navigation:
         - 
             description: Show All Symbols
-            win:
+            windows:
                 - 
                     - Ctrl
                     - T
@@ -836,7 +836,7 @@ collection:
                     - T
         - 
             description: Go to Line...
-            win:
+            windows:
                 - 
                     - Ctrl
                     - G
@@ -846,7 +846,7 @@ collection:
                     - G
         - 
             description: 'Go to File..., Quick Open'
-            win:
+            windows:
                 - 
                     - Ctrl
                     - P
@@ -856,7 +856,7 @@ collection:
                     - P
         - 
             description: Go to Symbol...
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -868,7 +868,7 @@ collection:
                     - O
         - 
             description: Show Problems
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -880,7 +880,7 @@ collection:
                     - M
         - 
             description: Go to Next Error or Warning
-            win:
+            windows:
                 - 
                     - F8
             mac:
@@ -888,7 +888,7 @@ collection:
                     - F8
         - 
             description: Go to Previous Error or Warning
-            win:
+            windows:
                 - 
                     - Shift
                     - F8
@@ -898,7 +898,7 @@ collection:
                     - F8
         - 
             description: Show All Commands
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -910,7 +910,7 @@ collection:
                     - P
         - 
             description: Navigate Editor Group History
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -922,7 +922,7 @@ collection:
                     - Tab
         - 
             description: Go Back
-            win:
+            windows:
                 - 
                     - Alt
                     - Left
@@ -932,7 +932,7 @@ collection:
                     - '-'
         - 
             description: Go Forward
-            win:
+            windows:
                 - 
                     - Alt
                     - Right
@@ -944,7 +944,7 @@ collection:
     Editor/Window Management:
         - 
             description: Close Window
-            win:
+            windows:
                 - 
                     - Ctrl
                     - W
@@ -954,7 +954,7 @@ collection:
                     - W
         - 
             description: Close Editor
-            win:
+            windows:
                 - 
                     - Ctrl
                     - F4
@@ -964,7 +964,7 @@ collection:
                     - W
         - 
             description: Close Folder
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -976,7 +976,7 @@ collection:
                     - F
         - 
             description: Cycle Between Editor Groups
-            win:
+            windows:
                 - 
                     - Unassigned
             mac:
@@ -984,7 +984,7 @@ collection:
                     - Unassigned
         - 
             description: Split Editor
-            win:
+            windows:
                 - 
                     - Ctrl
                     - "\\"
@@ -994,7 +994,7 @@ collection:
                     - "\\"
         - 
             description: Focus into First Editor Group
-            win:
+            windows:
                 - 
                     - Ctrl
                     - '1'
@@ -1004,7 +1004,7 @@ collection:
                     - '1'
         - 
             description: Focus into Second Editor Group
-            win:
+            windows:
                 - 
                     - Ctrl
                     - '2'
@@ -1014,7 +1014,7 @@ collection:
                     - '2'
         - 
             description: Focus into Third Editor Group
-            win:
+            windows:
                 - 
                     - Ctrl
                     - '3'
@@ -1024,7 +1024,7 @@ collection:
                     - '3'
         - 
             description: Focus into Editor Group on the Left
-            win:
+            windows:
                 - 
                     - Unassigned
             mac:
@@ -1032,7 +1032,7 @@ collection:
                     - Unassigned
         - 
             description: Focus into Editor Group on the Right
-            win:
+            windows:
                 - 
                     - Unassigned
             mac:
@@ -1040,7 +1040,7 @@ collection:
                     - Unassigned
         - 
             description: Move Editor Left
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -1054,7 +1054,7 @@ collection:
                     - ←
         - 
             description: Move Editor Right
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -1068,7 +1068,7 @@ collection:
                     - →
         - 
             description: Move Active Editor Group Left
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -1080,7 +1080,7 @@ collection:
                     - ←
         - 
             description: Move Active Editor Group Right
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -1092,7 +1092,7 @@ collection:
                     - →
         - 
             description: Move Editor into Next Group
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Alt
@@ -1103,7 +1103,7 @@ collection:
                     - ⌘→
         - 
             description: Move Editor into Previous Group
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Alt
@@ -1115,7 +1115,7 @@ collection:
     File Management:
         - 
             description: Open File...
-            win:
+            windows:
                 - 
                     - Ctrl
                     - O
@@ -1124,7 +1124,7 @@ collection:
                     - Unassigned
         - 
             description: Save
-            win:
+            windows:
                 - 
                     - Ctrl
                     - S
@@ -1134,7 +1134,7 @@ collection:
                     - S
         - 
             description: Save All
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -1146,7 +1146,7 @@ collection:
                     - S
         - 
             description: Save As...
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -1158,7 +1158,7 @@ collection:
                     - S
         - 
             description: Close
-            win:
+            windows:
                 - 
                     - Ctrl
                     - F4
@@ -1168,7 +1168,7 @@ collection:
                     - W
         - 
             description: Close Others
-            win:
+            windows:
                 - 
                     - Unassigned
             mac:
@@ -1178,7 +1178,7 @@ collection:
                     - T
         - 
             description: Close Group
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -1190,7 +1190,7 @@ collection:
                     - W
         - 
             description: Close Other Groups
-            win:
+            windows:
                 - 
                     - Unassigned
             mac:
@@ -1198,7 +1198,7 @@ collection:
                     - Unassigned
         - 
             description: Close Group to Left
-            win:
+            windows:
                 - 
                     - Unassigned
             mac:
@@ -1206,7 +1206,7 @@ collection:
                     - Unassigned
         - 
             description: Close Group to Right
-            win:
+            windows:
                 - 
                     - Unassigned
             mac:
@@ -1214,7 +1214,7 @@ collection:
                     - Unassigned
         - 
             description: Close All
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -1228,7 +1228,7 @@ collection:
                     - W
         - 
             description: Reopen Closed Editor
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -1240,7 +1240,7 @@ collection:
                     - T
         - 
             description: Keep Open
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -1252,7 +1252,7 @@ collection:
                     - Enter
         - 
             description: Open Next
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Tab
@@ -1262,7 +1262,7 @@ collection:
                     - Tab
         - 
             description: Open Previous
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -1274,7 +1274,7 @@ collection:
                     - Tab
         - 
             description: Copy Path of Active File
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -1286,7 +1286,7 @@ collection:
                     - P
         - 
             description: Reveal Active File in Windows
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -1298,7 +1298,7 @@ collection:
                     - R
         - 
             description: Show Opened File in New Window
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -1310,7 +1310,7 @@ collection:
                     - O
         - 
             description: Compare Opened File With
-            win:
+            windows:
                 - 
                     - Unassigned
             mac:
@@ -1319,7 +1319,7 @@ collection:
     Display:
         - 
             description: Toggle Zen Mode
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -1331,7 +1331,7 @@ collection:
                     - Z
         - 
             description: Leave Zen Mode
-            win:
+            windows:
                 - 
                     - Escape
                     - Escape
@@ -1341,7 +1341,7 @@ collection:
                     - Escape
         - 
             description: Zoom in
-            win:
+            windows:
                 - 
                     - Ctrl
                     - =
@@ -1351,7 +1351,7 @@ collection:
                     - =
         - 
             description: Zoom out
-            win:
+            windows:
                 - 
                     - Ctrl
                     - '-'
@@ -1361,7 +1361,7 @@ collection:
                     - '-'
         - 
             description: Reset Zoom
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Numpad0
@@ -1371,7 +1371,7 @@ collection:
                     - Numpad0
         - 
             description: Toggle Sidebar Visibility
-            win:
+            windows:
                 - 
                     - Ctrl
                     - B
@@ -1381,7 +1381,7 @@ collection:
                     - B
         - 
             description: Show Explorer / Toggle Focus
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -1393,7 +1393,7 @@ collection:
                     - E
         - 
             description: Show Search
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -1405,7 +1405,7 @@ collection:
                     - F
         - 
             description: Show Source Control
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -1417,7 +1417,7 @@ collection:
                     - G
         - 
             description: Show Debug
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -1429,7 +1429,7 @@ collection:
                     - D
         - 
             description: Show Extensions
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -1441,7 +1441,7 @@ collection:
                     - X
         - 
             description: Show Output
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -1453,7 +1453,7 @@ collection:
                     - U
         - 
             description: Quick Open View
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Q
@@ -1463,7 +1463,7 @@ collection:
                     - Q
         - 
             description: Open New Command Prompt
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -1475,7 +1475,7 @@ collection:
                     - C
         - 
             description: Toggle Markdown Preview
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -1487,7 +1487,7 @@ collection:
                     - V
         - 
             description: Open Preview to the Side
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -1499,7 +1499,7 @@ collection:
                     - V
         - 
             description: Toggle Integrated Terminal
-            win:
+            windows:
                 - 
                     - Ctrl
                     - '`'
@@ -1510,7 +1510,7 @@ collection:
     Search:
         - 
             description: Replace in Files
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -1522,7 +1522,7 @@ collection:
                     - H
         - 
             description: Toggle Match Case
-            win:
+            windows:
                 - 
                     - Alt
                     - C
@@ -1533,7 +1533,7 @@ collection:
                     - C
         - 
             description: Toggle Match Whole Word
-            win:
+            windows:
                 - 
                     - Alt
                     - W
@@ -1544,7 +1544,7 @@ collection:
                     - W
         - 
             description: Toggle Use Regular Expression
-            win:
+            windows:
                 - 
                     - Alt
                     - R
@@ -1555,7 +1555,7 @@ collection:
                     - R
         - 
             description: Toggle Search Details
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -1567,7 +1567,7 @@ collection:
                     - J
         - 
             description: Focus Next Search Result
-            win:
+            windows:
                 - 
                     - F4
             mac:
@@ -1575,7 +1575,7 @@ collection:
                     - F4
         - 
             description: Focus Previous Search Result
-            win:
+            windows:
                 - 
                     - Shift
                     - F4
@@ -1585,7 +1585,7 @@ collection:
                     - F4
         - 
             description: Show Next Search Term
-            win:
+            windows:
                 - 
                     - Down
             mac:
@@ -1593,7 +1593,7 @@ collection:
                     - ↓
         - 
             description: Show Previous Search Term
-            win:
+            windows:
                 - 
                     - Up
             mac:
@@ -1602,7 +1602,7 @@ collection:
     Preferences:
         - 
             description: Open Workspace Settings
-            win:
+            windows:
                 - 
                     - Unassigned
             mac:
@@ -1610,7 +1610,7 @@ collection:
                     - Unassigned
         - 
             description: Open Keyboard Shortcuts
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -1624,7 +1624,7 @@ collection:
                     - S
         - 
             description: Open User Snippets
-            win:
+            windows:
                 - 
                     - Unassigned
             mac:
@@ -1632,7 +1632,7 @@ collection:
                     - Unassigned
         - 
             description: Select Color Theme
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -1646,7 +1646,7 @@ collection:
                     - T
         - 
             description: Configure Display Language
-            win:
+            windows:
                 - 
                     - Unassigned
             mac:
@@ -1655,7 +1655,7 @@ collection:
     Debug:
         - 
             description: Start
-            win:
+            windows:
                 - 
                     - F5
             mac:
@@ -1663,7 +1663,7 @@ collection:
                     - F5
         - 
             description: Continue
-            win:
+            windows:
                 - 
                     - F5
             mac:
@@ -1671,7 +1671,7 @@ collection:
                     - F5
         - 
             description: Start (without debugging)
-            win:
+            windows:
                 - 
                     - Ctrl
                     - F5
@@ -1681,7 +1681,7 @@ collection:
                     - F5
         - 
             description: Pause
-            win:
+            windows:
                 - 
                     - F6
             mac:
@@ -1689,7 +1689,7 @@ collection:
                     - F6
         - 
             description: Step Into
-            win:
+            windows:
                 - 
                     - F11
             mac:
@@ -1697,7 +1697,7 @@ collection:
                     - F11
         - 
             description: Step Out
-            win:
+            windows:
                 - 
                     - Shift
                     - F11
@@ -1707,7 +1707,7 @@ collection:
                     - F11
         - 
             description: Step Over
-            win:
+            windows:
                 - 
                     - F10
             mac:
@@ -1715,7 +1715,7 @@ collection:
                     - F10
         - 
             description: Stop
-            win:
+            windows:
                 - 
                     - Shift
                     - F5
@@ -1725,7 +1725,7 @@ collection:
                     - F5
         - 
             description: Show Hover
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -1740,7 +1740,7 @@ collection:
     Tasks:
         - 
             description: Run Test Task
-            win:
+            windows:
                 - 
                     - Unassigned
             mac:
@@ -1749,7 +1749,7 @@ collection:
     Integrated Terminal:
         - 
             description: Show integrated terminal
-            win:
+            windows:
                 - 
                     - Ctrl
                     - '`'
@@ -1759,7 +1759,7 @@ collection:
                     - '`'
         - 
             description: Create new terminal
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -1771,7 +1771,7 @@ collection:
                     - '`'
         - 
             description: Copy selection
-            win:
+            windows:
                 - 
                     - Ctrl
                     - C
@@ -1781,7 +1781,7 @@ collection:
                     - C
         - 
             description: Paste into active terminal
-            win:
+            windows:
                 - 
                     - Ctrl
                     - V
@@ -1790,7 +1790,7 @@ collection:
                     - ''
         - 
             description: Scroll up/down
-            win:
+            windows:
                 - 
                     - Ctrl
                     - ↑
@@ -1802,7 +1802,7 @@ collection:
                     - /
         - 
             description: Scroll page up/down
-            win:
+            windows:
                 - 
                     - Shift
                     - Pgup
@@ -1815,7 +1815,7 @@ collection:
                     - Pgdn
         - 
             description: Scroll to top/bottom
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Home

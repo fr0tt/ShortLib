@@ -6,7 +6,7 @@ developer: Google Inc.
 website: 'https://developer.android.com/studio/'
 source: 'https://developer.android.com/studio/intro/keyboard-shortcuts.html'
 OS:
-  - win
+  - windows
   - mac
   - linux
 generate_linux: true
@@ -15,7 +15,7 @@ collection:
     General:
         - 
             description: Save all
-            win:
+            windows:
                 - 
                     - Control
                     - S
@@ -25,7 +25,7 @@ collection:
                     - S
         - 
             description: Synchronize
-            win:
+            windows:
                 - 
                     - Control
                     - Alt
@@ -37,7 +37,7 @@ collection:
                     - 'Y'
         - 
             description: Maximize/minimize editor
-            win:
+            windows:
                 - 
                     - Control
                     - Shift
@@ -49,7 +49,7 @@ collection:
                     - F12
         - 
             description: Add to favorites
-            win:
+            windows:
                 - 
                     - Alt
                     - Shift
@@ -61,7 +61,7 @@ collection:
                     - F
         - 
             description: Inspect current file with current profile
-            win:
+            windows:
                 - 
                     - Alt
                     - Shift
@@ -73,7 +73,7 @@ collection:
                     - I
         - 
             description: Quick switch scheme
-            win:
+            windows:
                 - 
                     - Control
                     - '`'
@@ -85,7 +85,7 @@ collection:
                     - (Backquote)
         - 
             description: Open settings dialogue
-            win:
+            windows:
                 - 
                     - Control
                     - Alt
@@ -98,7 +98,7 @@ collection:
                     - (Comma)
         - 
             description: Open project structure dialog
-            win:
+            windows:
                 - 
                     - Control
                     - Alt
@@ -111,7 +111,7 @@ collection:
                     - (Semicolon)
         - 
             description: Switch between tabs and tool window
-            win:
+            windows:
                 - 
                     - Control
                     - Tab
@@ -122,7 +122,7 @@ collection:
     Navigating and Searching Within Studio:
         - 
             description: Search everything (including code and menus)
-            win:
+            windows:
                 - 
                     - Press
                     - Shift
@@ -134,7 +134,7 @@ collection:
                     - Twice
         - 
             description: Find
-            win:
+            windows:
                 - 
                     - Control
                     - F
@@ -144,7 +144,7 @@ collection:
                     - F
         - 
             description: Find next
-            win:
+            windows:
                 - 
                     - F3
             mac:
@@ -153,7 +153,7 @@ collection:
                     - G
         - 
             description: Find previous
-            win:
+            windows:
                 - 
                     - Shift
                     - F3
@@ -164,7 +164,7 @@ collection:
                     - G
         - 
             description: Replace
-            win:
+            windows:
                 - 
                     - Control
                     - R
@@ -174,7 +174,7 @@ collection:
                     - R
         - 
             description: Find action
-            win:
+            windows:
                 - 
                     - Control
                     - Shift
@@ -186,7 +186,7 @@ collection:
                     - A
         - 
             description: Search by symbol name
-            win:
+            windows:
                 - 
                     - Control
                     - Alt
@@ -199,7 +199,7 @@ collection:
                     - O
         - 
             description: Find class
-            win:
+            windows:
                 - 
                     - Control
                     - 'N'
@@ -209,7 +209,7 @@ collection:
                     - O
         - 
             description: Find file (instead of class)
-            win:
+            windows:
                 - 
                     - Control
                     - Shift
@@ -221,7 +221,7 @@ collection:
                     - O
         - 
             description: Find in path
-            win:
+            windows:
                 - 
                     - Control
                     - Shift
@@ -233,7 +233,7 @@ collection:
                     - F
         - 
             description: Open file structure pop-up
-            win:
+            windows:
                 - 
                     - Control
                     - F12
@@ -243,7 +243,7 @@ collection:
                     - F12
         - 
             description: Navigate between open editor tabs
-            win:
+            windows:
                 - 
                     - Alt
                     - Right/Left
@@ -255,7 +255,7 @@ collection:
                     - Arrow
         - 
             description: Jump to source
-            win:
+            windows:
                 - 
                     - F4
                     - /
@@ -270,7 +270,7 @@ collection:
                     - Arrow
         - 
             description: Open current editor tab in new window
-            win:
+            windows:
                 - 
                     - Shift
                     - F4
@@ -280,7 +280,7 @@ collection:
                     - F4
         - 
             description: Recently opened files pop-up
-            win:
+            windows:
                 - 
                     - Control
                     - E
@@ -290,7 +290,7 @@ collection:
                     - E
         - 
             description: Recently edited files pop-up
-            win:
+            windows:
                 - 
                     - Control
                     - Shift
@@ -302,7 +302,7 @@ collection:
                     - E
         - 
             description: Go to last edit location
-            win:
+            windows:
                 - 
                     - Control
                     - Shift
@@ -314,7 +314,7 @@ collection:
                     - Backspace
         - 
             description: Close active editor tab
-            win:
+            windows:
                 - 
                     - Control
                     - F4
@@ -324,7 +324,7 @@ collection:
                     - W
         - 
             description: Return to editor window from a tool window
-            win:
+            windows:
                 - 
                     - Esc
             mac:
@@ -332,7 +332,7 @@ collection:
                     - Esc
         - 
             description: Hide active or last active tool window
-            win:
+            windows:
                 - 
                     - Shift
                     - Esc
@@ -342,7 +342,7 @@ collection:
                     - Esc
         - 
             description: Go to line
-            win:
+            windows:
                 - 
                     - Control
                     - G
@@ -352,7 +352,7 @@ collection:
                     - L
         - 
             description: Open type hierarchy
-            win:
+            windows:
                 - 
                     - Control
                     - H
@@ -362,7 +362,7 @@ collection:
                     - H
         - 
             description: Open method hierarchy
-            win:
+            windows:
                 - 
                     - Control
                     - Shift
@@ -374,7 +374,7 @@ collection:
                     - H
         - 
             description: Open call hierarchy
-            win:
+            windows:
                 - 
                     - Control
                     - Alt
@@ -387,7 +387,7 @@ collection:
     Writing Code:
         - 
             description: 'Generate code (getters, setters, constructors, hashCode/equals, toString, new file, new class)'
-            win:
+            windows:
                 - 
                     - Alt
                     - Insert
@@ -397,7 +397,7 @@ collection:
                     - 'N'
         - 
             description: Override methods
-            win:
+            windows:
                 - 
                     - Control
                     - O
@@ -407,7 +407,7 @@ collection:
                     - O
         - 
             description: Implement methods
-            win:
+            windows:
                 - 
                     - Control
                     - I
@@ -417,7 +417,7 @@ collection:
                     - I
         - 
             description: Surround with (if...else / try...catch / etc.)
-            win:
+            windows:
                 - 
                     - Control
                     - Alt
@@ -429,7 +429,7 @@ collection:
                     - T
         - 
             description: Delete line at caret
-            win:
+            windows:
                 - 
                     - Control
                     - 'Y'
@@ -439,7 +439,7 @@ collection:
                     - Backspace
         - 
             description: Collapse/expand current code block
-            win:
+            windows:
                 - 
                     - Control
                     - Minus/Plus
@@ -449,7 +449,7 @@ collection:
                     - Minus/Plus
         - 
             description: Collapse/expand all code blocks
-            win:
+            windows:
                 - 
                     - Control
                     - Shift
@@ -461,7 +461,7 @@ collection:
                     - Minus/Plus
         - 
             description: Duplicate current line or selection
-            win:
+            windows:
                 - 
                     - Control
                     - D
@@ -471,7 +471,7 @@ collection:
                     - D
         - 
             description: Basic code completion
-            win:
+            windows:
                 - 
                     - Control
                     - Space
@@ -481,7 +481,7 @@ collection:
                     - Space
         - 
             description: Smart code completion (filters the list of methods and variables by expected type)
-            win:
+            windows:
                 - 
                     - Control
                     - Shift
@@ -493,7 +493,7 @@ collection:
                     - Space
         - 
             description: Complete statement
-            win:
+            windows:
                 - 
                     - Control
                     - Shift
@@ -505,7 +505,7 @@ collection:
                     - Enter
         - 
             description: Quick documentation lookup
-            win:
+            windows:
                 - 
                     - Control
                     - Q
@@ -515,7 +515,7 @@ collection:
                     - J
         - 
             description: Show parameters for selected method
-            win:
+            windows:
                 - 
                     - Control
                     - P
@@ -525,7 +525,7 @@ collection:
                     - P
         - 
             description: Go to declaration (directly)
-            win:
+            windows:
                 - 
                     - Control
                     - B
@@ -541,7 +541,7 @@ collection:
                     - Click
         - 
             description: Go to implementations
-            win:
+            windows:
                 - 
                     - Control
                     - Alt
@@ -553,7 +553,7 @@ collection:
                     - B
         - 
             description: Go to super-method/super-class
-            win:
+            windows:
                 - 
                     - Control
                     - U
@@ -563,7 +563,7 @@ collection:
                     - U
         - 
             description: Open quick definition lookup
-            win:
+            windows:
                 - 
                     - Control
                     - Shift
@@ -574,7 +574,7 @@ collection:
                     - 'Y'
         - 
             description: Toggle project tool window visibility
-            win:
+            windows:
                 - 
                     - Alt
                     - '1'
@@ -584,7 +584,7 @@ collection:
                     - '1'
         - 
             description: Toggle bookmark
-            win:
+            windows:
                 - 
                     - F11
             mac:
@@ -592,7 +592,7 @@ collection:
                     - F3
         - 
             description: Toggle bookmark with mnemonic
-            win:
+            windows:
                 - 
                     - Control
                     - F11
@@ -602,7 +602,7 @@ collection:
                     - F3
         - 
             description: Comment/uncomment with line comment
-            win:
+            windows:
                 - 
                     - Control
                     - /
@@ -612,7 +612,7 @@ collection:
                     - /
         - 
             description: Comment/uncomment with block comment
-            win:
+            windows:
                 - 
                     - Control
                     - Shift
@@ -624,7 +624,7 @@ collection:
                     - /
         - 
             description: Select successively increasing code blocks
-            win:
+            windows:
                 - 
                     - Control
                     - W
@@ -634,7 +634,7 @@ collection:
                     - Up
         - 
             description: Decrease current selection to previous state
-            win:
+            windows:
                 - 
                     - Control
                     - Shift
@@ -645,7 +645,7 @@ collection:
                     - Down
         - 
             description: Move to code block start
-            win:
+            windows:
                 - 
                     - Control
                     - '['
@@ -656,7 +656,7 @@ collection:
                     - '['
         - 
             description: Move to code block end
-            win:
+            windows:
                 - 
                     - Control
                     - ']'
@@ -667,7 +667,7 @@ collection:
                     - ']'
         - 
             description: Select to the code block start
-            win:
+            windows:
                 - 
                     - Control
                     - Shift
@@ -680,7 +680,7 @@ collection:
                     - '['
         - 
             description: Select to the code block end
-            win:
+            windows:
                 - 
                     - Control
                     - Shift
@@ -693,7 +693,7 @@ collection:
                     - ']'
         - 
             description: Delete to end of word
-            win:
+            windows:
                 - 
                     - Control
                     - Delete
@@ -703,7 +703,7 @@ collection:
                     - Delete
         - 
             description: Delete to start of word
-            win:
+            windows:
                 - 
                     - Control
                     - Backspace
@@ -713,7 +713,7 @@ collection:
                     - Backspace
         - 
             description: Optimize imports
-            win:
+            windows:
                 - 
                     - Control
                     - Alt
@@ -725,7 +725,7 @@ collection:
                     - O
         - 
             description: Project quick fix (show intention actions and quick fixes)
-            win:
+            windows:
                 - 
                     - Alt
                     - Enter
@@ -735,7 +735,7 @@ collection:
                     - Enter
         - 
             description: Reformat code
-            win:
+            windows:
                 - 
                     - Control
                     - Alt
@@ -747,7 +747,7 @@ collection:
                     - L
         - 
             description: Auto-indent lines
-            win:
+            windows:
                 - 
                     - Control
                     - Alt
@@ -759,7 +759,7 @@ collection:
                     - I
         - 
             description: Indent/unindent lines
-            win:
+            windows:
                 - 
                     - Tab/Shift
                     - Tab
@@ -769,7 +769,7 @@ collection:
                     - Tab
         - 
             description: Smart line join
-            win:
+            windows:
                 - 
                     - Control
                     - Shift
@@ -781,7 +781,7 @@ collection:
                     - J
         - 
             description: Smart line split
-            win:
+            windows:
                 - 
                     - Control
                     - Enter
@@ -791,7 +791,7 @@ collection:
                     - Enter
         - 
             description: Start new line
-            win:
+            windows:
                 - 
                     - Shift
                     - Enter
@@ -801,7 +801,7 @@ collection:
                     - Enter
         - 
             description: Next/previous highlighted error
-            win:
+            windows:
                 - 
                     - F2
                     - /
@@ -816,7 +816,7 @@ collection:
     Build and Run:
         - 
             description: Build
-            win:
+            windows:
                 - 
                     - Control
                     - F9
@@ -826,7 +826,7 @@ collection:
                     - F9
         - 
             description: Build and run
-            win:
+            windows:
                 - 
                     - Shift
                     - F10
@@ -836,7 +836,7 @@ collection:
                     - R
         - 
             description: Apply changes (with Instant Run)
-            win:
+            windows:
                 - 
                     - Control
                     - F10
@@ -848,7 +848,7 @@ collection:
     Debugging:
         - 
             description: Debug
-            win:
+            windows:
                 - 
                     - Shift
                     - F9
@@ -858,7 +858,7 @@ collection:
                     - D
         - 
             description: Step over
-            win:
+            windows:
                 - 
                     - F8
             mac:
@@ -866,7 +866,7 @@ collection:
                     - F8
         - 
             description: Step into
-            win:
+            windows:
                 - 
                     - F7
             mac:
@@ -874,7 +874,7 @@ collection:
                     - F7
         - 
             description: Smart step into
-            win:
+            windows:
                 - 
                     - Shift
                     - F7
@@ -884,7 +884,7 @@ collection:
                     - F7
         - 
             description: Step out
-            win:
+            windows:
                 - 
                     - Shift
                     - F8
@@ -894,7 +894,7 @@ collection:
                     - F8
         - 
             description: Run to cursor
-            win:
+            windows:
                 - 
                     - Alt
                     - F9
@@ -904,7 +904,7 @@ collection:
                     - F9
         - 
             description: Evaluate expression
-            win:
+            windows:
                 - 
                     - Alt
                     - F8
@@ -914,7 +914,7 @@ collection:
                     - F8
         - 
             description: Resume program
-            win:
+            windows:
                 - 
                     - F9
             mac:
@@ -924,7 +924,7 @@ collection:
                     - R
         - 
             description: Toggle breakpoint
-            win:
+            windows:
                 - 
                     - Control
                     - F8
@@ -934,7 +934,7 @@ collection:
                     - F8
         - 
             description: View breakpoints
-            win:
+            windows:
                 - 
                     - Control
                     - Shift
@@ -947,7 +947,7 @@ collection:
     Refactoring:
         - 
             description: Copy
-            win:
+            windows:
                 - 
                     - F5
             mac:
@@ -955,7 +955,7 @@ collection:
                     - F5
         - 
             description: Move
-            win:
+            windows:
                 - 
                     - F6
             mac:
@@ -963,7 +963,7 @@ collection:
                     - F6
         - 
             description: Safe delete
-            win:
+            windows:
                 - 
                     - Alt
                     - Delete
@@ -973,7 +973,7 @@ collection:
                     - Delete
         - 
             description: Rename
-            win:
+            windows:
                 - 
                     - Shift
                     - F6
@@ -983,7 +983,7 @@ collection:
                     - F6
         - 
             description: Change signature
-            win:
+            windows:
                 - 
                     - Control
                     - F6
@@ -993,7 +993,7 @@ collection:
                     - F6
         - 
             description: Inline
-            win:
+            windows:
                 - 
                     - Control
                     - Alt
@@ -1005,7 +1005,7 @@ collection:
                     - 'N'
         - 
             description: Extract method
-            win:
+            windows:
                 - 
                     - Control
                     - Alt
@@ -1017,7 +1017,7 @@ collection:
                     - M
         - 
             description: Extract variable
-            win:
+            windows:
                 - 
                     - Control
                     - Alt
@@ -1029,7 +1029,7 @@ collection:
                     - V
         - 
             description: Extract field
-            win:
+            windows:
                 - 
                     - Control
                     - Alt
@@ -1041,7 +1041,7 @@ collection:
                     - F
         - 
             description: Extract constant
-            win:
+            windows:
                 - 
                     - Control
                     - Alt
@@ -1053,7 +1053,7 @@ collection:
                     - C
         - 
             description: Extract parameter
-            win:
+            windows:
                 - 
                     - Control
                     - Alt
@@ -1066,7 +1066,7 @@ collection:
     Version Control / Local History:
         - 
             description: Commit project to VCS
-            win:
+            windows:
                 - 
                     - Control
                     - K
@@ -1076,7 +1076,7 @@ collection:
                     - K
         - 
             description: Update project from VCS
-            win:
+            windows:
                 - 
                     - Control
                     - T
@@ -1086,7 +1086,7 @@ collection:
                     - T
         - 
             description: View recent changes
-            win:
+            windows:
                 - 
                     - Alt
                     - Shift
@@ -1098,7 +1098,7 @@ collection:
                     - C
         - 
             description: Open VCS popup
-            win:
+            windows:
                 - 
                     - Alt
                     - '`'

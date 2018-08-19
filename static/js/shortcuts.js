@@ -1,4 +1,4 @@
-const winIndex = OS.indexOf('win') 
+const windowsIndex = OS.indexOf('windows') 
 const macIndex = OS.indexOf('mac')
 const linuxIndex = OS.indexOf('linux')
 
@@ -29,7 +29,7 @@ let vue = new Vue({
     }
 })
 
-let userOS = 'win'
+let userOS = 'windows'
 if (navigator.platform.toLowerCase().indexOf('mac') !== -1) {
     userOS = 'mac'
 } else if (navigator.platform.toLowerCase().indexOf('linux') !== -1) {
@@ -38,8 +38,8 @@ if (navigator.platform.toLowerCase().indexOf('mac') !== -1) {
 if (OS.indexOf(userOS) !== -1) {
     vue.selectedOS = userOS
 } else {
-    if (OS.indexOf('win') !== -1) {
-        vue.selectedOS = 'win'
+    if (OS.indexOf('windows') !== -1) {
+        vue.selectedOS = 'windows'
     } else {
         vue.selectedOS = OS[0]
     }

@@ -6,7 +6,7 @@ developer: Google LLC
 website: 'https://docs.google.com/document/'
 source: 'https://support.google.com/docs/answer/179738'
 OS:
-  - win
+  - windows
   - mac
   - linux
 time: 2018-08-12
@@ -14,7 +14,7 @@ collection:
     Common actions:
         - 
             description: Copy
-            win:
+            windows:
                 - 
                     - Ctrl
                     - C
@@ -24,7 +24,7 @@ collection:
                     - C
         - 
             description: Cut
-            win:
+            windows:
                 - 
                     - Ctrl
                     - X
@@ -34,7 +34,7 @@ collection:
                     - X
         - 
             description: Paste
-            win:
+            windows:
                 - 
                     - Ctrl
                     - V
@@ -44,7 +44,7 @@ collection:
                     - V
         - 
             description: Paste without formatting
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -56,7 +56,7 @@ collection:
                     - V
         - 
             description: Undo
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Z
@@ -66,7 +66,7 @@ collection:
                     - Z
         - 
             description: Redo
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -78,7 +78,7 @@ collection:
                     - Z
         - 
             description: Insert + or + edit + link
-            win:
+            windows:
                 - 
                     - Ctrl
                     - K
@@ -88,7 +88,7 @@ collection:
                     - K
         - 
             description: Open link
-            win:
+            windows:
                 - 
                     - Alt
                     - Enter
@@ -98,7 +98,7 @@ collection:
                     - Enter
         - 
             description: Show common keyboard shortcuts
-            win:
+            windows:
                 - 
                     - Ctrl
                     - /
@@ -108,7 +108,7 @@ collection:
                     - /
         - 
             description: Save Every change is automatically saved in Drive
-            win:
+            windows:
                 - 
                     - Ctrl
                     - S
@@ -118,7 +118,7 @@ collection:
                     - S
         - 
             description: Print
-            win:
+            windows:
                 - 
                     - Ctrl
                     - P
@@ -128,7 +128,7 @@ collection:
                     - P
         - 
             description: Open
-            win:
+            windows:
                 - 
                     - Ctrl
                     - O
@@ -138,7 +138,7 @@ collection:
                     - O
         - 
             description: Find
-            win:
+            windows:
                 - 
                     - Ctrl
                     - F
@@ -148,7 +148,7 @@ collection:
                     - F
         - 
             description: Find and replace
-            win:
+            windows:
                 - 
                     - Ctrl
                     - H
@@ -159,7 +159,7 @@ collection:
                     - H
         - 
             description: Find again
-            win:
+            windows:
                 - 
                     - Ctrl
                     - G
@@ -169,7 +169,7 @@ collection:
                     - G
         - 
             description: Find previous
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -181,7 +181,7 @@ collection:
                     - G
         - 
             description: Hide the menus (compact mode)
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -193,7 +193,7 @@ collection:
                     - F
         - 
             description: Insert page break
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Enter
@@ -203,7 +203,7 @@ collection:
                     - Enter
         - 
             description: Search the menus
-            win:
+            windows:
                 - 
                     - Alt
                     - /
@@ -227,7 +227,7 @@ collection:
     Text formatting:
         - 
             description: Bold
-            win:
+            windows:
                 - 
                     - Ctrl
                     - B
@@ -237,7 +237,7 @@ collection:
                     - B
         - 
             description: Italicize
-            win:
+            windows:
                 - 
                     - Ctrl
                     - I
@@ -247,7 +247,7 @@ collection:
                     - I
         - 
             description: Underline
-            win:
+            windows:
                 - 
                     - Ctrl
                     - U
@@ -257,7 +257,7 @@ collection:
                     - U
         - 
             description: Strikethrough
-            win:
+            windows:
                 - 
                     - Alt
                     - Shift
@@ -269,7 +269,7 @@ collection:
                     - X
         - 
             description: Superscript
-            win:
+            windows:
                 - 
                     - Ctrl
                     - .
@@ -279,7 +279,7 @@ collection:
                     - .
         - 
             description: Subscript
-            win:
+            windows:
                 - 
                     - Ctrl
                     - ''
@@ -291,7 +291,7 @@ collection:
                     - ''
         - 
             description: Copy text formatting
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Alt
@@ -303,7 +303,7 @@ collection:
                     - C
         - 
             description: Paste text formatting
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Alt
@@ -315,7 +315,7 @@ collection:
                     - V
         - 
             description: Clear text formatting
-            win:
+            windows:
                 - 
                     - Ctrl
                     - "\\"
@@ -328,7 +328,7 @@ collection:
                     - "\\"
         - 
             description: Increase font size
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -340,7 +340,7 @@ collection:
                     - ≫
         - 
             description: Decrease font size
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -353,7 +353,7 @@ collection:
     Paragraph-formatting:
         - 
             description: Increase paragraph indentation
-            win:
+            windows:
                 - 
                     - Ctrl
                     - ']'
@@ -363,7 +363,7 @@ collection:
                     - ']'
         - 
             description: Decrease paragraph indentation
-            win:
+            windows:
                 - 
                     - Ctrl
                     - '['
@@ -373,7 +373,7 @@ collection:
                     - '['
         - 
             description: Apply normal text style
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Alt
@@ -385,7 +385,7 @@ collection:
                     - O
         - 
             description: 'Apply heading style [1-6]'
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Alt
@@ -397,7 +397,7 @@ collection:
                     - '+[1-6]'
         - 
             description: Left align
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -409,7 +409,7 @@ collection:
                     - L
         - 
             description: Center align
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -421,7 +421,7 @@ collection:
                     - E
         - 
             description: Right align
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -433,7 +433,7 @@ collection:
                     - R
         - 
             description: Justify
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -445,7 +445,7 @@ collection:
                     - J
         - 
             description: Numbered list
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -457,7 +457,7 @@ collection:
                     - '7'
         - 
             description: Bulleted list
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -469,7 +469,7 @@ collection:
                     - '8'
         - 
             description: Move paragraph up/down
-            win:
+            windows:
                 - 
                     - Alt
                     - Shift
@@ -481,7 +481,7 @@ collection:
     Images-and-drawings:
         - 
             description: Resize larger
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Alt
@@ -493,7 +493,7 @@ collection:
                     - K
         - 
             description: Resize larger horizontally
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Alt
@@ -505,7 +505,7 @@ collection:
                     - B
         - 
             description: Resize larger vertically
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Alt
@@ -517,7 +517,7 @@ collection:
                     - I
         - 
             description: Resize smaller
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Alt
@@ -529,7 +529,7 @@ collection:
                     - J
         - 
             description: Resize smaller horizontally
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Alt
@@ -541,7 +541,7 @@ collection:
                     - W
         - 
             description: Resize smaller vertically
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Alt
@@ -553,7 +553,7 @@ collection:
                     - Q
         - 
             description: Rotate clockwise by 15°
-            win:
+            windows:
                 - 
                     - Alt
                     - Right
@@ -565,7 +565,7 @@ collection:
                     - Arrow
         - 
             description: Rotate counterclockwise by 15°
-            win:
+            windows:
                 - 
                     - Alt
                     - Left
@@ -577,7 +577,7 @@ collection:
                     - Arrow
         - 
             description: Rotate counterclockwise by 1°
-            win:
+            windows:
                 - 
                     - Alt
                     - Shift
@@ -591,7 +591,7 @@ collection:
                     - Arrow
         - 
             description: Rotate clockwise by 1°
-            win:
+            windows:
                 - 
                     - Alt
                     - Shift
@@ -605,7 +605,7 @@ collection:
                     - Arrow
         - 
             description: Close drawing editor
-            win:
+            windows:
                 - 
                     - Shift
                     - Esc
@@ -618,7 +618,7 @@ collection:
     Comments and footnotes:
         - 
             description: Insert comment
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Alt
@@ -630,7 +630,7 @@ collection:
                     - M
         - 
             description: Open discussion thread
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Alt
@@ -644,7 +644,7 @@ collection:
                     - A
         - 
             description: Enter current comment
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Enter
@@ -654,7 +654,7 @@ collection:
                     - Enter
         - 
             description: Insert footnote
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Alt
@@ -666,7 +666,7 @@ collection:
                     - F
         - 
             description: Move to current footnote
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -684,7 +684,7 @@ collection:
                     - Pressethenf
         - 
             description: Move to next footnote
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -702,7 +702,7 @@ collection:
                     - Pressnthenf
         - 
             description: Move to previous footnote
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -721,7 +721,7 @@ collection:
     Menus:
         - 
             description: Context (right-click) menu
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -737,7 +737,7 @@ collection:
                     - "\\"
         - 
             description: File menu
-            win:
+            windows:
                 - 
                     - Alt
                     - F
@@ -752,7 +752,7 @@ collection:
                     - F
         - 
             description: Edit menu
-            win:
+            windows:
                 - 
                     - Alt
                     - E
@@ -767,7 +767,7 @@ collection:
                     - E
         - 
             description: View menu
-            win:
+            windows:
                 - 
                     - Alt
                     - V
@@ -781,7 +781,7 @@ collection:
                     - V
         - 
             description: Insert menu
-            win:
+            windows:
                 - 
                     - Alt
                     - I
@@ -795,7 +795,7 @@ collection:
                     - I
         - 
             description: Format menu
-            win:
+            windows:
                 - 
                     - Alt
                     - O
@@ -810,7 +810,7 @@ collection:
                     - O
         - 
             description: Tools menu
-            win:
+            windows:
                 - 
                     - Alt
                     - T
@@ -825,7 +825,7 @@ collection:
                     - T
         - 
             description: Table menu
-            win:
+            windows:
                 - 
                     - Alt
                     - B
@@ -840,7 +840,7 @@ collection:
                     - B
         - 
             description: Help menu
-            win:
+            windows:
                 - 
                     - Alt
                     - H
@@ -855,7 +855,7 @@ collection:
                     - H
         - 
             description: Accessibility menu (present when screen reader support is enabled)
-            win:
+            windows:
                 - 
                     - Alt
                     - A
@@ -870,7 +870,7 @@ collection:
                     - A
         - 
             description: Input Tools menu (available in documents in non-Latin languages)
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Alt
@@ -884,7 +884,7 @@ collection:
                     - K
         - 
             description: Toggle input controls (available in documents in non-Latin languages)
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -896,7 +896,7 @@ collection:
                     - K
         - 
             description: "Show your browser\\'s context menu"
-            win:
+            windows:
                 - 
                     - Shift
                     - Right-Click
@@ -906,7 +906,7 @@ collection:
                     - Right-Click
         - 
             description: Select all
-            win:
+            windows:
                 - 
                     - Ctrl
                     - A
@@ -916,7 +916,7 @@ collection:
                     - A
         - 
             description: Extend selection one character
-            win:
+            windows:
                 - 
                     - Shift
                     - Left/Right
@@ -928,7 +928,7 @@ collection:
                     - Arrow
         - 
             description: Extend selection one line
-            win:
+            windows:
                 - 
                     - Shift
                     - Up/Down
@@ -940,7 +940,7 @@ collection:
                     - Arrow
         - 
             description: Extend selection one word
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -954,7 +954,7 @@ collection:
                     - Arrow
         - 
             description: Extend selection to the beginning of the line
-            win:
+            windows:
                 - 
                     - Shift
                     - Home
@@ -966,7 +966,7 @@ collection:
                     - Arrow
         - 
             description: Extend selection to the end of the line
-            win:
+            windows:
                 - 
                     - Shift
                     - End
@@ -978,7 +978,7 @@ collection:
                     - Arrow
         - 
             description: Extend selection to the beginning of the document
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -991,7 +991,7 @@ collection:
                     - Arrow
         - 
             description: Extend selection to the end of the document
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -1004,7 +1004,7 @@ collection:
                     - Arrow
         - 
             description: Select current list item
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1024,7 +1024,7 @@ collection:
                     - Pressetheni
         - 
             description: Select all list items at current level
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1044,7 +1044,7 @@ collection:
     Text selection with mouse:
         - 
             description: Select word
-            win:
+            windows:
                 - 
                     - Double-Click
             mac:
@@ -1052,7 +1052,7 @@ collection:
                     - Double-Click
         - 
             description: Extend selection one word at a time
-            win:
+            windows:
                 - 
                     - Double-Click
                     - Drag
@@ -1062,7 +1062,7 @@ collection:
                     - Drag
         - 
             description: Select paragraph
-            win:
+            windows:
                 - 
                     - Triple-Click
             mac:
@@ -1070,7 +1070,7 @@ collection:
                     - Triple-Click
         - 
             description: Extend selection one paragraph at a time
-            win:
+            windows:
                 - 
                     - Triple-Click
                     - Drag
@@ -1081,7 +1081,7 @@ collection:
     Screen reader support:
         - 
             description: Enable screen reader support
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Alt
@@ -1097,7 +1097,7 @@ collection:
                     - Z
         - 
             description: Speak selection
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Alt
@@ -1109,7 +1109,7 @@ collection:
                     - X
         - 
             description: Speak from cursor location
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Alt
@@ -1121,7 +1121,7 @@ collection:
                     - R
         - 
             description: Announce cursor location
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1139,7 +1139,7 @@ collection:
                     - Pressathenl
         - 
             description: Announce formatting at cursor location
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1157,7 +1157,7 @@ collection:
                     - Pressathenf
         - 
             description: Speak the table column and row header
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1177,7 +1177,7 @@ collection:
                     - Presstthenh
         - 
             description: Speak the table cell location
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1197,7 +1197,7 @@ collection:
                     - Presstthenn
         - 
             description: Speak the table row header
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1217,7 +1217,7 @@ collection:
                     - Presstthenr
         - 
             description: Speak the table column header
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1238,7 +1238,7 @@ collection:
     Document navigation:
         - 
             description: Move to next heading
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1256,7 +1256,7 @@ collection:
                     - Pressnthenh
         - 
             description: Move to previous heading
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1274,7 +1274,7 @@ collection:
                     - Presspthenh
         - 
             description: 'Move to next heading [1-6]'
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1293,7 +1293,7 @@ collection:
                     - '[1-6]'
         - 
             description: 'Move to previous heading [1-6]'
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1312,7 +1312,7 @@ collection:
                     - '[1-6]'
         - 
             description: Move to next graphic (image or drawing)
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1330,7 +1330,7 @@ collection:
                     - Pressntheng
         - 
             description: Move to previous graphic (image or drawing)
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1348,7 +1348,7 @@ collection:
                     - Pressptheng
         - 
             description: Move to next list
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1366,7 +1366,7 @@ collection:
                     - Pressntheno
         - 
             description: Move to previous list
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1384,7 +1384,7 @@ collection:
                     - Pressptheno
         - 
             description: Move to next item in the current list
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1402,7 +1402,7 @@ collection:
                     - Pressntheni
         - 
             description: Move to previous item in the current list
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1420,7 +1420,7 @@ collection:
                     - Pressptheni
         - 
             description: Move to next link
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1438,7 +1438,7 @@ collection:
                     - Pressnthenl
         - 
             description: Move to previous link
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1456,7 +1456,7 @@ collection:
                     - Presspthenl
         - 
             description: Move to next bookmark
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1474,7 +1474,7 @@ collection:
                     - Pressnthenb
         - 
             description: Move to previous bookmark
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1492,7 +1492,7 @@ collection:
                     - Presspthenb
         - 
             description: Move to next formatting change
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1510,7 +1510,7 @@ collection:
                     - Pressnthenw
         - 
             description: Move to previous formatting change
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1528,7 +1528,7 @@ collection:
                     - Presspthenw
         - 
             description: Move to next edit (while viewing revision history or new changes)
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1550,7 +1550,7 @@ collection:
                     - Pressnthenr
         - 
             description: Move to previous edit (while viewing revision history or new changes)
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1573,7 +1573,7 @@ collection:
     Table navigation:
         - 
             description: Move to the start of the table
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1593,7 +1593,7 @@ collection:
                     - Presstthens
         - 
             description: Move to the end of the table
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1613,7 +1613,7 @@ collection:
                     - Presstthend
         - 
             description: Move to the start of the table column
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1633,7 +1633,7 @@ collection:
                     - Pressttheni
         - 
             description: Move to the end of the table column
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1653,7 +1653,7 @@ collection:
                     - Presstthenk
         - 
             description: Move to the next table column
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1673,7 +1673,7 @@ collection:
                     - Presstthenb
         - 
             description: Move to the previous table column
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1693,7 +1693,7 @@ collection:
                     - Presstthenv
         - 
             description: Move to the start of the table row
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1713,7 +1713,7 @@ collection:
                     - Presstthenj
         - 
             description: Move to the end of the table row
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1733,7 +1733,7 @@ collection:
                     - Presstthenl
         - 
             description: Move to the next table row
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1753,7 +1753,7 @@ collection:
                     - Presstthenm
         - 
             description: Move to the previous table row
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1773,7 +1773,7 @@ collection:
                     - Pressttheng
         - 
             description: Exit table
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1793,7 +1793,7 @@ collection:
                     - Presstthene
         - 
             description: Move to the next table
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1813,7 +1813,7 @@ collection:
                     - Pressnthent
         - 
             description: Move to the previous table
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1833,7 +1833,7 @@ collection:
     Other tools and navigation:
         - 
             description: Open revision history
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Alt
@@ -1847,7 +1847,7 @@ collection:
                     - H
         - 
             description: Open Explore tool
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Alt
@@ -1861,7 +1861,7 @@ collection:
                     - I
         - 
             description: Open dictionary
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -1873,7 +1873,7 @@ collection:
                     - 'Y'
         - 
             description: Word count
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -1885,7 +1885,7 @@ collection:
                     - C
         - 
             description: Start voice typing (available in Chrome browsers)
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
@@ -1897,7 +1897,7 @@ collection:
                     - S
         - 
             description: Page up
-            win:
+            windows:
                 - 
                     - Page
                     - Up
@@ -1908,7 +1908,7 @@ collection:
                     - Arrow
         - 
             description: Page down
-            win:
+            windows:
                 - 
                     - Page
                     - Down
@@ -1919,7 +1919,7 @@ collection:
                     - Arrow
         - 
             description: Move to next misspelling
-            win:
+            windows:
                 - 
                     - Ctrl
                     - "'"
@@ -1929,7 +1929,7 @@ collection:
                     - "'"
         - 
             description: Move to previous misspelling
-            win:
+            windows:
                 - 
                     - Ctrl
                     - ;
@@ -1939,7 +1939,7 @@ collection:
                     - ;
         - 
             description: Insert or move to header
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1957,7 +1957,7 @@ collection:
                     - Pressothenh
         - 
             description: Insert or move to footer
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1975,7 +1975,7 @@ collection:
                     - Pressothenf
         - 
             description: 'Move focus to popup (for links, bookmarks, and images)'
-            win:
+            windows:
                 - 
                     - Holding
                     - Ctrl
@@ -1993,7 +1993,7 @@ collection:
                     - Pressethenp
         - 
             description: Open chat inside the document
-            win:
+            windows:
                 - 
                     - Shift
                     - Esc
@@ -2002,7 +2002,7 @@ collection:
                     - ''
         - 
             description: Move focus out of document text
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Alt
@@ -2016,7 +2016,7 @@ collection:
                     - M
         - 
             description: Return focus to document text
-            win:
+            windows:
                 - 
                     - Esc
             mac:
@@ -2024,7 +2024,7 @@ collection:
                     - Esc
         - 
             description: Focus containing webpage (such as when using Docs in Google+ Hangouts)
-            win:
+            windows:
                 - 
                     - Ctrl
                     - Shift
