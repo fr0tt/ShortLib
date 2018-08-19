@@ -16,15 +16,14 @@ ShortLib is an open source project accommodating keyboard shortcuts for Windows,
 * [Contribute](#contribute)
 * [To-Do](#to-do)
 
-## Contribute
+## Contribute shortcuts for a new program
 
-### Contribute shortcuts for a new program
 - create a new folder in content (content/YOUR-FOLDER-NAME)
 - add an icon to your new folder (content/YOUR-FOLDER-NAME/icon.svg)
 - create an index.yaml file to your new folder (content/YOUR-FOLDER-NAME/index.yaml)
-- fill index.yaml accordingly (see below or have a look at existing programs)
+- fill index.yaml accordingly with metadata (see below or have a look at existing programs)
 
-| Key            | Description                                     | Example value                          | 
+| Key            | Description                                     | (Example) value                        | 
 | -------------- |:-----------------------------------------------:| --------------------------------------:|
 | name           | name of the application                         | Super Cool Program                     |
 | image_src      | relative path to the applications icon          | icon.svg                               |
@@ -32,10 +31,27 @@ ShortLib is an open source project accommodating keyboard shortcuts for Windows,
 | developer      | name of the developer                           | Super Cool Developer LLC               | 
 | website        | link to the developer                           | https://github.com/fr0tt               |
 | source         | links to used references                        | https://github.com/fr0tt               |
-| OS             | operating systems of defined shortcuts (so if every linux shortcut is the exact same as on windows, just define only windows and set generate_linux as true)                | win or linux or mac                    |
+| OS             | operating systems of defined shortcuts (if generate_linux is set to true linux shortcuts can be served without beeing defined)                                            | windows or linux or mac                |
 | generate_linux | show linux users windows shortcut if no linux shortcut was defined                                                                                                               | true or false                          |
 | time           | creation time in ISO-8061 format (https://www.w3.org/QA/Tips/iso-date)
                                                                    | 1970-12-24 or 1970-12-24T00:00:00.000Z |
+
+- fill index.yaml accordingly with shortcuts (see below or have a look at existing programs)
+
+```yaml
+collection: 
+    A cool section name:
+        - 
+            description: There should be something happening.
+            windows:
+                - 
+                    - Ctrl
+                    - F
+            mac:
+                - 
+                    - ⌘
+                    - F
+```
 
 ## To-Do
 
