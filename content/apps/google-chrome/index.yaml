@@ -1,1087 +1,863 @@
 name: Google Chrome
 image_src: icon.svg
-author: fr0tt
 description: Google Chrome is a freeware web browser developed by Google.
 developer: Google Inc.
 website: 'https://www.google.com/chrome/'
+source: 'https://support.google.com/chrome/answer/157179'
 OS:
   - win
   - mac
-time: 2018-05-02
+  - linux
+time: 2018-05-03
 generate_linux: true
 collection:
-    Tab and window shortcuts:
+    Tab and window shortcuts: 
         - 
             description: Open a new window
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - 'N'
-                mac:
-                    - 
-                        - ⌘
-                        - 'N'
+            win:
+                - 
+                    - Ctrl
+                    - 'N'
+            mac:
+                - 
+                    - ⌘
+                    - 'N'
         - 
             description: Open a new window in Incognito mode
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - Shift
-                        - 'N'
-                mac:
-                    - 
-                        - ⌘
-                        - Shift
-                        - 'N'
+            win:
+                - 
+                    - Ctrl
+                    - Shift
+                    - 'N'
+            mac:
+                - 
+                    - ⌘
+                    - Shift
+                    - 'N'
         - 
             description: 'Open a new tab, and jump to it'
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - T
-                mac:
-                    - 
-                        - ⌘
-                        - T
+            win:
+                - 
+                    - Ctrl
+                    - T
+            mac:
+                - 
+                    - ⌘
+                    - T
         - 
             description: 'Reopen the last closed tab, and jump to it'
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - Shift
-                        - T
-                mac:
-                    - 
-                        - ⌘
-                        - Shift
-                        - T
+            win:
+                - 
+                    - Ctrl
+                    - Shift
+                    - T
+            mac:
+                - 
+                    - ⌘
+                    - Shift
+                    - T
         - 
             description: Jump to the next open tab
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - Tab
-                    - 
-                        - Ctrl
-                        - Pgdn
-                mac:
-                    - 
-                        - ⌘
-                        - Option
-                        - Right
-                        - Arrow
+            win:
+                - 
+                    - Ctrl
+                    - Tab
+                - 
+                    - Ctrl
+                    - Pgdn
+            mac:
+                - 
+                    - ⌘
+                    - Option
+                    - Right Arrow
         - 
             description: Jump to the previous open tab
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - Shift
-                        - Tab
-                    - 
-                        - Ctrl
-                        - Pgup
-                mac:
-                    - 
-                        - ⌘
-                        - Option
-                        - Left
-                        - Arrow
+            win:
+                - 
+                    - Ctrl
+                    - Shift
+                    - Tab
+                - 
+                    - Ctrl
+                    - Pgup
+            mac:
+                - 
+                    - ⌘
+                    - Option
+                    - Left Arrow
         - 
             description: Jump to a specific tab
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - '1'
-                        - Through
-                        - Ctrl
-                        - '8'
-                mac:
-                    - 
-                        - ⌘
-                        - '1'
-                        - Through
-                        - ⌘
-                        - '8'
+            win:
+                - 
+                    - Ctrl
+                    - '1'
+                    - Through
+                    - Ctrl
+                    - '8'
+            mac:
+                - 
+                    - ⌘
+                    - '1'
+                    - Through
+                    - ⌘
+                    - '8'
         - 
             description: Jump to the last tab
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - '9'
-                mac:
-                    - 
-                        - ⌘
-                        - '9'
+            win:
+                - 
+                    - Ctrl
+                    - '9'
+            mac:
+                - 
+                    - ⌘
+                    - '9'
         - 
             description: Open your home page in the current tab
-            hotkeys:
-                win:
-                    - 
-                        - Alt
-                        - Home
-                mac:
-                    - 
-                        - ''
+            win:
+                - 
+                    - Alt
+                    - Home
         - 
             description: Open the previous page from your browsing history in the current tab
-            hotkeys:
-                win:
-                    - 
-                        - Alt
-                        - Left
-                        - Arrow
-                mac:
-                    - 
-                        - ⌘
-                        - '['
-                    - 
-                        - ⌘
-                        - Left
-                        - Arrow
+            win:
+                - 
+                    - Alt
+                    - Left
+                    - Arrow
+            mac:
+                - 
+                    - ⌘
+                    - '['
+                - 
+                    - ⌘
+                    - Left
+                    - Arrow
         - 
             description: Open the next page from your browsing history in the current tab
-            hotkeys:
-                win:
-                    - 
-                        - Alt
-                        - Right
-                        - Arrow
-                mac:
-                    - 
-                        - ⌘
-                        - ']'
-                    - 
-                        - ⌘
-                        - Right
-                        - Arrow
+            win:
+                - 
+                    - Alt
+                    - Right
+                    - Arrow
+            mac:
+                - 
+                    - ⌘
+                    - ']'
+                - 
+                    - ⌘
+                    - Right
+                    - Arrow
         - 
             description: Close the current tab
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - W
-                    - 
-                        - Ctrl
-                        - F4
-                mac:
-                    - 
-                        - ⌘
-                        - W
+            win:
+                - 
+                    - Ctrl
+                    - W
+                - 
+                    - Ctrl
+                    - F4
+            mac:
+                - 
+                    - ⌘
+                    - W
         - 
             description: Close all open tabs and the browser
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - Shift
-                        - W
-                mac:
-                    - 
-                        - ''
+            win:
+                - 
+                    - Ctrl
+                    - Shift
+                    - W
         - 
             description: Minimize the current window
-            hotkeys:
-                win:
-                    - 
-                        - Alt
-                        - Space
-                        - 'N'
-                mac:
-                    - 
-                        - ⌘
-                        - M
+            win:
+                - 
+                    - Alt
+                    - Space
+                    - 'N'
+            mac:
+                - 
+                    - ⌘
+                    - M
         - 
             description: Maximize the current window
-            hotkeys:
-                win:
-                    - 
-                        - Alt
-                        - Space
-                        - X
-                mac:
-                    - 
-                        - ''
+            win:
+                - 
+                    - Alt
+                    - Space
+                    - X
+            mac:
+                - 
+                    - ''
         - 
             description: Close the current window
-            hotkeys:
-                win:
-                    - 
-                        - Alt
-                        - F4
-                mac:
-                    - 
-                        - ⌘
-                        - Shift
-                        - W
+            win:
+                - 
+                    - Alt
+                    - F4
+            mac:
+                - 
+                    - ⌘
+                    - Shift
+                    - W
         - 
             description: Hide Google Chrome
-            hotkeys:
-                win:
-                    - 
-                        - ''
-                mac:
-                    - 
-                        - ⌘
-                        - H
+            win:
+                - 
+                    - ''
+            mac:
+                - 
+                    - ⌘
+                    - H
         - 
             description: Quit Google Chrome
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - Shift
-                        - Q
-                mac:
-                    - 
-                        - ⌘
-                        - Q
-    Feature shortcuts:
+            win:
+                - 
+                    - Ctrl
+                    - Shift
+                    - Q
+            mac:
+                - 
+                    - ⌘
+                    - Q
+    Feature shortcuts: 
         - 
             description: Open the Chrome menu
-            hotkeys:
-                win:
-                    - 
-                        - Alt
-                        - F
-                    - 
-                        - Alt
-                        - E
-                    - 
-                        - F10
-                mac:
-                    - 
-                        - ''
+            win:
+                - 
+                    - Alt
+                    - F
+                - 
+                    - Alt
+                    - E
+                - 
+                    - F10
+            mac:
+                - 
+                    - ''
         - 
             description: Show or hide the Bookmarks bar
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - Shift
-                        - B
-                mac:
-                    - 
-                        - ⌘
-                        - Shift
-                        - B
+            win:
+                - 
+                    - Ctrl
+                    - Shift
+                    - B
+            mac:
+                - 
+                    - ⌘
+                    - Shift
+                    - B
         - 
             description: Open the Bookmarks Manager
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - Shift
-                        - O
-                mac:
-                    - 
-                        - ⌘
-                        - Option
-                        - B
+            win:
+                - 
+                    - Ctrl
+                    - Shift
+                    - O
+            mac:
+                - 
+                    - ⌘
+                    - Option
+                    - B
         - 
             description: Open the Settings page in a new tab
-            hotkeys:
-                win:
-                    - 
-                        - ''
-                mac:
-                    - 
-                        - ⌘
-                        - ''
-                        - ''
+            win:
+                - 
+                    - ''
+            mac:
+                - 
+                    - ⌘
+                    - ''
+                    - ''
         - 
             description: Open the History page in a new tab
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - H
-                mac:
-                    - 
-                        - ⌘
-                        - 'Y'
+            win:
+                - 
+                    - Ctrl
+                    - H
+            mac:
+                - 
+                    - ⌘
+                    - 'Y'
         - 
             description: Open the Downloads page in a new tab
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - J
-                mac:
-                    - 
-                        - ⌘
-                        - Shift
-                        - J
+            win:
+                - 
+                    - Ctrl
+                    - J
+            mac:
+                - 
+                    - ⌘
+                    - Shift
+                    - J
         - 
             description: Open the Chrome Task Manager
-            hotkeys:
-                win:
-                    - 
-                        - Shift
-                        - Esc
-                mac:
-                    - 
-                        - ''
+            win:
+                - 
+                    - Shift
+                    - Esc
         - 
             description: Set focus on the first item in the Chrome toolbar
-            hotkeys:
-                win:
-                    - 
-                        - Shift
-                        - Alt
-                        - T
-                mac:
-                    - 
-                        - ''
+            win:
+                - 
+                    - Shift
+                    - Alt
+                    - T
         - 
             description: 'Switch focus forward between the Address bar, Bookmarks bar (if showing), and page content'
-            hotkeys:
-                win:
-                    - 
-                        - F6
-                mac:
-                    - 
-                        - ''
+            win:
+                - 
+                    - F6
         - 
             description: 'Switch focus backward between the Address bar, Bookmarks bar (if showing), and page content'
-            hotkeys:
-                win:
-                    - 
-                        - Shift
-                        - F6
-                mac:
-                    - 
-                        - ''
+            win:
+                - 
+                    - Shift
+                    - F6
         - 
             description: Open the Find Bar to search the current page
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - F
-                    - 
-                        - F3
-                mac:
-                    - 
-                        - ⌘
-                        - F
+            win:
+                - 
+                    - Ctrl
+                    - F
+                - 
+                    - F3
+            mac:
+                - 
+                    - ⌘
+                    - F
         - 
             description: Jump to the next match to your Find Bar search
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - G
-                mac:
-                    - 
-                        - ⌘
-                        - G
+            win:
+                - 
+                    - Ctrl
+                    - G
+            mac:
+                - 
+                    - ⌘
+                    - G
         - 
             description: Jump to the previous match to your Find Bar search
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - Shift
-                        - G
-                mac:
-                    - 
-                        - ⌘
-                        - Shift
-                        - G
+            win:
+                - 
+                    - Ctrl
+                    - Shift
+                    - G
+            mac:
+                - 
+                    - ⌘
+                    - Shift
+                    - G
         - 
             description: 'When Find Bar is open, search for selected text'
-            hotkeys:
-                win:
-                    - 
-                        - ''
-                mac:
-                    - 
-                        - ⌘
-                        - E
+            mac:
+                - 
+                    - ⌘
+                    - E
         - 
             description: Open Developer Tools
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - Shift
-                        - J
-                    - 
-                        - F12
-                mac:
-                    - 
-                        - ⌘
-                        - Option
-                        - I
+            win:
+                - 
+                    - Ctrl
+                    - Shift
+                    - J
+                - 
+                    - F12
+            mac:
+                - 
+                    - ⌘
+                    - Option
+                    - I
         - 
             description: Open the Clear Browsing Data options
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - Shift
-                        - Delete
-                mac:
-                    - 
-                        - ⌘
-                        - Shift
-                        - Delete
+            win:
+                - 
+                    - Ctrl
+                    - Shift
+                    - Delete
+            mac:
+                - 
+                    - ⌘
+                    - Shift
+                    - Delete
         - 
             description: Open the Chrome Help Center in a new tab
-            hotkeys:
-                win:
-                    - 
-                        - F1
-                mac:
-                    - 
-                        - ''
+            win:
+                - 
+                    - F1
         - 
             description: Log in a different user or browse as a Guest
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - Shift
-                        - M
-                mac:
-                    - 
-                        - ⌘
-                        - Shift
-                        - M
+            win:
+                - 
+                    - Ctrl
+                    - Shift
+                    - M
+            mac:
+                - 
+                    - ⌘
+                    - Shift
+                    - M
         - 
             description: Open a feedback form
-            hotkeys:
-                win:
-                    - 
-                        - Alt
-                        - Shift
-                        - I
-                mac:
-                    - 
-                        - ''
+            win:
+                - 
+                    - Alt
+                    - Shift
+                    - I
     Address bar shortcuts:
         - 
             description: Search with your default search engine
-            hotkeys:
-                win:
-                    - 
-                        - Type
-                        - A
-                        - Search
-                        - Term
-                        - Enter
-                mac:
-                    - 
-                        - Type
-                        - A
-                        - Search
-                        - Term
-                        - Enter
+            win:
+                - 
+                    - Type A Search Term
+                    - Enter
+            mac:
+                - 
+                    - Type A Search Term
+                    - Enter
         - 
             description: Search using a different search engine
-            hotkeys:
-                win:
-                    - 
-                        - Type
-                        - A
-                        - Search
-                        - Engine
-                        - Name
-                        - Tab
-                mac:
-                    - 
-                        - Type
-                        - A
-                        - Search
-                        - Engine
-                        - Name
-                        - Tab
+            win:
+                - 
+                    - Type a search engine name
+                    - Tab
+            mac:
+                - 
+                    - Type a search engine name
+                    - Tab
         - 
             description: 'Add www. and .com to a site name, and open it in the current tab'
-            hotkeys:
-                win:
-                    - 
-                        - Type
-                        - A
-                        - Site
-                        - Name
-                        - Ctrl
-                        - Enter
-                mac:
-                    - 
-                        - Type
-                        - A
-                        - Site
-                        - Name
-                        - Control
-                        - Enter
+            win:
+                - 
+                    - Type a site name
+                    - Ctrl
+                    - Enter
+            mac:
+                - 
+                    - Type a site name
+                    - Control
+                    - Enter
         - 
             description: 'Add www. and .com to a site name, and open it in a new tab'
-            hotkeys:
-                win:
-                    - 
-                        - ''
-                mac:
-                    - 
-                        - Type
-                        - A
-                        - Site
-                        - Name
-                        - Control
-                        - Shift
-                        - Enter
+            mac:
+                - 
+                    - Type a site name
+                    - Control
+                    - Shift
+                    - Enter
         - 
             description: Open the website in a new background tab
-            hotkeys:
-                win:
-                    - 
-                        - ''
-                mac:
-                    - 
-                        - Type
-                        - A
-                        - Web
-                        - Address
-                        - ⌘
-                        - Enter
+            mac:
+                - 
+                    - Type a web address
+                    - ⌘
+                    - Enter
         - 
             description: Open a new tab and perform a Google search
-            hotkeys:
-                win:
-                    - 
-                        - Type
-                        - A
-                        - Search
-                        - Term
-                        - Alt
-                        - Enter
-                mac:
-                    - 
-                        - ''
+            win:
+                - 
+                    - Type a search term
+                    - Alt
+                    - Enter
         - 
             description: Jump to the address bar
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - L
-                    - 
-                        - Alt
-                        - D
-                    - 
-                        - F6
-                mac:
-                    - 
-                        - ⌘
-                        - L
+            win:
+                - 
+                    - Ctrl
+                    - L
+                - 
+                    - Alt
+                    - D
+                - 
+                    - F6
+            mac:
+                - 
+                    - ⌘
+                    - L
         - 
             description: Search from anywhere on the page
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - K
-                    - 
-                        - Ctrl
-                        - E
-                mac:
-                    - 
-                        - ''
+            win:
+                - 
+                    - Ctrl
+                    - K
+                - 
+                    - Ctrl
+                    - E
         - 
             description: Remove predictions from your address bar
-            hotkeys:
-                win:
-                    - 
-                        - Down
-                        - Arrow
-                        - To
-                        - Highlight
-                        - Shift
-                        - Delete
-                mac:
-                    - 
-                        - Down
-                        - Arrow
-                        - To
-                        - Highlight
-                        - Shift
-                        - Fn
-                        - Delete
+            win:
+                - 
+                    - Down Arrow
+                    - To Highlight
+                    - Shift
+                    - Delete
+            mac:
+                - 
+                    - Down Arrow
+                    - To
+                    - Highlight
+                    - Shift
+                    - Fn
+                    - Delete
     Webpage shortcuts:
         - 
             description: Open options to print the current page
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - P
-                mac:
-                    - 
-                        - ⌘
-                        - P
+            win:
+                - 
+                    - Ctrl
+                    - P
+            mac:
+                - 
+                    - ⌘
+                    - P
         - 
             description: Open options to save the current page
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - S
-                mac:
-                    - 
-                        - ⌘
-                        - S
+            win:
+                - 
+                    - Ctrl
+                    - S
+            mac:
+                - 
+                    - ⌘
+                    - S
         - 
             description: Open the Page Setup dialog
-            hotkeys:
-                win:
-                    - 
-                        - ''
-                mac:
-                    - 
-                        - ⌘
-                        - Option
-                        - P
+            mac:
+                - 
+                    - ⌘
+                    - Option
+                    - P
         - 
             description: Email your current page
-            hotkeys:
-                win:
-                    - 
-                        - ''
-                mac:
-                    - 
-                        - ⌘
-                        - Shift
-                        - I
+            mac:
+                - 
+                    - ⌘
+                    - Shift
+                    - I
         - 
             description: Reload the current page
-            hotkeys:
-                win:
-                    - 
-                        - F5
-                    - 
-                        - Ctrl
-                        - R
-                mac:
-                    - 
-                        - ⌘
-                        - R
+            win:
+                - 
+                    - F5
+                - 
+                    - Ctrl
+                    - R
+            mac:
+                - 
+                    - ⌘
+                    - R
         - 
             description: 'Reload the current page, ignoring cached content'
-            hotkeys:
-                win:
-                    - 
-                        - Shift
-                        - F5
-                    - 
-                        - Ctrl
-                        - Shift
-                        - R
-                mac:
-                    - 
-                        - ⌘
-                        - Shift
-                        - R
+            win:
+                - 
+                    - Shift
+                    - F5
+                - 
+                    - Ctrl
+                    - Shift
+                    - R
+            mac:
+                - 
+                    - ⌘
+                    - Shift
+                    - R
         - 
             description: Stop the page loading
-            hotkeys:
-                win:
-                    - 
-                        - Esc
-                mac:
-                    - 
-                        - Esc
+            win:
+                - 
+                    - Esc
+            mac:
+                - 
+                    - Esc
         - 
             description: Browse clickable items moving forward
-            hotkeys:
-                win:
-                    - 
-                        - Tab
-                mac:
-                    - 
-                        - Tab
+            win:
+                - 
+                    - Tab
+            mac:
+                - 
+                    - Tab
         - 
             description: Browse clickable items moving backward
-            hotkeys:
-                win:
-                    - 
-                        - Shift
-                        - Tab
-                mac:
-                    - 
-                        - Shift
-                        - Tab
+            win:
+                - 
+                    - Shift
+                    - Tab
+            mac:
+                - 
+                    - Shift
+                    - Tab
         - 
             description: Open a file from your computer in Chrome
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - O
-                        - Select
-                        - A
-                        - File
-                mac:
-                    - 
-                        - ⌘
-                        - O
-                        - Select
-                        - A
-                        - File
+            win:
+                - 
+                    - Ctrl
+                    - O
+                    - Select
+                    - A
+                    - File
+            mac:
+                - 
+                    - ⌘
+                    - O
+                    - Select
+                    - A
+                    - File
         - 
             description: Display non-editable HTML source code for the current page
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - U
-                mac:
-                    - 
-                        - ⌘
-                        - Option
-                        - U
+            win:
+                - 
+                    - Ctrl
+                    - U
+            mac:
+                - 
+                    - ⌘
+                    - Option
+                    - U
         - 
             description: Open the JavaScript Console
-            hotkeys:
-                win:
-                    - 
-                        - ''
-                mac:
-                    - 
-                        - ⌘
-                        - Option
-                        - J
+            win:
+            mac:
+                - 
+                    - ⌘
+                    - Option
+                    - J
         - 
             description: Save your current webpage as a bookmark
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - D
-                mac:
-                    - 
-                        - ⌘
-                        - D
+            win:
+                - 
+                    - Ctrl
+                    - D
+            mac:
+                - 
+                    - ⌘
+                    - D
         - 
             description: Save all open tabs as bookmarks in a new folder
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - Shift
-                        - D
-                mac:
-                    - 
-                        - ⌘
-                        - Shift
-                        - D
+            win:
+                - 
+                    - Ctrl
+                    - Shift
+                    - D
+            mac:
+                - 
+                    - ⌘
+                    - Shift
+                    - D
         - 
             description: Turn full-screen mode on or off
-            hotkeys:
-                win:
-                    - 
-                        - F11
-                mac:
-                    - 
-                        - ⌘
-                        - Ctrl
-                        - F
+            win:
+                - 
+                    - F11
+            mac:
+                - 
+                    - ⌘
+                    - Ctrl
+                    - F
         - 
             description: Make everything on the page bigger
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - +
-                mac:
-                    - 
-                        - ⌘
-                        - +
+            win:
+                - 
+                    - Ctrl
+                    - +
+            mac:
+                - 
+                    - ⌘
+                    - +
         - 
             description: Make everything on the page smaller
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - '-'
-                mac:
-                    - 
-                        - ⌘
-                        - '-'
+            win:
+                - 
+                    - Ctrl
+                    - '-'
+            mac:
+                - 
+                    - ⌘
+                    - '-'
         - 
             description: Return everything on the page to default size
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - '0'
-                mac:
-                    - 
-                        - ⌘
-                        - '0'
+            win:
+                - 
+                    - Ctrl
+                    - '0'
+            mac:
+                - 
+                    - ⌘
+                    - '0'
         - 
             description: 'Scroll down a webpage, a screen at a time'
-            hotkeys:
-                win:
-                    - 
-                        - Space
-                    - 
-                        - Pgdn
-                mac:
-                    - 
-                        - Space
+            win:
+                - 
+                    - Space
+                - 
+                    - Pgdn
+            mac:
+                - 
+                    - Space
         - 
             description: 'Scroll up a webpage, a screen at a time'
-            hotkeys:
-                win:
-                    - 
-                        - Shift
-                        - Space
-                    - 
-                        - Pgup
-                mac:
-                    - 
-                        - Shift
-                        - Space
+            win:
+                - 
+                    - Shift
+                    - Space
+                - 
+                    - Pgup
+            mac:
+                - 
+                    - Shift
+                    - Space
         - 
             description: Search the web
-            hotkeys:
-                win:
-                    - 
-                        - ''
-                mac:
-                    - 
-                        - ⌘
-                        - Option
-                        - F
+            mac:
+                - 
+                    - ⌘
+                    - Option
+                    - F
         - 
             description: Go to the top of the page
-            hotkeys:
-                win:
-                    - 
-                        - Home
-                mac:
-                    - 
-                        - ''
+            win:
+                - 
+                    - Home
+            mac:
+                - 
+                    - ''
         - 
             description: Go to the bottom of the page
-            hotkeys:
-                win:
-                    - 
-                        - End
-                mac:
-                    - 
-                        - ''
+            win:
+                - 
+                    - End
         - 
             description: Scroll horizontally on the page
-            hotkeys:
-                win:
-                    - 
-                        - Shift
-                        - Scroll
-                        - Your
-                        - Mousewheel
-                mac:
-                    - 
-                        - ''
+            win:
+                - 
+                    - Shift
+                    - Scroll Your Mousewheel
         - 
             description: Move your cursor to the front of the previous word in a text field
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - Left
-                        - Arrow
-                mac:
-                    - 
-                        - Option
-                        - Left
-                        - Arrow
+            win:
+                - 
+                    - Ctrl
+                    - Left Arrow
+            mac:
+                - 
+                    - Option
+                    - Left Arrow
         - 
             description: Move your cursor to the back of the next word in a text field
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - Right
-                        - Arrow
-                mac:
-                    - 
-                        - Option
-                        - Right
-                        - Arrow
+            win:
+                - 
+                    - Ctrl
+                    - Right Arrow
+            mac:
+                - 
+                    - Option
+                    - Right Arrow
         - 
             description: Delete the previous word in a text field
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - Backspace
-                mac:
-                    - 
-                        - Option
-                        - Delete
+            win:
+                - 
+                    - Ctrl
+                    - Backspace
+            mac:
+                - 
+                    - Option
+                    - Delete
         - 
             description: Move focus to a notification
-            hotkeys:
-                win:
-                    - 
-                        - Alt
-                        - 'N'
-                mac:
-                    - 
-                        - ''
+            win:
+                - 
+                    - Alt
+                    - 'N'
+            mac:
+                - 
+                    - ''
         - 
             description: Allow within a notification
-            hotkeys:
-                win:
-                    - 
-                        - Alt
-                        - Shift
-                        - A
-                mac:
-                    - 
-                        - ''
+            win:
+                - 
+                    - Alt
+                    - Shift
+                    - A
+            mac:
+                - 
+                    - ''
         - 
             description: Deny within a notification
-            hotkeys:
-                win:
-                    - 
-                        - Alt
-                        - Shift
-                        - D
-                mac:
-                    - 
-                        - ''
+            win:
+                - 
+                    - Alt
+                    - Shift
+                    - D
         - 
             description: Open the Home page in the current tab
-            hotkeys:
-                win:
-                    - 
-                        - Alt
-                        - Home
-                mac:
-                    - 
-                        - ⌘
-                        - Shift
-                        - H
-    Mouse shortcuts:
+            win:
+                - 
+                    - Alt
+                    - Home
+            mac:
+                - 
+                    - ⌘
+                    - Shift
+                    - H
+    Mouse shortcuts: 
         - 
             description: Open a link in new background tab
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - Click
-                        - A
-                        - Link
-                mac:
-                    - 
-                        - ⌘
-                        - Click
-                        - A
-                        - Link
+            win:
+                - 
+                    - Ctrl
+                    - Click a Link
+            mac:
+                - 
+                    - ⌘
+                    - Click a Link
         - 
             description: 'Open a link, and jump to it'
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - Shift
-                        - Click
-                        - A
-                        - Link
-                mac:
-                    - 
-                        - ⌘
-                        - Shift
-                        - Click
-                        - A
-                        - Link
+            win:
+                - 
+                    - Ctrl
+                    - Shift
+                    - Click a Link
+            mac:
+                - 
+                    - ⌘
+                    - Shift
+                    - Click a Link
         - 
             description: Return a tab to its original position
-            hotkeys:
-                win:
-                    - 
-                        - Press
-                        - Esc
-                        - While
-                        - Dragging
-                mac:
-                    - 
-                        - Press
-                        - Esc
-                        - While
-                        - Dragging
+            win:
+                - 
+                    - Esc
+                    - While Dragging
+            mac:
+                - 
+                    - Esc
+                    - While Dragging
         - 
             description: Save the current webpage as a bookmark
-            hotkeys:
-                win:
-                    - 
-                        - Drag
-                        - The
-                        - Web
-                        - Address
-                        - To
-                        - The
-                        - Bookmarks
-                        - Bar
-                mac:
-                    - 
-                        - Drag
-                        - The
-                        - Web
-                        - Address
-                        - To
-                        - The
-                        - Bookmarks
-                        - Bar
+            win:
+                - 
+                    - Drag The Web Address To The Bookmarks Bar
+            mac:
+                - 
+                    - Drag The Web Address To The Bookmarks Bar
         - 
             description: Download the target of a link
-            hotkeys:
-                win:
-                    - 
-                        - Alt
-                        - Click
-                        - A
-                        - Link
-                mac:
-                    - 
-                        - Option
-                        - Click
-                        - A
-                        - Link
+            win:
+                - 
+                    - Alt
+                    - Click A Link
+            mac:
+                - 
+                    - Option
+                    - Click A Link
         - 
             description: Make everything on the page bigger
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - Scroll
-                        - Your
-                        - Mousewheel
-                        - Up
-                mac:
-                    - 
-                        - ''
+            win:
+                - 
+                    - Ctrl
+                    - Scroll Your Mousewheel Up
         - 
             description: Make everything on the page smaller
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - Scroll
-                        - Your
-                        - Mousewheel
-                        - Down
-                mac:
-                    - 
-                        - ''
+            win:
+                - 
+                    - Ctrl
+                    - Scroll Your Mousewheel Down

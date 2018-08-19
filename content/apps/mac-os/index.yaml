@@ -1,1255 +1,1097 @@
 name: macOS
 category: Operating System
 image_src: icon.svg
-author: fr0tt
 description: "macOS is the primary operating system for Apple's Mac family of computers."
 developer: Apple Inc.
 website: 'https://apple.com'
+source: 'https://support.apple.com/en-us/HT201236'
 OS:
   - mac
+time: 2018-03-05
 collection:
     'Cut, copy, paste, and other common shortcuts':
         - 
             description: Cut the selected item and copy it to the Clipboard.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - X
+            mac:
+                - 
+                    - ⌘
+                    - X
         - 
             description: Copy the selected item to the Clipboard. This also works for files in the Finder.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - C
+            mac:
+                - 
+                    - ⌘
+                    - C
         - 
             description: Paste the contents of the Clipboard into the current document or app. This also works for files in the Finder.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - V
+            mac:
+                - 
+                    - ⌘
+                    - V
         - 
             description: 'Undo the previous ⌘ (In some apps, you can undo and redo multiple ⌘s).'
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - Z
+            mac:
+                - 
+                    - ⌘
+                    - Z
         - 
             description: 'Reverse the undo ⌘ (In some apps, you can undo and redo multiple ⌘s).'
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - Shift
-                        - Z
+            mac:
+                - 
+                    - ⌘
+                    - Shift
+                    - Z
         - 
             description: Select All items.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - A
+            mac:
+                - 
+                    - ⌘
+                    - A
         - 
             description: Find items in a document or open a Find window.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - F
+            mac:
+                - 
+                    - ⌘
+                    - F
         - 
             description: 'Find Again: Find the next occurrence of the item previously found.'
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - G
+            mac:
+                - 
+                    - ⌘
+                    - G
         - 
             description: Find the previous occurrence.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - Shift
-                        - G
+            mac:
+                - 
+                    - ⌘
+                    - Shift
+                    - G
         - 
             description: Hide the windows of the front app.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - H
+            mac:
+                - 
+                    - ⌘
+                    - H
         - 
             description: View the front app but hide all other apps.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - ⌥
-                        - H
+            mac:
+                - 
+                    - ⌘
+                    - ⌥
+                    - H
         - 
             description: Minimize the front window to the Dock.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - M
+            mac:
+                - 
+                    - ⌘
+                    - M
         - 
             description: Minimize all windows of the front app.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - ⌥
-                        - M
+            mac:
+                - 
+                    - ⌘
+                    - ⌥
+                    - M
         - 
             description: 'New: Open a new document or window.'
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - 'N'
+            mac:
+                - 
+                    - ⌘
+                    - 'N'
         - 
             description: 'Open the selected item, or open a dialog to select a file to open.'
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - O
+            mac:
+                - 
+                    - ⌘
+                    - O
         - 
             description: Print the current document.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - P
+            mac:
+                - 
+                    - ⌘
+                    - P
         - 
             description: Save the current document.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - S
+            mac:
+                - 
+                    - ⌘
+                    - S
         - 
             description: Close the front window.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - W
+            mac:
+                - 
+                    - ⌘
+                    - W
         - 
             description: Close all windows of the app.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - ⌥
-                        - W
+            mac:
+                - 
+                    - ⌘
+                    - ⌥
+                    - W
         - 
             description: Quit the app.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - Q
+            mac:
+                - 
+                    - ⌘
+                    - Q
         - 
             description: 'Force Quit: Choose an app to force quit.'
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - ⌘
-                        - Esc
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - Esc
         - 
             description: Hold for 3 seconds to force the front app to quit.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌥
-                        - Esc
+            mac:
+                - 
+                    - Shift
+                    - ⌥
+                    - Esc
         - 
             description: 'Show or hide the Spotlight search field (If you use multiple input sources to type in different languages, these shortcuts change input sources instead of showing Spotlight).'
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - Space
-                        - Bar
+            mac:
+                - 
+                    - ⌘
+                    - Space
+                    - Bar
         - 
             description: 'Perform a Spotlight search from a Finder window (If you use multiple input sources to type in different languages, these shortcuts change input sources instead of showing Spotlight).'
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - ⌥
-                        - Space
-                        - Bar
+            mac:
+                - 
+                    - ⌘
+                    - ⌥
+                    - Space
+                    - Bar
         - 
             description: 'Quick Look: Use Quick Look to preview the selected item.'
-            hotkeys:
-                mac:
-                    - 
-                        - Space
-                        - Bar
+            mac:
+                - 
+                    - Space
+                    - Bar
         - 
             description: 'Switch apps: Switch to the next most recently used app among your open apps. '
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - Tab
+            mac:
+                - 
+                    - ⌘
+                    - Tab
         - 
             description: 'Switch windows: Switch to the next most recently used window of the front app.'
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - '~'
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - '~'
         - 
             description: 'Screenshot: Take a screenshot of the entire screen. Learn more screenshot shortcuts.'
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - '3'
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - '3'
         - 
             description: 'Preferences: Open preferences for the front app.'
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - ''
-                        - ''
+            mac:
+                - 
+                    - ⌘
+                    - ''
+                    - ''
     'Sleep, log out, and shut down shortcuts':
         - 
             description: 'Press to turn on your Mac or wake your Mac from sleep. Press and hold for 1.5 seconds while your Mac is awake to display a dialog asking if you want to sleep, restart, or shut down. Press and hold for 5 seconds to force your Mac to turn off.'
-            hotkeys:
-                mac:
-                    - 
-                        - Power
-                        - Button
+            mac:
+                - 
+                    - Power
+                    - Button
         - 
             description: "Press to turn on your Mac or wake your Mac from sleep. Press while your Mac is awake to display a dialog asking if you want to sleep, restart, or shut down (Doesn't apply to keyboards that have a Touch Bar)."
-            hotkeys:
-                mac:
-                    - 
-                        - ⌃
-                        - Power
-                        - Button
-                    - 
-                        - ⌃
-                        - Media
-                        - Eject
+            mac:
+                - 
+                    - ⌃
+                    - Power
+                    - Button
+                - 
+                    - ⌃
+                    - Media
+                    - Eject
         - 
             description: "Force your Mac to restart (Doesn't apply to keyboards that have a Touch Bar)."
-            hotkeys:
-                mac:
-                    - 
-                        - ⌃
-                        - ⌘
-                        - Power
-                        - Button
+            mac:
+                - 
+                    - ⌃
+                    - ⌘
+                    - Power
+                    - Button
         - 
             description: "Put your displays to sleep (Doesn't apply to keyboards that have a Touch Bar)."
-            hotkeys:
-                mac:
-                    - 
-                        - ⌃
-                        - Shift
-                        - Power
-                        - Button
-                    - 
-                        - ⌃
-                        - Shift
-                        - Media
-                        - Eject
+            mac:
+                - 
+                    - ⌃
+                    - Shift
+                    - Power
+                    - Button
+                - 
+                    - ⌃
+                    - Shift
+                    - Media
+                    - Eject
         - 
             description: "Quit all apps, then restart your Mac. If any open documents have unsaved changes, you'll be asked whether you want to save them (Doesn't apply to keyboards that have a Touch Bar)."
-            hotkeys:
-                mac:
-                    - 
-                        - ⌃
-                        - ⌘
-                        - Media
-                        - Eject
+            mac:
+                - 
+                    - ⌃
+                    - ⌘
+                    - Media
+                    - Eject
         - 
             description: "Quit all apps, then shut down your Mac. If any open documents have unsaved changes, you'll be asked whether you want to save them (Doesn't apply to keyboards that have a Touch Bar)."
-            hotkeys:
-                mac:
-                    - 
-                        - ⌃
-                        - ⌥
-                        - ⌘
-                        - Power
-                        - Button
-                    - 
-                        - ⌃
-                        - ⌥
-                        - ⌘
-                        - Media
-                        - Eject
+            mac:
+                - 
+                    - ⌃
+                    - ⌥
+                    - ⌘
+                    - Power
+                    - Button
+                - 
+                    - ⌃
+                    - ⌥
+                    - ⌘
+                    - Media
+                    - Eject
         - 
             description: "Log out of your macOS user account. You'll be asked to confirm."
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - Q
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - Q
         - 
             description: 'Log out of your macOS user account immediately, without being asked to confirm.'
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - Shift
-                        - ⌘
-                        - Q
+            mac:
+                - 
+                    - ⌥
+                    - Shift
+                    - ⌘
+                    - Q
     Document shortcuts:
         - 
             description: 'Boldface the selected text, or turn boldfacing on or off. '
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - B
+            mac:
+                - 
+                    - ⌘
+                    - B
         - 
             description: 'Italicize the selected text, or turn italics on or off.'
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - I
+            mac:
+                - 
+                    - ⌘
+                    - I
         - 
             description: 'Underline the selected text, or turn underlining on or off.'
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - U
+            mac:
+                - 
+                    - ⌘
+                    - U
         - 
             description: Show or hide the Fonts window.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - T
+            mac:
+                - 
+                    - ⌘
+                    - T
         - 
             description: Select the Desktop folder from within an Open dialog or Save dialog.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - D
+            mac:
+                - 
+                    - ⌘
+                    - D
         - 
             description: Show or hide the definition of the selected word.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌃
-                        - ⌘
-                        - D
+            mac:
+                - 
+                    - ⌃
+                    - ⌘
+                    - D
         - 
             description: Display the Spelling and Grammar window.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - ':'
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - ':'
         - 
             description: Find misspelled words in the document.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - ;
+            mac:
+                - 
+                    - ⌘
+                    - ;
         - 
             description: Delete the word to the left of the insertion point.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - Delete
+            mac:
+                - 
+                    - ⌥
+                    - Delete
         - 
             description: Delete the character to the left of the insertion point.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌃
-                        - H
-                    - 
-                        - Delete
+            mac:
+                - 
+                    - ⌃
+                    - H
+                - 
+                    - Delete
         - 
             description: Delete the character to the right of the insertion point.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌃
-                        - D
-                    - 
-                        - Fn
-                        - Delete
+            mac:
+                - 
+                    - ⌃
+                    - D
+                - 
+                    - Fn
+                    - Delete
         - 
             description: "Forward delete on keyboards that don't have a Forward Delete key."
-            hotkeys:
-                mac:
-                    - 
-                        - Fn
-                        - Delete
-                    - 
-                        - ^
-                        - D
+            mac:
+                - 
+                    - Fn
+                    - Delete
+                - 
+                    - ^
+                    - D
         - 
             description: Delete the text between the insertion point and the end of the line or paragraph.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌃
-                        - K
+            mac:
+                - 
+                    - ⌃
+                    - K
         - 
             description: "Select Delete or Don't Save in a dialog that contains a Delete or Don't Save button."
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - Delete
+            mac:
+                - 
+                    - ⌘
+                    - Delete
         - 
             description: 'Page Up: Scroll up one page. '
-            hotkeys:
-                mac:
-                    - 
-                        - Fn–Up
-                        - Arrow
+            mac:
+                - 
+                    - Fn–Up
+                    - Arrow
         - 
             description: 'Page Down: Scroll down one page.'
-            hotkeys:
-                mac:
-                    - 
-                        - Fn–Down
-                        - Arrow
+            mac:
+                - 
+                    - Fn–Down
+                    - Arrow
         - 
             description: 'Home: Scroll to the beginning of a document.'
-            hotkeys:
-                mac:
-                    - 
-                        - Fn–Left
-                        - Arrow
+            mac:
+                - 
+                    - Fn–Left
+                    - Arrow
         - 
             description: 'End: Scroll to the end of a document.'
-            hotkeys:
-                mac:
-                    - 
-                        - Fn–Right
-                        - Arrow
+            mac:
+                - 
+                    - Fn–Right
+                    - Arrow
         - 
             description: Move the insertion point to the beginning of the document.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘–Up
-                        - Arrow
+            mac:
+                - 
+                    - ⌘–Up
+                    - Arrow
         - 
             description: Move the insertion point to the end of the document.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘–Down
-                        - Arrow
+            mac:
+                - 
+                    - ⌘–Down
+                    - Arrow
         - 
             description: Move the insertion point to the beginning of the current line.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘–Left
-                        - Arrow
+            mac:
+                - 
+                    - ⌘–Left
+                    - Arrow
         - 
             description: Move the insertion point to the end of the current line.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘–Right
-                        - Arrow
+            mac:
+                - 
+                    - ⌘–Right
+                    - Arrow
         - 
             description: Move the insertion point to the beginning of the previous word.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥–Left
-                        - Arrow
+            mac:
+                - 
+                    - ⌥–Left
+                    - Arrow
         - 
             description: Move the insertion point to the end of the next word.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥–Right
-                        - Arrow
+            mac:
+                - 
+                    - ⌥–Right
+                    - Arrow
         - 
             description: Select the text between the insertion point and the beginning of the document.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - Up
-                        - Arrow
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - Up
+                    - Arrow
         - 
             description: Select the text between the insertion point and the end of the document.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - Down
-                        - Arrow
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - Down
+                    - Arrow
         - 
             description: Select the text between the insertion point and the beginning of the current line.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - Left
-                        - Arrow
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - Left
+                    - Arrow
         - 
             description: Select the text between the insertion point and the end of the current line.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - Right
-                        - Arrow
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - Right
+                    - Arrow
         - 
             description: Extend text selection to the nearest character at the same horizontal location on the line above.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift–Up
-                        - Arrow
+            mac:
+                - 
+                    - Shift–Up
+                    - Arrow
         - 
             description: Extend text selection to the nearest character at the same horizontal location on the line below.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift–Down
-                        - Arrow
+            mac:
+                - 
+                    - Shift–Down
+                    - Arrow
         - 
             description: Extend text selection one character to the left.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift–Left
-                        - Arrow
+            mac:
+                - 
+                    - Shift–Left
+                    - Arrow
         - 
             description: Extend text selection one character to the right.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift–Right
-                        - Arrow
+            mac:
+                - 
+                    - Shift–Right
+                    - Arrow
         - 
             description: 'Extend text selection to the beginning of the current paragraph, then to the beginning of the following paragraph if pressed again.'
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - Shift
-                        - Up
-                        - Arrow
+            mac:
+                - 
+                    - ⌥
+                    - Shift
+                    - Up
+                    - Arrow
         - 
             description: 'Extend text selection to the end of the current paragraph, then to the end of the following paragraph if pressed again.'
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - Shift
-                        - Down
-                        - Arrow
+            mac:
+                - 
+                    - ⌥
+                    - Shift
+                    - Down
+                    - Arrow
         - 
             description: 'Extend text selection to the beginning of the current word, then to the beginning of the following word if pressed again.'
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - Shift
-                        - Left
-                        - Arrow
+            mac:
+                - 
+                    - ⌥
+                    - Shift
+                    - Left
+                    - Arrow
         - 
             description: 'Extend text selection to the end of the current word, then to the end of the following word if pressed again.'
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - Shift
-                        - Right
-                        - Arrow
+            mac:
+                - 
+                    - ⌥
+                    - Shift
+                    - Right
+                    - Arrow
         - 
             description: Move to the beginning of the line or paragraph.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌃
-                        - A
+            mac:
+                - 
+                    - ⌃
+                    - A
         - 
             description: Move to the end of a line or paragraph.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌃
-                        - E
+            mac:
+                - 
+                    - ⌃
+                    - E
         - 
             description: Move one character forward.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌃
-                        - F
+            mac:
+                - 
+                    - ⌃
+                    - F
         - 
             description: Move one character backward.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌃
-                        - B
+            mac:
+                - 
+                    - ⌃
+                    - B
         - 
             description: Center the cursor or selection in the visible area.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌃
-                        - L
+            mac:
+                - 
+                    - ⌃
+                    - L
         - 
             description: Move up one line.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌃
-                        - P
+            mac:
+                - 
+                    - ⌃
+                    - P
         - 
             description: Move down one line.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌃
-                        - 'N'
+            mac:
+                - 
+                    - ⌃
+                    - 'N'
         - 
             description: Insert a new line after the insertion point.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌃
-                        - O
+            mac:
+                - 
+                    - ⌃
+                    - O
         - 
             description: Swap the character behind the insertion point with the character in front of the insertion point.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌃
-                        - T
+            mac:
+                - 
+                    - ⌃
+                    - T
         - 
             description: Left align.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - '{'
+            mac:
+                - 
+                    - ⌘
+                    - '{'
         - 
             description: Right align.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - '}'
+            mac:
+                - 
+                    - ⌘
+                    - '}'
         - 
             description: Center align.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - '|'
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - '|'
         - 
             description: 'Go to the search field. '
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - ⌘
-                        - F
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - F
         - 
             description: Show or hide a toolbar in the app.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - ⌘
-                        - T
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - T
         - 
             description: 'Copy Style: Copy the formatting settings of the selected item to the Clipboard.'
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - ⌘
-                        - C
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - C
         - 
             description: 'Paste Style: Apply the copied style to the selected item.'
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - ⌘
-                        - V
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - V
         - 
             description: 'Paste and Match Style: Apply the style of the surrounding content to the item pasted within that content.'
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - Shift
-                        - ⌘
-                        - V
+            mac:
+                - 
+                    - ⌥
+                    - Shift
+                    - ⌘
+                    - V
         - 
             description: Show or hide the inspector window.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - ⌘
-                        - I
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - I
         - 
             description: 'Page setup: Display a window for selecting document settings.'
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - P
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - P
         - 
             description: 'Display the Save As dialog, or duplicate the current document.'
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - S
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - S
         - 
             description: Decrease the size of the selected item.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
+            mac:
+                - 
+                    - Shift
+                    - ⌘
         - 
             description: Increase the size of the selected item.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                    - 
-                        - ⌘
-                        - =
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                - 
+                    - ⌘
+                    - =
         - 
             description: Open the Help menu.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
+            mac:
+                - 
+                    - Shift
+                    - ⌘
     Finder shortcuts:
         - 
             description: Duplicate the selected files.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - D
+            mac:
+                - 
+                    - ⌘
+                    - D
         - 
             description: Eject the selected disk or volume.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - E
+            mac:
+                - 
+                    - ⌘
+                    - E
         - 
             description: Start a Spotlight search in the Finder window.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - F
+            mac:
+                - 
+                    - ⌘
+                    - F
         - 
             description: Show the Get Info window for a selected file.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - I
+            mac:
+                - 
+                    - ⌘
+                    - I
         - 
             description: Open the Computer window.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - C
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - C
         - 
             description: Open the desktop folder.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - D
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - D
         - 
             description: Open the All My Files window.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - F
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - F
         - 
             description: Open a Go to Folder window.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - G
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - G
         - 
             description: Open the Home folder of the current macOS user account.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - H
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - H
         - 
             description: Open iCloud Drive.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - I
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - I
         - 
             description: Open the Network window.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - K
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - K
         - 
             description: Open the Downloads folder.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - ⌘
-                        - L
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - L
         - 
             description: Open the Documents folder.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - O
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - O
         - 
             description: Open the AirDrop window.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - R
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - R
         - 
             description: Add selected Finder item to the Dock (OS X Mountain Lion or earlier)
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - T
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - T
         - 
             description: Add selected Finder item to the Dock (OS X Mavericks or later)
-            hotkeys:
-                mac:
-                    - 
-                        - ⌃
-                        - Shift
-                        - ⌘
-                        - T
+            mac:
+                - 
+                    - ⌃
+                    - Shift
+                    - ⌘
+                    - T
         - 
             description: Open the Utilities folder.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - U
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - U
         - 
             description: "Show or hide the Dock. This often works even when you're not in the Finder."
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - ⌘
-                        - D
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - D
         - 
             description: Add the selected item to the sidebar (OS X Mavericks or later).
-            hotkeys:
-                mac:
-                    - 
-                        - ⌃
-                        - ⌘
-                        - T
+            mac:
+                - 
+                    - ⌃
+                    - ⌘
+                    - T
         - 
             description: Hide or show the path bar in Finder windows.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - ⌘
-                        - P
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - P
         - 
             description: Hide or show the Sidebar in Finder windows.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - ⌘
-                        - S
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - S
         - 
             description: Hide or show the status bar in Finder windows.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - /
+            mac:
+                - 
+                    - ⌘
+                    - /
         - 
             description: Show View ⌥s.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - J
+            mac:
+                - 
+                    - ⌘
+                    - J
         - 
             description: Open the Connect to Server window.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - K
+            mac:
+                - 
+                    - ⌘
+                    - K
         - 
             description: Make an alias of the selected item.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - L
+            mac:
+                - 
+                    - ⌘
+                    - L
         - 
             description: Open a new Finder window.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - 'N'
+            mac:
+                - 
+                    - ⌘
+                    - 'N'
         - 
             description: Create a new folder.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - 'N'
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - 'N'
         - 
             description: Create a new Smart Folder.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - ⌘
-                        - 'N'
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - 'N'
         - 
             description: Show the original file for the selected alias.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - R
+            mac:
+                - 
+                    - ⌘
+                    - R
         - 
             description: Show or hide the tab bar when a single tab is open in the current Finder window.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - T
+            mac:
+                - 
+                    - ⌘
+                    - T
         - 
             description: Show or hide a Finder tab.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - T
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - T
         - 
             description: Show or hide the toolbar when a single tab is open in the current Finder window.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - ⌘
-                        - T
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - T
         - 
             description: 'Move: Move the files in the Clipboard from their original location to the current location.'
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - ⌘
-                        - V
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - V
         - 
             description: View a Quick Look slideshow of the selected files.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - ⌘
-                        - 'Y'
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - 'Y'
         - 
             description: Use Quick Look to preview the selected files.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - 'Y'
+            mac:
+                - 
+                    - ⌘
+                    - 'Y'
         - 
             description: View the items in the Finder window as icons.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - '1'
+            mac:
+                - 
+                    - ⌘
+                    - '1'
         - 
             description: View the items in a Finder window as a list.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - '2'
+            mac:
+                - 
+                    - ⌘
+                    - '2'
         - 
             description: 'View the items in a Finder window in columns. '
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - '3'
+            mac:
+                - 
+                    - ⌘
+                    - '3'
         - 
             description: View the items in a Finder window with Cover Flow.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - '4'
+            mac:
+                - 
+                    - ⌘
+                    - '4'
         - 
             description: Go to the previous folder.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - '['
+            mac:
+                - 
+                    - ⌘
+                    - '['
         - 
             description: Go to the next folder.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - ']'
+            mac:
+                - 
+                    - ⌘
+                    - ']'
         - 
             description: Open the folder that contains the current folder.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - Up
-                        - Arrow
+            mac:
+                - 
+                    - ⌘
+                    - Up
+                    - Arrow
         - 
             description: Open the folder that contains the current folder in a new window.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - ⌃
-                        - Up
-                        - Arrow
+            mac:
+                - 
+                    - ⌘
+                    - ⌃
+                    - Up
+                    - Arrow
         - 
             description: Open the selected item.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - Down
-                        - Arrow
+            mac:
+                - 
+                    - ⌘
+                    - Down
+                    - Arrow
         - 
             description: "Show the desktop. This works even when you're not in the Finder."
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - Mission
-                        - ⌃
+            mac:
+                - 
+                    - ⌘
+                    - Mission
+                    - ⌃
         - 
             description: Turn Target Display Mode on or off.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - Brightness
-                        - Up
+            mac:
+                - 
+                    - ⌘
+                    - Brightness
+                    - Up
         - 
             description: Turn display mirroring on or off when your Mac is connected to more than one display.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - Brightness
-                        - Down
+            mac:
+                - 
+                    - ⌘
+                    - Brightness
+                    - Down
         - 
             description: Open the selected folder. This works only when in list view.
-            hotkeys:
-                mac:
-                    - 
-                        - Right
-                        - Arrow
+            mac:
+                - 
+                    - Right
+                    - Arrow
         - 
             description: Close the selected folder. This works only when in list view.
-            hotkeys:
-                mac:
-                    - 
-                        - Left
-                        - Arrow
+            mac:
+                - 
+                    - Left
+                    - Arrow
         - 
             description: Open a folder in a separate window and close the current window.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥–Double
-                        - Click
+            mac:
+                - 
+                    - ⌥–Double
+                    - Click
         - 
             description: Open a folder in a separate tab or window.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘–Double
-                        - Click
+            mac:
+                - 
+                    - ⌘–Double
+                    - Click
         - 
             description: Move the selected item to the Trash.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - Delete
+            mac:
+                - 
+                    - ⌘
+                    - Delete
         - 
             description: Empty the Trash.
-            hotkeys:
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - Delete
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - Delete
         - 
             description: Empty the Trash without confirmation dialog.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - Shift
-                        - ⌘
-                        - Delete
+            mac:
+                - 
+                    - ⌥
+                    - Shift
+                    - ⌘
+                    - Delete
         - 
             description: Use Quick Look to preview the files.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - 'Y'
+            mac:
+                - 
+                    - ⌘
+                    - 'Y'
         - 
             description: Open Displays preferences.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - Brightness
+            mac:
+                - 
+                    - ⌥
+                    - Brightness
         - 
             description: Open Mission Control preferences.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - Mission
-                        - Control
+            mac:
+                - 
+                    - ⌥
+                    - Mission
+                    - Control
         - 
             description: Open Sound preferences. This works with any of the volume keys.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - Volume
-                        - Up
+            mac:
+                - 
+                    - ⌥
+                    - Volume
+                    - Up
         - 
             description: Move the dragged item to another volume or location. The pointer changes while you drag the item.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - Key
-                        - While
-                        - Dragging
+            mac:
+                - 
+                    - ⌘
+                    - Key
+                    - While
+                    - Dragging
         - 
             description: Copy the dragged item. The pointer changes while you drag the item.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - Key
-                        - While
-                        - Dragging
+            mac:
+                - 
+                    - ⌥
+                    - Key
+                    - While
+                    - Dragging
         - 
             description: Make an alias of the dragged item. The pointer changes while you drag the item.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - ⌘
-                        - While
-                        - Dragging
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - While
+                    - Dragging
         - 
             description: Open all folders within the selected folder. This works only when in list view.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌥
-                        - Click
-                        - A
-                        - Disclosure
-                        - Triangle
+            mac:
+                - 
+                    - ⌥
+                    - Click
+                    - A
+                    - Disclosure
+                    - Triangle
         - 
             description: See the folders that contain the current folder.
-            hotkeys:
-                mac:
-                    - 
-                        - ⌘
-                        - Click
-                        - A
-                        - Window
-                        - Title
+            mac:
+                - 
+                    - ⌘
+                    - Click
+                    - A
+                    - Window
+                    - Title

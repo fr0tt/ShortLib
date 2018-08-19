@@ -1,798 +1,737 @@
 name: GitHub
 category: Development
 image_src: icon.svg
-author: fr0tt
 description: GitHub is a web-based hosting service for version Control using git. It is mostly used for computer code.
 developer: 'GitHub, Inc.'
 website: 'https://github.com'
+source: 'https://help.github.com/articles/using-keyboard-shortcuts/'
 OS:
   - win
   - mac
+  - linux
 generate_linux: true
+time: 2018-05-03
 collection:
-    Site wide shortcuts:
+    Site wide shortcuts: 
         - 
             description: Go to your notifications
-            hotkeys:
-                win:
-                    - 
-                        - G
-                        - 'N'
-                mac:
-                    - 
-                        - G
-                        - 'N'
+            win:
+                - 
+                    - G
+                    - 'N'
+            mac:
+                - 
+                    - G
+                    - 'N'
     Repositories:
         - 
             description: Go to the Issues tab
-            hotkeys:
-                win:
-                    - 
-                        - G
-                        - I
-                mac:
-                    - 
-                        - G
-                        - I
+            win:
+                - 
+                    - G
+                    - I
+            mac:
+                - 
+                    - G
+                    - I
         - 
             description: Go to the Pull requests tab
-            hotkeys:
-                win:
-                    - 
-                        - G
-                        - P
-                mac:
-                    - 
-                        - G
-                        - P
+            win:
+                - 
+                    - G
+                    - P
+            mac:
+                - 
+                    - G
+                    - P
         - 
             description: Go to the Projects tab
-            hotkeys:
-                win:
-                    - 
-                        - G
-                        - B
-                mac:
-                    - 
-                        - G
-                        - B
+            win:
+                - 
+                    - G
+                    - B
+            mac:
+                - 
+                    - G
+                    - B
         - 
             description: Go to the Wiki tab
-            hotkeys:
-                win:
-                    - 
-                        - G
-                        - W
-                mac:
-                    - 
-                        - G
-                        - W
+            win:
+                - 
+                    - G
+                    - W
+            mac:
+                - 
+                    - G
+                    - W
     Source code editing:
         - 
             description: Find next
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - G
-                mac:
-                    - 
-                        - ⌘
-                        - G
+            win:
+                - 
+                    - Ctrl
+                    - G
+            mac:
+                - 
+                    - ⌘
+                    - G
         - 
             description: Find previous
-            hotkeys:
-                win:
-                    - 
-                        - Shift
-                        - Ctrl
-                        - G
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - G
+            win:
+                - 
+                    - Shift
+                    - Ctrl
+                    - G
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - G
         - 
             description: Replace
-            hotkeys:
-                win:
-                    - 
-                        - Shift
-                        - Ctrl
-                        - F
-                mac:
-                    - 
-                        - ⌘
-                        - Option
-                        - F
+            win:
+                - 
+                    - Shift
+                    - Ctrl
+                    - F
+            mac:
+                - 
+                    - ⌘
+                    - Option
+                    - F
         - 
             description: Replace all
-            hotkeys:
-                win:
-                    - 
-                        - Shift
-                        - Ctrl
-                        - R
-                mac:
-                    - 
-                        - Shift
-                        - ⌘
-                        - Option
-                        - F
+            win:
+                - 
+                    - Shift
+                    - Ctrl
+                    - R
+            mac:
+                - 
+                    - Shift
+                    - ⌘
+                    - Option
+                    - F
         - 
             description: Jump to line
-            hotkeys:
-                win:
-                    - 
-                        - Alt
-                        - G
-                mac:
-                    - 
-                        - Alt
-                        - G
+            win:
+                - 
+                    - Alt
+                    - G
+            mac:
+                - 
+                    - Alt
+                    - G
         - 
             description: Undo
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - Z
-                mac:
-                    - 
-                        - ⌘
-                        - Z
+            win:
+                - 
+                    - Ctrl
+                    - Z
+            mac:
+                - 
+                    - ⌘
+                    - Z
         - 
             description: Redo
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - 'Y'
-                mac:
-                    - 
-                        - ⌘
-                        - 'Y'
+            win:
+                - 
+                    - Ctrl
+                    - 'Y'
+            mac:
+                - 
+                    - ⌘
+                    - 'Y'
     Source code browsing:
         - 
             description: Jump to a line in your code
-            hotkeys:
-                win:
-                    - 
-                        - L
-                mac:
-                    - 
-                        - L
+            win:
+                - 
+                    - L
+            mac:
+                - 
+                    - L
         - 
             description: Switch to a new branch or tag
-            hotkeys:
-                win:
-                    - 
-                        - W
-                mac:
-                    - 
-                        - W
+            win:
+                - 
+                    - W
+            mac:
+                - 
+                    - W
         - 
             description: Expand a URL to its canonical form
-            hotkeys:
-                win:
-                    - 
-                        - 'Y'
-                mac:
-                    - 
-                        - 'Y'
+            win:
+                - 
+                    - 'Y'
+            mac:
+                - 
+                    - 'Y'
         - 
             description: Show or hide comments on diffs
-            hotkeys:
-                win:
-                    - 
-                        - I
-                mac:
-                    - 
-                        - I
+            win:
+                - 
+                    - I
+            mac:
+                - 
+                    - I
         - 
             description: Open blame view
-            hotkeys:
-                win:
-                    - 
-                        - B
-                mac:
-                    - 
-                        - B
+            win:
+                - 
+                    - B
+            mac:
+                - 
+                    - B
     Comments:
         - 
             description: Inserts Markdown formatting for italicizing text
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - I
-                mac:
-                    - 
-                        - ⌘
-                        - I
+            win:
+                - 
+                    - Ctrl
+                    - I
+            mac:
+                - 
+                    - ⌘
+                    - I
         - 
             description: Inserts Markdown formatting for creating a link
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - K
-                mac:
-                    - 
-                        - ⌘
-                        - K
+            win:
+                - 
+                    - Ctrl
+                    - K
+            mac:
+                - 
+                    - ⌘
+                    - K
         - 
             description: Toggles between the Write and Preview comment tabs
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - Shift
-                        - P
-                mac:
-                    - 
-                        - ⌘
-                        - Shift
-                        - P
+            win:
+                - 
+                    - Ctrl
+                    - Shift
+                    - P
+            mac:
+                - 
+                    - ⌘
+                    - Shift
+                    - P
         - 
             description: Submits a comment
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - Enter
-                mac:
-                    - 
-                        - Ctrl
-                        - Enter
+            win:
+                - 
+                    - Ctrl
+                    - Enter
+            mac:
+                - 
+                    - Ctrl
+                    - Enter
     Issue and pull request lists:
         - 
             description: Focus the issues search bar
-            hotkeys:
-                win:
-                    - 
-                        - /
-                mac:
-                    - 
-                        - /
+            win:
+                - 
+                    - /
+            mac:
+                - 
+                    - /
         - 
             description: Filter by author
-            hotkeys:
-                win:
-                    - 
-                        - U
-                mac:
-                    - 
-                        - U
+            win:
+                - 
+                    - U
+            mac:
+                - 
+                    - U
         - 
             description: Filter by or edit labels
-            hotkeys:
-                win:
-                    - 
-                        - L
-                mac:
-                    - 
-                        - L
+            win:
+                - 
+                    - L
+            mac:
+                - 
+                    - L
         - 
             description: Filter by or edit milestones
-            hotkeys:
-                win:
-                    - 
-                        - M
-                mac:
-                    - 
-                        - M
+            win:
+                - 
+                    - M
+            mac:
+                - 
+                    - M
         - 
             description: Filter by or edit assignee
-            hotkeys:
-                win:
-                    - 
-                        - A
-                mac:
-                    - 
-                        - A
+            win:
+                - 
+                    - A
+            mac:
+                - 
+                    - A
         - 
             description: Quote the selected text in your reply
-            hotkeys:
-                win:
-                    - 
-                        - R
-                mac:
-                    - 
-                        - R
+            win:
+                - 
+                    - R
+            mac:
+                - 
+                    - R
         - 
             description: Open issue
-            hotkeys:
-                win:
-                    - 
-                        - O
-                    - 
-                        - Enter
-                mac:
-                    - 
-                        - O
-                    - 
-                        - Enter
+            win:
+                - 
+                    - O
+                - 
+                    - Enter
+            mac:
+                - 
+                    - O
+                - 
+                    - Enter
     Issues and pull requests:
         - 
             description: Set a milestone
-            hotkeys:
-                win:
-                    - 
-                        - M
-                mac:
-                    - 
-                        - M
+            win:
+                - 
+                    - M
+            mac:
+                - 
+                    - M
         - 
             description: Apply a label
-            hotkeys:
-                win:
-                    - 
-                        - L
-                mac:
-                    - 
-                        - L
+            win:
+                - 
+                    - L
+            mac:
+                - 
+                    - L
         - 
             description: Set an assignee
-            hotkeys:
-                win:
-                    - 
-                        - A
-                mac:
-                    - 
-                        - A
+            win:
+                - 
+                    - A
+            mac:
+                - 
+                    - A
     Changes in pull requests:
         - 
             description: Open the list of changed files in the pull request
-            hotkeys:
-                win:
-                    - 
-                        - T
-                mac:
-                    - 
-                        - T
+            win:
+                - 
+                    - T
+            mac:
+                - 
+                    - T
         - 
             description: Move selection down in the list
-            hotkeys:
-                win:
-                    - 
-                        - J
-                mac:
-                    - 
-                        - J
+            win:
+                - 
+                    - J
+            mac:
+                - 
+                    - J
         - 
             description: Move selection up in the list
-            hotkeys:
-                win:
-                    - 
-                        - K
-                mac:
-                    - 
-                        - K
+            win:
+                - 
+                    - K
+            mac:
+                - 
+                    - K
     Moving a column:
         - 
             description: Cancel the move in progress
-            hotkeys:
-                win:
-                    - 
-                        - Escape
-                mac:
-                    - 
-                        - Escape
+            win:
+                - 
+                    - Escape
+            mac:
+                - 
+                    - Escape
         - 
             description: Complete the move in progress
-            hotkeys:
-                win:
-                    - 
-                        - Enter
-                mac:
-                    - 
-                        - Enter
+            win:
+                - 
+                    - Enter
+            mac:
+                - 
+                    - Enter
         - 
             description: Move column to the left
-            hotkeys:
-                win:
-                    - 
-                        - ←
-                    - 
-                        - H
-                mac:
-                    - 
-                        - ←
-                    - 
-                        - H
+            win:
+                - 
+                    - ←
+                - 
+                    - H
+            mac:
+                - 
+                    - ←
+                - 
+                    - H
         - 
             description: Move column to the leftmost position
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - ←
-                    - 
-                        - Ctrl
-                        - H
-                mac:
-                    - 
-                        - ⌘
-                        - ←
-                    - 
-                        - ⌘
-                        - H
+            win:
+                - 
+                    - Ctrl
+                    - ←
+                - 
+                    - Ctrl
+                    - H
+            mac:
+                - 
+                    - ⌘
+                    - ←
+                - 
+                    - ⌘
+                    - H
         - 
             description: Move column to the right
-            hotkeys:
-                win:
-                    - 
-                        - →
-                    - 
-                        - L
-                mac:
-                    - 
-                        - →
-                    - 
-                        - L
+            win:
+                - 
+                    - →
+                - 
+                    - L
+            mac:
+                - 
+                    - →
+                - 
+                    - L
         - 
             description: Move column to the rightmost position
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - →
-                    - 
-                        - Ctrl
-                        - L
-                mac:
-                    - 
-                        - ⌘
-                        - →
-                    - 
-                        - ⌘
-                        - L
+            win:
+                - 
+                    - Ctrl
+                    - →
+                - 
+                    - Ctrl
+                    - L
+            mac:
+                - 
+                    - ⌘
+                    - →
+                - 
+                    - ⌘
+                    - L
     Moving a card:
         - 
             description: Cancel the move in progress
-            hotkeys:
-                win:
-                    - 
-                        - Escape
-                mac:
-                    - 
-                        - Escape
+            win:
+                - 
+                    - Escape
+            mac:
+                - 
+                    - Escape
         - 
             description: Complete the move in progress
-            hotkeys:
-                win:
-                    - 
-                        - Enter
-                mac:
-                    - 
-                        - Enter
+            win:
+                - 
+                    - Enter
+            mac:
+                - 
+                    - Enter
         - 
             description: Move card down
-            hotkeys:
-                win:
-                    - 
-                        - ↓
-                    - 
-                        - J
-                mac:
-                    - 
-                        - ↓
-                    - 
-                        - J
+            win:
+                - 
+                    - ↓
+                - 
+                    - J
+            mac:
+                - 
+                    - ↓
+                - 
+                    - J
         - 
             description: Move card to the bottom of the column
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - ↓
-                    - 
-                        - Ctrl
-                        - J
-                mac:
-                    - 
-                        - ⌘
-                        - ↓
-                    - 
-                        - ⌘
-                        - J
+            win:
+                - 
+                    - Ctrl
+                    - ↓
+                - 
+                    - Ctrl
+                    - J
+            mac:
+                - 
+                    - ⌘
+                    - ↓
+                - 
+                    - ⌘
+                    - J
         - 
             description: Move card up
-            hotkeys:
-                win:
-                    - 
-                        - ↑
-                    - 
-                        - K
-                mac:
-                    - 
-                        - ↑
-                    - 
-                        - K
+            win:
+                - 
+                    - ↑
+                - 
+                    - K
+            mac:
+                - 
+                    - ↑
+                - 
+                    - K
         - 
             description: Move card to the top of the column
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - ↑
-                    - 
-                        - Ctrl
-                        - K
-                mac:
-                    - 
-                        - ⌘
-                        - ↑
-                    - 
-                        - ⌘
-                        - K
+            win:
+                - 
+                    - Ctrl
+                    - ↑
+                - 
+                    - Ctrl
+                    - K
+            mac:
+                - 
+                    - ⌘
+                    - ↑
+                - 
+                    - ⌘
+                    - K
         - 
             description: Move card to the bottom of the column on the left
-            hotkeys:
-                win:
-                    - 
-                        - ←
-                    - 
-                        - H
-                mac:
-                    - 
-                        - ←
-                    - 
-                        - H
+            win:
+                - 
+                    - ←
+                - 
+                    - H
+            mac:
+                - 
+                    - ←
+                - 
+                    - H
         - 
             description: Move card to the top of the column on the left
-            hotkeys:
-                win:
-                    - 
-                        - Shift
-                        - ←
-                    - 
-                        - Shift
-                        - H
-                mac:
-                    - 
-                        - Shift
-                        - ←
-                    - 
-                        - Shift
-                        - H
+            win:
+                - 
+                    - Shift
+                    - ←
+                - 
+                    - Shift
+                    - H
+            mac:
+                - 
+                    - Shift
+                    - ←
+                - 
+                    - Shift
+                    - H
         - 
             description: Move card to the bottom of the leftmost column
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - ←
-                    - 
-                        - Ctrl
-                        - H
-                mac:
-                    - 
-                        - ⌘
-                        - ←
-                    - 
-                        - ⌘
-                        - H
+            win:
+                - 
+                    - Ctrl
+                    - ←
+                - 
+                    - Ctrl
+                    - H
+            mac:
+                - 
+                    - ⌘
+                    - ←
+                - 
+                    - ⌘
+                    - H
         - 
             description: Move card to the top of the leftmost column
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - Shift
-                        - ←
-                    - 
-                        - Ctrl
-                        - Shift
-                        - H
-                mac:
-                    - 
-                        - ⌘
-                        - Shift
-                        - ←
-                    - 
-                        - ⌘
-                        - Shift
-                        - H
+            win:
+                - 
+                    - Ctrl
+                    - Shift
+                    - ←
+                - 
+                    - Ctrl
+                    - Shift
+                    - H
+            mac:
+                - 
+                    - ⌘
+                    - Shift
+                    - ←
+                - 
+                    - ⌘
+                    - Shift
+                    - H
         - 
             description: Move card to the bottom of the column on the right
-            hotkeys:
-                win:
-                    - 
-                        - →
-                mac:
-                    - 
-                        - →
+            win:
+                - 
+                    - →
+            mac:
+                - 
+                    - →
         - 
             description: Move card to the top of the column on the right
-            hotkeys:
-                win:
-                    - 
-                        - Shift
-                        - →
-                    - 
-                        - Shift
-                        - L
-                mac:
-                    - 
-                        - Shift
-                        - →
-                    - 
-                        - Shift
-                        - L
+            win:
+                - 
+                    - Shift
+                    - →
+                - 
+                    - Shift
+                    - L
+            mac:
+                - 
+                    - Shift
+                    - →
+                - 
+                    - Shift
+                    - L
         - 
             description: Move card to the bottom of the rightmost column
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - →
-                    - 
-                        - Ctrl
-                        - L
-                mac:
-                    - 
-                        - ⌘
-                        - →
-                    - 
-                        - ⌘
-                        - L
+            win:
+                - 
+                    - Ctrl
+                    - →
+                - 
+                    - Ctrl
+                    - L
+            mac:
+                - 
+                    - ⌘
+                    - →
+                - 
+                    - ⌘
+                    - L
         - 
             description: Move card to the bottom of the rightmost column
-            hotkeys:
-                win:
-                    - 
-                        - Ctrl
-                        - Shift
-                        - →
-                    - 
-                        - Ctrl
-                        - Shift
-                        - L
-                mac:
-                    - 
-                        - ⌘
-                        - Shift
-                        - →
-                    - 
-                        - ⌘
-                        - Shift
-                        - L
+            win:
+                - 
+                    - Ctrl
+                    - Shift
+                    - →
+                - 
+                    - Ctrl
+                    - Shift
+                    - L
+            mac:
+                - 
+                    - ⌘
+                    - Shift
+                    - →
+                - 
+                    - ⌘
+                    - Shift
+                    - L
     Notifications:
         - 
             description: Mark as read
-            hotkeys:
-                win:
-                    - 
-                        - E
-                    - 
-                        - L
-                    - 
-                        - 'Y'
-                mac:
-                    - 
-                        - E
-                    - 
-                        - L
-                    - 
-                        - 'Y'
+            win:
+                - 
+                    - E
+                - 
+                    - L
+                - 
+                    - 'Y'
+            mac:
+                - 
+                    - E
+                - 
+                    - L
+                - 
+                    - 'Y'
         - 
             description: Mute thread
-            hotkeys:
-                win:
-                    - 
-                        - Shift
-                        - M
-                mac:
-                    - 
-                        - Shift
-                        - M
+            win:
+                - 
+                    - Shift
+                    - M
+            mac:
+                - 
+                    - Shift
+                    - M
     Network Graph:
         - 
             description: Scroll right
-            hotkeys:
-                win:
-                    - 
-                        - →
-                    - 
-                        - L
-                mac:
-                    - 
-                        - →
-                    - 
-                        - L
+            win:
+                - 
+                    - →
+                - 
+                    - L
+            mac:
+                - 
+                    - →
+                - 
+                    - L
         - 
             description: Scroll up
-            hotkeys:
-                win:
-                    - 
-                        - ↑
-                    - 
-                        - K
-                mac:
-                    - 
-                        - ↑
-                    - 
-                        - K
+            win:
+                - 
+                    - ↑
+                - 
+                    - K
+            mac:
+                - 
+                    - ↑
+                - 
+                    - K
         - 
             description: Scroll down
-            hotkeys:
-                win:
-                    - 
-                        - ↓
-                    - 
-                        - J
-                mac:
-                    - 
-                        - ↓
-                    - 
-                        - J
+            win:
+                - 
+                    - ↓
+                - 
+                    - J
+            mac:
+                - 
+                    - ↓
+                - 
+                    - J
         - 
             description: Scroll all the way left
-            hotkeys:
-                win:
-                    - 
-                        - Shift
-                        - ←
-                    - 
-                        - Shift
-                        - H
-                mac:
-                    - 
-                        - Shift
-                        - ←
-                    - 
-                        - Shift
-                        - H
+            win:
+                - 
+                    - Shift
+                    - ←
+                - 
+                    - Shift
+                    - H
+            mac:
+                - 
+                    - Shift
+                    - ←
+                - 
+                    - Shift
+                    - H
         - 
             description: Scroll all the way right
-            hotkeys:
-                win:
-                    - 
-                        - Shift
-                        - →
-                    - 
-                        - Shift
-                        - L
-                mac:
-                    - 
-                        - Shift
-                        - →
-                    - 
-                        - Shift
-                        - L
+            win:
+                - 
+                    - Shift
+                    - →
+                - 
+                    - Shift
+                    - L
+            mac:
+                - 
+                    - Shift
+                    - →
+                - 
+                    - Shift
+                    - L
         - 
             description: Scroll all the way up
-            hotkeys:
-                win:
-                    - 
-                        - Shift
-                        - ↑
-                    - 
-                        - Shift
-                        - K
-                mac:
-                    - 
-                        - Shift
-                        - ↑
-                    - 
-                        - Shift
-                        - K
+            win:
+                - 
+                    - Shift
+                    - ↑
+                - 
+                    - Shift
+                    - K
+            mac:
+                - 
+                    - Shift
+                    - ↑
+                - 
+                    - Shift
+                    - K
         - 
             description: Scroll all the way down
-            hotkeys:
-                win:
-                    - 
-                        - Shift
-                        - ↓
-                    - 
-                        - Shift
-                        - J
-                mac:
-                    - 
-                        - Shift
-                        - ↓
-                    - 
-                        - Shift
-                        - J
+            win:
+                - 
+                    - Shift
+                    - ↓
+                - 
+                    - Shift
+                    - J
+            mac:
+                - 
+                    - Shift
+                    - ↓
+                - 
+                    - Shift
+                    - J

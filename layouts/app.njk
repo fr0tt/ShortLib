@@ -120,8 +120,8 @@
 								<tr v-show="containsFilter('{{ shortcut.description | escape | forceescape }}')">
 									{%- if 'win' in OS %}
 										<td v-show="selectedOS === 'win'">
-											{%- if shortcut.hotkeys.win %}
-												<kbd>{{- shortcut.hotkeys.win | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
+											{%- if shortcut.win %}
+												<kbd>{{- shortcut.win | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
 											{% else -%}
 												<i>{{ msg }}</i>
 											{% endif -%}
@@ -129,8 +129,8 @@
 									{% endif -%}
 									{%- if 'mac' in OS %}
 										<td v-show="selectedOS === 'mac'">
-											{%- if shortcut.hotkeys.mac %}
-												<kbd>{{- shortcut.hotkeys.mac | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
+											{%- if shortcut.mac %}
+												<kbd>{{- shortcut.mac | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
 											{% else -%}
 												<i>{{ msg }}</i>
 											{% endif -%}
@@ -138,10 +138,10 @@
 									{% endif -%}
 									{%- if ('linux' in OS) or ('win' in OS) %}
 										<td v-show="selectedOS === 'linux'">
-											{%- if shortcut.hotkeys.linux %}
-												<kbd>{{- shortcut.hotkeys.linux | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
-											{%- elif (generate_linux) and (shortcut.hotkeys.win) %}
-												<kbd>{{- shortcut.hotkeys.win | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
+											{%- if shortcut.linux %}
+												<kbd>{{- shortcut.linux | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
+											{%- elif (generate_linux) and (shortcut.win) %}
+												<kbd>{{- shortcut.win | joinArray("</kbd> <kbd>", "</kbd> <center>or</center> <kbd>") | safe -}}</kbd>
 											{% elif ('linux' in OS) or (generate_linux) -%}
 												<i>{{ msg }}</i>
 											{% endif -%}
