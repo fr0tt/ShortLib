@@ -17,7 +17,7 @@ section.container {
     margin-bottom: 40px;
 }
   
-.editButtons button {
+.editButtons a {
     padding: 0.55em 1.05em;
     margin-left: 2%;
     font-family: Open Sans, Roboto, Arial, sans-serif;
@@ -33,12 +33,12 @@ section.container {
     cursor: pointer;
 }
   
-.editButtons button:hover {
+.editButtons a:hover {
     color: #fff;
     background-color: #2a2d33;
 }
 
-.editButtons button:hover .editIcon {
+.editButtons a:hover .editIcon {
     fill: #fff;
 }
   
