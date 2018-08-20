@@ -379,3 +379,20 @@ kbd {
     color: #fff !important;
     background-color: #9282F5;
 }
+
+p.notice {
+    text-align: right;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+#shortcuts .notice {
+    max-width: none;
+    margin-top: 50px;
+    margin-left: 0.15em;
+}
+
+.notice a {
+    color: #0060d1;
+}
