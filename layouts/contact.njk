@@ -1,0 +1,33 @@
+{% extends "base.njk" %}
+
+{% block add_assets %}
+	<link rel="stylesheet" href="/static/css/others.css" type="text/css"/>
+{% endblock %}
+
+{% block main %} 
+<div id="wrapper" class="container">
+    <h1>{{ name }}</h1>
+    <p class="opener">Have a question or want to report abuse of your creation?</p>
+    {# <h2>{{ question }}</h2> #}
+    <form action="https://formspree.io/" method="POST">
+        <label>Email Adress</label>
+        <input type="email" name="_replyto" placeholder="Email Adress" required/>
+        <label>Subject</label>
+        <input type="text" name="_subject" placeholder="Subject" required/>
+        <label>Name</label>
+        <input type="text" name="name" placeholder="Name" required/>
+        <label>How can we help you?</label>
+        <textarea name="text" placeholder="How can we help you?" required></textarea>
+        <input type="hidden" name="_next" value="/"/>
+        <input type="text" name="_gotcha" style="display:none"/>
+        <button type="submit">Send</button>
+    </form>
+</div>
+{% endblock %}
+
+{% block body_scripts %}
+	<script>
+        const local = 'contact'
+		document.getElementsByTagName('form')[0].setAttribute('action', `https://formspree.io/${local}@shortlib.com`) 
+	</script>
+{% endblock %}
