@@ -1,0 +1,573 @@
+name: Opera
+image_src: icon.svg
+category: Office
+description: Fast, secure, easy-to-use browser with a built-in ad blocker, battery saver and free VPN.
+developer: Opera Software
+website: 'https://opera.com'
+source: 'https://help.opera.com/en/latest/shortcuts/'
+OS:
+  - windows
+  - mac
+  - linux
+generate_linux: true
+time: 2018-08-22
+collection:
+    Command the browser:
+        - 
+            description: Open Downloads page
+            mac:
+                - 
+                    - ⌘
+                    - J
+            windows:
+                - 
+                    - Ctrl
+                    - J
+        - 
+            description: Open Extensions page
+            mac:
+                - 
+                    - ⌘
+                    - Shift
+                    - E
+            windows:
+                - 
+                    - Ctrl
+                    - Shift
+                    - E
+        - 
+            description: Open History page
+            mac:
+                - 
+                    - ⌘
+                    - Shift
+                    - H
+            windows:
+                - 
+                    - Ctrl
+                    - H
+        - 
+            description: Open local file
+            mac:
+                - 
+                    - ⌘
+                    - O
+            windows:
+                - 
+                    - Ctrl
+                    - O
+        - 
+            description: Focus address bar
+            mac:
+                - 
+                    - ⌘
+                    - L
+            windows:
+                - 
+                    - Ctrl
+                    - L
+        - 
+            description: Open Preferences (Settings) page
+            mac:
+                - 
+                    - ⌘
+                    - ','
+            windows:
+                - 
+                    - Alt
+                    - P
+        - 
+            description: Print current page
+            mac:
+                - 
+                    - ⌘
+                    - P
+            windows:
+                - 
+                    - Ctrl
+                    - P
+        - 
+            description: Quit Opera
+            mac:
+                - 
+                    - ⌘
+                    - Q
+            windows:
+                - 
+                    - Ctrl
+                    - Shift
+                    - X
+        - 
+            description: Save a page locally
+            mac:
+                - 
+                    - ⌘
+                    - S
+            windows:
+                - 
+                    - Ctrl
+                    - S
+        - 
+            description: Open help
+            windows:
+                - 
+                    - F1
+    Find text on the page:
+        - 
+            description: Find on page
+            mac:
+                - 
+                    - ⌘
+                    - F
+            windows:
+                - 
+                    - Ctrl
+                    - F
+        - 
+            description: Find next
+            mac:
+                - 
+                    - ⌘
+                    - G
+            windows:
+                - 
+                    - Ctrl
+                    - G
+        - 
+            description: Find previous
+            mac:
+                - 
+                    - ⌘
+                    - Shift
+                    - G
+            windows:
+                - 
+                    - Ctrl
+                    - Shift
+                    - G
+    Navigate pages:
+        - 
+            description: Cycle forward through page elements
+            mac:
+                - 
+                    - Tab
+            windows:
+                - 
+                    - Tab
+        - 
+            description: Cycle back through page elements
+            mac:
+                - 
+                    - Shift
+                    - Tab
+            windows:
+                - 
+                    - Shift
+                    - Tab
+        - 
+            description: Go forward one page
+            mac:
+                - 
+                    - ⌘
+                    - →
+            windows:
+                - 
+                    - Alt
+                    - →
+        - 
+            description: Go back one page
+            mac:
+                - 
+                    - ⌘
+                    - ←
+            windows:
+                - 
+                    - Alt
+                    - ←
+        - 
+            description: Go to bottom of page
+            mac:
+                - 
+                    - ⌘
+                    - ↓
+            windows:
+                - 
+                    - End
+        - 
+            description: Go to top of page
+            mac:
+                - 
+                    - ⌘
+                    - ↑
+            windows:
+                - 
+                    - Home
+        - 
+            description: Page down
+            mac:
+                - 
+                    - Space
+            windows:
+                - 
+                    - Space
+        - 
+            description: Page up
+            mac:
+                - 
+                    - Shift
+                    - Space
+            windows:
+                - 
+                    - Shift
+                    - Space
+        - 
+            description: Reload the current page
+            mac:
+                - 
+                    - ⌘
+                    - R
+            windows:
+                - 
+                    - Ctrl
+                    - R
+        - 
+            description: View current page source
+            mac:
+                - 
+                    - ⌘
+                    - U
+            windows:
+                - 
+                    - Ctrl
+                    - U
+    Control tabs and windows:
+        - 
+            description: Activate tab menu
+            mac:
+                - 
+                    - Ctrl
+                    - M
+            windows:
+                - 
+                    - Ctrl
+                    - M
+        - 
+            description: Close current tab
+            mac:
+                - 
+                    - ⌘
+                    - W
+            windows:
+                - 
+                    - Ctrl
+                    - W
+        - 
+            description: Close current window
+            windows:
+                - 
+                    - Alt
+                    - F4
+        - 
+            description: Cycle forward through open tabs
+            mac:
+                - 
+                    - Ctrl
+                    - Tab
+            windows:
+                - 
+                    - Ctrl
+                    - Tab
+        - 
+            description: Cycle back through open tabs
+            mac:
+                - 
+                    - Shift
+                    - Ctrl
+                    - Tab
+            windows:
+                - 
+                    - Shift
+                    - Ctrl
+                    - Tab
+        - 
+            description: Cycle through open windows
+            mac:
+                - 
+                    - ⌘
+                    - '`'
+            windows:
+                - 
+                    - Alt
+                    - Tab
+        - 
+            description: Minimize a window
+            mac:
+                - 
+                    - ⌘
+                    - M
+            windows:
+                - 
+                    - Windows
+                    - M
+        - 
+            description: Open new tab
+            mac:
+                - 
+                    - ⌘
+                    - T
+            windows:
+                - 
+                    - Ctrl
+                    - T
+        - 
+            description: Open new window
+            mac:
+                - 
+                    - ⌘
+                    - 'N'
+            windows:
+                - 
+                    - Ctrl
+                    - 'N'
+        - 
+            description: Open new private window
+            mac:
+                - 
+                    - ⌘
+                    - Shift
+                    - 'N'
+            windows:
+                - 
+                    - Ctrl
+                    - Shift
+                    - 'N'
+        - 
+            description: Reopen last closed tab
+            mac:
+                - 
+                    - ⌘
+                    - Shift
+                    - T
+            windows:
+                - 
+                    - Ctrl
+                    - Shift
+                    - T
+        - 
+            description: Toggle tab menu
+            mac:
+                - 
+                    - Ctrl
+                    - M
+            windows:
+                - 
+                    - Ctrl
+                    - M
+        - 
+            description: View previous active tab
+            mac:
+                - 
+                    - Ctrl
+                    - '`'
+            windows:
+                - 
+                    - Ctrl
+                    - '`'
+    Manipulate text:
+        - 
+            description: Copy
+            mac:
+                - 
+                    - ⌘
+                    - C
+            windows:
+                - 
+                    - Ctrl
+                    - C
+        - 
+            description: Cut
+            mac:
+                - 
+                    - ⌘
+                    - X
+            windows:
+                - 
+                    - Ctrl
+                    - X
+        - 
+            description: Paste
+            mac:
+                - 
+                    - ⌘
+                    - V
+            windows:
+                - 
+                    - Ctrl
+                    - V
+        - 
+            description: Select all
+            mac:
+                - 
+                    - ⌘
+                    - A
+            windows:
+                - 
+                    - Ctrl
+                    - A
+        - 
+            description: Undo
+            mac:
+                - 
+                    - ⌘
+                    - Z
+            windows:
+                - 
+                    - Ctrl
+                    - Z
+        - 
+            description: Redo
+            mac:
+                - 
+                    - ⌘
+                    - Shift
+                    - Z
+            windows:
+                - 
+                    - Ctrl
+                    - Shift
+                    - Z
+    Zoom in and out:
+        - 
+            description: Enter full-screen mode
+            mac:
+                - 
+                    - Ctrl
+                    - Shift
+                    - F
+            windows:
+                - 
+                    - F11
+        - 
+            description: Enter presentation mode
+            mac:
+                - 
+                    - ⌘
+                    - Shift
+                    - F
+        - 
+            description: Zoom in
+            mac:
+                - 
+                    - ⌘
+                    - ' '
+            windows:
+                - 
+                    - Ctrl
+                    - ' '
+        - 
+            description: Zoom out
+            mac:
+                - 
+                    - ⌘
+                    - '-'
+            windows:
+                - 
+                    - Ctrl
+                    - '-'
+        - 
+            description: 'Reset zoom to 100%'
+            mac:
+                - 
+                    - ⌘
+                    - '0'
+            windows:
+                - 
+                    - Ctrl
+                    - '0'
+    Advanced keyboard shortcuts:
+        - 
+            description: Cycle left through tabs
+            mac:
+                - 
+                    - '1'
+            windows:
+                - 
+                    - '1'
+        - 
+            description: Cycle right through tabs
+            mac:
+                - 
+                    - '2'
+            windows:
+                - 
+                    - '2'
+        - 
+            description: View previous tab
+            mac:
+                - 
+                    - Ctrl
+                    - '`'
+        - 
+            description: Find on page
+            mac:
+                - 
+                    - /
+            windows:
+                - 
+                    - /
+        - 
+            description: Go back one page
+            mac:
+                - 
+                    - Z
+            windows:
+                - 
+                    - Z
+        - 
+            description: Go forward one page
+            mac:
+                - 
+                    - X
+            windows:
+                - 
+                    - X
+        - 
+            description: Zoom in
+            mac:
+                - 
+                    - '+'
+            windows:
+                - 
+                    - '0'
+        - 
+            description: Zoom in more
+            mac:
+                - 
+                    - '8'
+            windows:
+                - 
+                    - '8'
+        - 
+            description: Zoom out
+            mac:
+                - 
+                    - '-'
+            windows:
+                - 
+                    - '9'
+        - 
+            description: Zoom out more
+            mac:
+                - 
+                    - '7'
+            windows:
+                - 
+                    - '7'
+        - 
+            description: 'Reset zoom to 100%'
+            mac:
+                - 
+                    - '6'
+            windows:
+                - 
+                    - '6'
