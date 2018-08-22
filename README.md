@@ -6,7 +6,7 @@
 
 <h1 align="center">ShortLib</h1>
 
-ShortLib is an open source project accommodating keyboard shortcuts for Windows, Mac and Linux. 
+ShortLib is an open source project sheltering keyboard shortcuts for Windows, Mac and Linux. 
 
 [Website](https://www.shortlib.com) |
 [Third Party Notices](ThirdPartyNotices.txt) 
@@ -27,29 +27,43 @@ ShortLib is an open source project accommodating keyboard shortcuts for Windows,
 | -------------- |:-----------------------------------------------:| --------------------------------------:|
 | name           | name of the application                         | Super Cool Program                     |
 | image_src      | relative path to the applications icon          | icon.svg                               |
+| category       | type of application                             | Developer                              |
 | description    | a short summary about the application           | Once upon a time ...                   |
 | developer      | name of the developer                           | Super Cool Developer LLC               | 
 | website        | (official) site of the application              | https://github.com                     |
 | source         | links to used references                        | https://github.com/fr0tt               |
-| OS             | operating systems of defined shortcuts (if generate_linux is set to true linux shortcuts can be served without beeing defined)                                            | windows or linux or mac                |
+| OS             | operating systems of defined shortcuts (if generate_linux is set to true linux shortcuts can be served without beeing defined)                                            | windows and linux and mac              |
 | generate_linux | show linux users windows shortcut if no linux shortcut was defined                                                                                                               | true or false                          |
-| time           | creation time in ISO-8061 format (https://www.w3.org/QA/Tips/iso-date)             | 1970-12-24 or 1970-12-24T00:00:00.000Z |
+| time           | creation time in ISO-8061 format (https://www.w3.org/QA/Tips/iso-date)             | 1970-12-25 or 1970-12-24T00:00:00.000Z |
 
 - fill index.yaml accordingly with shortcuts (see below or have a look at existing programs)
 
 ```yaml
+name: Super Cool Program
+image_src: icon.svg
+category: Developer
+description: Once upon a time ...
+developer: Super Cool Developer LLC
+website: 'https://github.com'
+source: 'https://google.com/'
+OS:
+  - windows
+  - mac
+  - linux
+generate_linux: true
+time: 1970-12-25
 collection: 
     A cool section name:
         - 
             description: There should be something happening.
             windows:
                 - 
-                    - Ctrl
-                    - F
+                    - 'Ctrl'
+                    - 'F'
             mac:
                 - 
-                    - ⌘
-                    - F
+                    - '⌘'
+                    - 'F'
 ```
 
 ## To-Do
@@ -64,6 +78,7 @@ collection:
 
 ---
 
+- [ ] create an API
 - [ ] (some sort of) gui to create new content
 - [ ] highlight frequently needed shortcuts
 - [ ] support filter function by using synonyms (words/moby, FinNLP/synonyms, Datamuse API, WordsAPI, WordNET, thesaurus.altervista.org, abbreviations.com, dictionary.com, bighugelabs.com, watson.kmi.open.ac.uk, ..)
