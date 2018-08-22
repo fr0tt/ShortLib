@@ -47,20 +47,14 @@
 									<a href="{{ website }}" target="_blank">{{ website }}</a>
 								</span>
 							</div>
-							<div class="detail">
-								{{ link.icon("linkIcon") }}							
-								<span>
-									<a href="{{ source }}" target="_blank">{{ source }}</a>
-								</span>
-							</div>
 						</div>
 					</div>
 
 				</div>
 
 				<p class="notice">Do you want to 
-					<a href="/contact">report</a> or 
-					<a href="https://github.com/fr0tt/ShortLib/tree/master/content/{{ Page.path.dir | safe }}">edit</a> 
+					<a href="https://github.com/fr0tt/ShortLib/tree/master/content/{{ Page.path.dir | safe }}">edit</a>
+					or <a href="/contact">report</a>
 					this page?
 				</p>
 
@@ -170,7 +164,12 @@
 					{% endfor %}
 				</div>
 
-				<p class="notice">Do you want to 
+				<p class="notice">
+					Source: <a href="{{ source }}" target="_blank">{{ source }}</a>
+				</p>
+
+				<p class="notice">
+					Do you want to 
 					<a href="/contact">report</a> or 
 					<a href="https://github.com/fr0tt/ShortLib/tree/master/content/{{ Page.path.dir | safe }}">edit</a> 
 					this page?
