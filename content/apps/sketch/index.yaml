@@ -1,0 +1,1225 @@
+name: Sketch
+image_src: icon.svg
+category: Design
+description: Sketch is a design toolkit built to help you create your best work — from your earliest ideas, through to final artwork.
+developer: Bohemian Coding
+website: 'https://www.sketchapp.com/'
+source: 'https://www.sketchapp.com/docs/shortcuts/'
+OS:
+  - mac
+time: 2018-08-21
+collection:
+    General Shortcuts:
+        - 
+            description: Copy
+            mac:
+                - 
+                    - ⌘
+                    - C
+        - 
+            description: Cut
+            mac:
+                - 
+                    - ⌘
+                    - X
+        - 
+            description: Paste
+            mac:
+                - 
+                    - ⌘
+                    - V
+        - 
+            description: Paste over selection
+            mac:
+                - 
+                    - ⇧
+                    - ⌘
+                    - V
+        - 
+            description: Pan Canvas
+            mac:
+                - 
+                    -  Space 
+                    - '-drag'
+        - 
+            description: New page
+            mac:
+                - 
+                    - ⇧
+                    - ⌘
+                    - 'N'
+        - 
+            description: Previous page
+            mac:
+                - 
+                    - fn
+                    - ↑
+        - 
+            description: Next page
+            mac:
+                - 
+                    - fn
+                    - ↓
+        - 
+            description: Zoom in
+            mac:
+                - 
+                    - ⌘
+                    - +
+        - 
+            description: Zoom out
+            mac:
+                - 
+                    - ⌘
+                    - '-'
+        - 
+            description: Show/hide rulers
+            mac:
+                - 
+                    - ⌃
+                    - R
+        - 
+            description: Show/hide pixels
+            mac:
+                - 
+                    - ⌃
+                    - P
+        - 
+            description: Show/hide pixel grid
+            mac:
+                - 
+                    - ⌃
+                    - X
+        - 
+            description: Show/hide grid
+            mac:
+                - 
+                    - ⌃
+                    - G
+        - 
+            description: Show/hide layout
+            mac:
+                - 
+                    - ⌃
+                    - L
+        - 
+            description: Show/hide slices
+            mac:
+                - 
+                    - ⌃
+                    - E
+        - 
+            description: Show/hide prototyping
+            mac:
+                - 
+                    - ⌃
+                    - F
+        - 
+            description: Filter in Layer List
+            mac:
+                - 
+                    - ⌘
+                    - F
+        - 
+            description: Run custom plugin
+            mac:
+                - 
+                    - ⌃
+                    - ⌘
+                    - K
+        - 
+            description: Undo
+            mac:
+                - 
+                    - ⌘
+                    - Z
+        - 
+            description: Redo
+            mac:
+                - 
+                    - ⇧
+                    - ⌘
+                    - Z
+        - 
+            description: New document
+            mac:
+                - 
+                    - ⌘
+                    - 'N'
+        - 
+            description: Open document
+            mac:
+                - 
+                    - ⌘
+                    - O
+        - 
+            description: Close window
+            mac:
+                - 
+                    - ⌘
+                    - W
+        - 
+            description: Save document
+            mac:
+                - 
+                    - ⌘
+                    - S
+        - 
+            description: Duplicate document
+            mac:
+                - 
+                    - ⇧
+                    - ⌘
+                    - S
+        - 
+            description: Save document as…
+            mac:
+                - 
+                    - ⌥
+                    - ⇧
+                    - ⌘
+                    - S
+        - 
+            description: Page setup
+            mac:
+                - 
+                    - ⇧
+                    - ⌘
+                    - P
+        - 
+            description: Open Preferences window
+            mac:
+                - 
+                    - ⌘
+                    - ','
+        - 
+            description: Hide Sketch
+            mac:
+                - 
+                    - ⌘
+                    - H
+        - 
+            description: Quit Sketch
+            mac:
+                - 
+                    - ⌘
+                    - Q
+        - 
+            description: Open the Help menu
+            mac:
+                - 
+                    - ⇧
+                    - ⌘
+                    - '?'
+        - 
+            description: Open Preview window
+            mac:
+                - 
+                    - ⌘
+                    - P
+    Inserting Layers:
+        - 
+            description: Rectangle
+            mac:
+                - 
+                    - R
+        - 
+            description: Oval
+            mac:
+                - 
+                    - O
+        - 
+            description: Line
+            mac:
+                - 
+                    - L
+        - 
+            description: Rounded rectangle
+            mac:
+                - 
+                    - U
+        - 
+            description: Vector tool
+            mac:
+                - 
+                    - V
+        - 
+            description: Pencil tool
+            mac:
+                - 
+                    - P
+        - 
+            description: Text tool
+            mac:
+                - 
+                    - T
+        - 
+            description: Artboard tool
+            mac:
+                - 
+                    - A
+        - 
+            description: Slice tool
+            mac:
+                - 
+                    - S
+        - 
+            description: Hotspot tool
+            mac:
+                - 
+                    - H
+        - 
+            description: 'When inserting a layer, draw shape from center'
+            mac:
+                - 
+                    - ⌥
+                    - '-drag'
+        - 
+            description: 'When inserting a layer, lock ratio of shape'
+            mac:
+                - 
+                    - ⇧
+                    - '-drag'
+        - 
+            description: Place newly drawn layer before confirming it
+            mac:
+                - 
+                    -  Space 
+                    - '-drag'
+    Selecting Layers:
+        - 
+            description: Select layer
+            mac:
+                - 
+                    - Click
+        - 
+            description: Select multiple layers
+            mac:
+                - 
+                    - Click-and-drag
+        - 
+            description: Selects layer within drag bounds
+            mac:
+                - 
+                    - ⌥
+                    - '-drag'
+        - 
+            description: Select grouped layer
+            mac:
+                - 
+                    - Double-click
+                    - layer
+        - 
+            description: Select any layer
+            mac:
+                - 
+                    - ⌘
+                    - '-click layer'
+        - 
+            description: Select an obscured layer
+            mac:
+                - 
+                    - ⌥
+                    - '-click layer'
+        - 
+            description: Select all
+            mac:
+                - 
+                    - ⌘
+                    - A
+        - 
+            description: Select all Artboards
+            mac:
+                - 
+                    - ⇧
+                    - ⌘
+                    - A
+        - 
+            description: Add layer to selection/deselect layer in Canvas
+            mac:
+                - 
+                    - ⇧
+                    - '-click'
+        - 
+            description: Add layer from group to selection in Canvas
+            mac:
+                - 
+                    - ⇧
+                    - ⌘
+                    - '-click'
+        - 
+            description: Add layer to selection/deselect layer in Layer List
+            mac:
+                - 
+                    - ⌘
+                    - '-click'
+        - 
+            description: Select a range of layers in Layer List
+            mac:
+                - 
+                    - ⇧
+                    - '-click'
+        - 
+            description: Select next Artboard
+            mac:
+                - 
+                    - fn
+                    - →
+        - 
+            description: Select previous Artboard
+            mac:
+                - 
+                    - fn
+                    - ←
+        - 
+            description: Reveal selection in Layer List
+            mac:
+                - 
+                    - ⇧
+                    - ⌘
+                    - J
+    Moving and Resizing Layers:
+        - 
+            description: Display distance between other layers
+            mac:
+                - 
+                    - ⌥
+                    - '-hover'
+        - 
+            description: Duplicate
+            mac:
+                - 
+                    - ⌘
+                    - D
+        - 
+            description: Duplicate
+            mac:
+                - 
+                    - ⌥
+                    - '-drag'
+        - 
+            description: Move layer along X/Y axis
+            mac:
+                - 
+                    - ⇧
+                    - '-drag'
+        - 
+            description: Move layer ignoring smart guides
+            mac:
+                - 
+                    - ⌘
+                    - '-drag'
+        - 
+            description: Move an obscured layer
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - '-drag'
+        - 
+            description: 'Nudge layer any direction by 1 px*'
+            mac:
+                - 
+                    - Arrow
+                    - keys
+        - 
+            description: 'Nudge layer any direction by 10 px*'
+            mac:
+                - 
+                    - ⇧
+                    - '-Arrow keys'
+        - 
+            description: Scale layer
+            mac:
+                - 
+                    - ⌘
+                    - K
+        - 
+            description: Resize layer from center
+            mac:
+                - 
+                    - ⌥
+                    - ' and resize'
+        - 
+            description: Preserve layer ratio
+            mac:
+                - 
+                    - ⇧
+                    - ' and resize'
+        - 
+            description: Expand by 1 px
+            mac:
+                - 
+                    - ⌘
+                    - →
+                - 
+                    - ↓
+        - 
+            description: Contract by 1 px
+            mac:
+                - 
+                    - ⌘
+                    - ←
+                - 
+                    - ↑
+        - 
+            description: Expand by 10 px
+            mac:
+                - 
+                    - ⇧
+                    - ⌘
+                    - →
+                - 
+                    - ↓
+        - 
+            description: Contract by 10 px
+            mac:
+                - 
+                    - ⇧
+                    - ⌘
+                    - ←
+                - 
+                    - ↑
+        - 
+            description: Show distance to baseline/cap height on text layers
+            mac:
+                - 
+                    - ⌃
+                    - ⌥
+                    - '-hover'
+    Editing Layers:
+        - 
+            description: Edit layer
+            mac:
+                - 
+                    - Enter
+        - 
+            description: Finish editing
+            mac:
+                - 
+                    - Escape
+        - 
+            description: Delete layer
+            mac:
+                - 
+                    - ⌫
+        - 
+            description: Copy style
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - C
+        - 
+            description: Paste style
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - V
+        - 
+            description: Sync shared style
+            mac:
+                - 
+                    - ⌃
+                    - S
+        - 
+            description: Reset shared style
+            mac:
+                - 
+                    - ⌥
+                    - ⌃
+                    - S
+        - 
+            description: Add link to Artboard
+            mac:
+                - 
+                    - W
+        - 
+            description: Toggle fill
+            mac:
+                - 
+                    - F
+        - 
+            description: Toggle border
+            mac:
+                - 
+                    - B
+        - 
+            description: Pick color
+            mac:
+                - 
+                    - ⌃
+                    - C
+        - 
+            description: Edit layer opacity
+            mac:
+                - 
+                    - '0'
+                    - ' to '
+                    - '9'
+        - 
+            description: Transform shape
+            mac:
+                - 
+                    - ⇧
+                    - ⌘
+                    - T
+        - 
+            description: Rotate layer
+            mac:
+                - 
+                    - ⇧
+                    - ⌘
+                    - R
+        - 
+            description: Use as mask
+            mac:
+                - 
+                    - ⌃
+                    - ⌘
+                    - M
+        - 
+            description: Return to instance
+            mac:
+                - 
+                    - ⌘
+                    - Escape
+        - 
+            description: Union multiple layers
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - U
+        - 
+            description: Subtract multiple layers
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - S
+        - 
+            description: Intersect multiple layers
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - I
+        - 
+            description: Show Difference between multiple layers
+            mac:
+                - 
+                    - ⌃
+                    - ⌘
+                    - X
+    Vector Editing:
+        - 
+            description: Open/close path
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - O
+        - 
+            description: Selects next point
+            mac:
+                - 
+                    - Tab
+        - 
+            description: Show all handle control points
+            mac:
+                - 
+                    - ⌥
+        - 
+            description: Straight point type
+            mac:
+                - 
+                    - '1'
+        - 
+            description: Mirrored point type
+            mac:
+                - 
+                    - '2'
+        - 
+            description: Disconnected point type
+            mac:
+                - 
+                    - '3'
+        - 
+            description: Asymmetric point type
+            mac:
+                - 
+                    - '4'
+        - 
+            description: Toggle point between Straight and Mirrored
+            mac:
+                - 
+                    - Double-click
+                    - vector
+                    - point
+        - 
+            description: Move point along X/Y axis
+            mac:
+                - 
+                    - ⇧
+                    - '-drag vector point'
+        - 
+            description: Converts selected point to Disconnected
+            mac:
+                - 
+                    - ⌘
+                    - '-drag handle control point'
+        - 
+            description: Place new point at a 45º angle
+            mac:
+                - 
+                    - ⇧
+                    - '-click (when inserting points)'
+        - 
+            description: Place new point between existing points
+            mac:
+                - 
+                    - ⇧
+                    - '-click path segment'
+    Text Editing:
+        - 
+            description: Paste as rich text
+            mac:
+                - 
+                    - ⌥
+                    - ⇧
+                    - ⌘
+                    - V
+        - 
+            description: Change typeface
+            mac:
+                - 
+                    - ⌘
+                    - T
+        - 
+            description: Bold
+            mac:
+                - 
+                    - ⌘
+                    - B
+        - 
+            description: Italic
+            mac:
+                - 
+                    - ⌘
+                    - I
+        - 
+            description: Underline
+            mac:
+                - 
+                    - ⌘
+                    - U
+        - 
+            description: Increase font size
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - +
+        - 
+            description: Decrease font size
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - '-'
+        - 
+            description: Increase character spacing
+            mac:
+                - 
+                    - ⌃
+                    - ⌥
+                    - L
+        - 
+            description: Decrease character spacing
+            mac:
+                - 
+                    - ⌃
+                    - ⌥
+                    - T
+        - 
+            description: Align left
+            mac:
+                - 
+                    - ⇧
+                    - ⌘
+                    - '{'
+        - 
+            description: Align center
+            mac:
+                - 
+                    - ⇧
+                    - ⌘
+                    - '|'
+        - 
+            description: Align right
+            mac:
+                - 
+                    - ⇧
+                    - ⌘
+                    - '}'
+        - 
+            description: 'Emoji &amp; symbols'
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    -  Space 
+        - 
+            description: Convert to outlines
+            mac:
+                - 
+                    - ⇧
+                    - ⌘
+                    - O
+        - 
+            description: Insert a line break
+            mac:
+                - 
+                    - ⇧
+                    - Return
+    Arranging Layers:
+        - 
+            description: Group
+            mac:
+                - 
+                    - ⌘
+                    - G
+        - 
+            description: Ungroup
+            mac:
+                - 
+                    - ⇧
+                    - ⌘
+                    - G
+        - 
+            description: Rename layer
+            mac:
+                - 
+                    - ⌘
+                    - R
+        - 
+            description: Select next layer in group
+            mac:
+                - 
+                    - Tab
+        - 
+            description: Select previous layer in group
+            mac:
+                - 
+                    - ⇧
+                    - Tab
+        - 
+            description: Selects layer inside group
+            mac:
+                - 
+                    - Enter
+        - 
+            description: Selects parent group
+            mac:
+                - 
+                    - Escape
+        - 
+            description: Adjust layer hierarchy
+            mac:
+                - 
+                    - Click-and-drag
+                    - layer
+        - 
+            description: Bring forward
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - ↑
+        - 
+            description: Bring to front
+            mac:
+                - 
+                    - ⌃
+                    - ⌥
+                    - ⌘
+                    - ↑
+        - 
+            description: Send backward
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - ↓
+        - 
+            description: Send to back
+            mac:
+                - 
+                    - ⌃
+                    - ⌥
+                    - ⌘
+                    - ↓
+        - 
+            description: Move up (out of group/Artboard)
+            mac:
+                - 
+                    - ⌥
+                    - ⇧
+                    - ⌘
+                    - ↑
+        - 
+            description: Distribute horizontally
+            mac:
+                - 
+                    - ⌃
+                    - ⌘
+                    - H
+        - 
+            description: Distribute vertically
+            mac:
+                - 
+                    - ⌃
+                    - ⌘
+                    - V
+        - 
+            description: Align layer to Artboard
+            mac:
+                - 
+                    - ⌥
+                    - '-click Align buttons'
+        - 
+            description: Hide/show layer
+            mac:
+                - 
+                    - ⇧
+                    - ⌘
+                    - H
+        - 
+            description: Lock/unlock layer
+            mac:
+                - 
+                    - ⇧
+                    - ⌘
+                    - L
+    Exporting Layers:
+        - 
+            description: Export
+            mac:
+                - 
+                    - ⇧
+                    - ⌘
+                    - E
+        - 
+            description: Export selected layer(s)
+            mac:
+                - 
+                    - ⌘
+                    - E
+        - 
+            description: Export asset
+            mac:
+                - 
+                    - Drag
+                    - a
+                    - layer/thumbnail
+                    - to
+                    - Desktop
+        - 
+            description: Insert flattened duplicate
+            mac:
+                - 
+                    - Drag
+                    - a
+                    - layer/thumbnail
+                    - to
+                    - Canvas
+        - 
+            description: Includes folder in export
+            mac:
+                - 
+                    - /
+                    - ' in layer name'
+    Zoom and Focus:
+        - 
+            description: 'Zoom to 100%'
+            mac:
+                - 
+                    - ⌘
+                    - '0'
+        - 
+            description: Zoom to all elements on Canvas
+            mac:
+                - 
+                    - ⌘
+                    - '1'
+        - 
+            description: Zoom to selected layer(s)
+            mac:
+                - 
+                    - ⌘
+                    - '2'
+        - 
+            description: Center selected layer(s) in the Canvas
+            mac:
+                - 
+                    - ⌘
+                    - '3'
+        - 
+            description: Zoom to area
+            mac:
+                - 
+                    - Z
+                    - '-drag'
+        - 
+            description: Zoom in
+            mac:
+                - 
+                    - Z
+                    - '-click'
+        - 
+            description: Zoom out
+            mac:
+                - 
+                    - ⌥
+                    - Z
+                    - '-click'
+        - 
+            description: 'Temporarily zoom out to 100%'
+            mac:
+                - 
+                    - '~'
+                    - ' ('
+                    - §
+                    - ' on some keyboards)'
+        - 
+            description: Toggle full screen
+            mac:
+                - 
+                    - ⌃
+                    - ⌘
+                    - F
+        - 
+            description: Show/hide Layer List
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - '1'
+        - 
+            description: Show/hide Inspector
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - '2'
+        - 
+            description: Enter presentation mode
+            mac:
+                - 
+                    - ⌘
+                    - .
+        - 
+            description: Show/hide Toolbar
+            mac:
+                - 
+                    - ⌥
+                    - ⌘
+                    - T
+    Text Fields:
+        - 
+            description: Focus Inspector
+            mac:
+                - 
+                    - ⌥
+                    - Tab
+        - 
+            description: Select next field
+            mac:
+                - 
+                    - Tab
+        - 
+            description: Select previous field
+            mac:
+                - 
+                    - ⇧
+                    - Tab
+        - 
+            description: Confirm change
+            mac:
+                - 
+                    - Enter
+        - 
+            description: Clear change
+            mac:
+                - 
+                    - Escape
+        - 
+            description: Increase value by 1
+            mac:
+                - 
+                    - ↑
+        - 
+            description: Decrease value by 1
+            mac:
+                - 
+                    - ↓
+        - 
+            description: Increase value by 10
+            mac:
+                - 
+                    - ⇧
+                    - ↑
+        - 
+            description: Decrease value by 10
+            mac:
+                - 
+                    - ⇧
+                    - ↓
+        - 
+            description: Increase value by 0.1
+            mac:
+                - 
+                    - ⌥
+                    - ↑
+        - 
+            description: Decrease value by 0.1
+            mac:
+                - 
+                    - ⌥
+                    - ↓
+        - 
+            description: Adjust value in increments of 10
+            mac:
+                - 
+                    - ⇧
+                    - click and drag label
+        - 
+            description: Adjust value in increments of 0.1
+            mac:
+                - 
+                    - ⌥
+                    - click and drag label
+    Size Fields:
+        - 
+            description: Scale from the left (default)
+            mac:
+                - 
+                    - L
+        - 
+            description: Scale from the right
+            mac:
+                - 
+                    - R
+        - 
+            description: Scale from the top (default)
+            mac:
+                - 
+                    - T
+        - 
+            description: Scale from the bottom
+            mac:
+                - 
+                    - B
+        - 
+            description: Scale from the center / middle
+            mac:
+                - 
+                    - C
+                    - ' / '
+                    - M
+    Math Operators:
+        - 
+            description: Add
+            mac:
+                - 
+                    - +
+        - 
+            description: Subtract
+            mac:
+                - 
+                    - '-'
+        - 
+            description: Multiply
+            mac:
+                - 
+                    - '*'
+        - 
+            description: Divide
+            mac:
+                - 
+                    - /
+        - 
+            description: Resize layer to a percentage of its parent group or Artboard
+            mac:
+                - 
+                    - '%'
+    Multiple Radiuses:
+        - 
+            description: 'Value spacer. Eg, <code>40;0;40;0</code>'
+            mac:
+                - 
+                    - ;
+    Export Fields:
+        - 
+            description: 'Scale multiplier. Eg, <code>2x</code> will export at twice the size'
+            mac:
+                - 
+                    - X
+        - 
+            description: 'Exports layer at the specified height. Eg, <code>512h</code>'
+            mac:
+                - 
+                    - H
+        - 
+            description: 'Exports layer at the specified width. Eg, <code>512w</code>'
+            mac:
+                - 
+                    - W
+    Miscellaneous:
+        - 
+            description: Launch Sketch with all plugins disabled
+            mac:
+                - 
+                    - ⇧
+                    - ' on startup'
+        - 
+            description: Run last-used plugin again
+            mac:
+                - 
+                    - ⌃
+                    - ⌘
+                    - R
+        - 
+            description: Rotate layer
+            mac:
+                - 
+                    - ⌘
+                    - '-drag selection handle'
+        - 
+            description: Snap rotation to 15º increments
+            mac:
+                - 
+                    - ⇧
+                    - '-drag when rotating'
+        - 
+            description: 'With a gradient stop selected, position it between 0% and 100%'
+            mac:
+                - 
+                    - '0'
+                    - '-'
+                    - '9'
+        - 
+            description: Position selected gradient stop directly between two existing stops
+            mac:
+                - 
+                    - =
+        - 
+            description: Reset Ruler co-ordinates
+            mac:
+                - 
+                    - Double-click
+                    - Rulers
+                    - intersection
+
