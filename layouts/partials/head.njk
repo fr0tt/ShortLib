@@ -19,6 +19,8 @@
 <meta hid="keywords" name="keywords" content="{{ name }}, Shortcuts, Hotkeys, Shortcut, Hotkey, Hotkey Library, Keyboard Shortcuts, Keyboard Hotkeys, Keyboard, Keybinding">
 {%- if name | lower == 'home' %}
     <title>ShortLib: Keyboard Shortcuts for Windows, Mac and Linux</title>
-{%- else %}
+{%- elif Page.path.dir == 'apps' %}
     <title>ShortLib: {{ name }} Shortcuts for Windows, Mac and Linux</title>
+{%- else %}
+    <title>ShortLib: {{ name }}</title>
 {% endif -%}
