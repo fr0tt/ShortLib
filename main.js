@@ -6,7 +6,7 @@ const glob = promisify(require('glob'))
 const sm = require('sitemap')
 
 const nunjucks = require('nunjucks')
-const nunjucksRender = promisify(nunjucks.render)
+//const nunjucksRender = promisify(nunjucks.render)
 
 const config = require('./site.config')
 const distPath = config.build.distPath 
@@ -97,8 +97,7 @@ module.exports = {
                         }
                     } 
                     if (layout) {
-                        fs.writeFile(`${destDir}/${fileInfo.name}.html`, nunjucksRender(layout, data))
-                            .catch((err) => { console.error(err) })
+                        fs.writeFile(`${destDir}/${fileInfo.name}.html`, nunjucks.render(layout, data))
                     }
                 } else if (file.indexOf('.') !== -1) {
                     fs.copy(`content/${file}`, `${distPath}/${file}`)
