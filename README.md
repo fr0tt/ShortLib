@@ -1,6 +1,6 @@
 <p align="center">
-    <a href="https://www.shortlib.netlify.com"target="_blank">
-        <img width="100" src="https://www.shortlib.netlify.com/static/logo/logo.svg" alt="Shortlib Logo">
+    <a href="https://shortlib.netlify.com"target="_blank">
+        <img width="100" src="https://shortlib.netlify.com/static/logo/logo.svg" alt="Shortlib Logo">
     </a>
 </p>
 
