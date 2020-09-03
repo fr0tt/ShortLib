@@ -17,6 +17,6 @@
   },
   "devDependencies": {
     "chokidar": "^2.0.4",
-    "serve": "^9.4.0"
+    "serve": "^10.1.2"
   }
 }
