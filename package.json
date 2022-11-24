@@ -16,7 +16,7 @@
     "sitemap": "^1.13.0"
   },
   "devDependencies": {
-    "chokidar": "^2.0.4",
+    "chokidar": "^3.3.0",
     "serve": "^9.4.0"
   }
 }
